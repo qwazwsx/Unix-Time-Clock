@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Super7Controller-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -721,8 +722,6 @@ Text GLabel 10950 2150 1    50   Input ~ 0
 DC_4
 Text GLabel 11350 2150 1    50   Input ~ 0
 DC_5
-Text GLabel 11450 2150 1    50   Input ~ 0
-DC_6
 $Comp
 L CONN_01X13 P3
 U 1 1 5867A2A3
@@ -747,7 +746,7 @@ F 3 "" H 10850 2650 50  0000 C CNN
 $EndComp
 NoConn ~ 8650 4100
 $Comp
-L ULN2003A U1
+L ULN2003A-RESCUE-Super7Controller U1
 U 1 1 586AB8C8
 P 12100 4050
 F 0 "U1" H 12100 4150 50  0000 C CNN
@@ -832,8 +831,6 @@ Text GLabel 12750 3950 2    60   Input ~ 0
 DC_4
 Text GLabel 12750 4050 2    60   Input ~ 0
 DC_5
-Text GLabel 12750 4150 2    60   Input ~ 0
-DC_6
 NoConn ~ 12750 4450
 NoConn ~ 12750 4250
 Wire Wire Line
