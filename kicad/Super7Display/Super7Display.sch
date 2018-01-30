@@ -262,49 +262,6 @@ Text GLabel 2650 4700 2    50   Input ~ 0
 G2
 Text GLabel 2650 4600 2    50   Input ~ 0
 DP2
-$Comp
-L DC08 D6
-U 1 1 585D8436
-P 4000 4900
-F 0 "D6" H 4000 5100 60  0000 C CNN
-F 1 "DC08" H 4000 4900 60  0000 C CNN
-F 2 "footprints:DC08" H 4400 4600 60  0001 C CNN
-F 3 "" H 4400 4600 60  0000 C CNN
-	1    4000 4900
-	1    0    0    -1  
-$EndComp
-Text GLabel 3100 5300 0    50   Input ~ 0
-A1
-Text GLabel 3100 5200 0    50   Input ~ 0
-B1
-Text GLabel 3100 5100 0    50   Input ~ 0
-C1
-Text GLabel 3100 5000 0    50   Input ~ 0
-D1
-Text GLabel 3100 4900 0    50   Input ~ 0
-E1
-Text GLabel 3100 4800 0    50   Input ~ 0
-F1
-Text GLabel 3100 4700 0    50   Input ~ 0
-G1
-Text GLabel 3100 4600 0    50   Input ~ 0
-DP1
-Text GLabel 4900 5300 2    50   Input ~ 0
-A2
-Text GLabel 4900 5200 2    50   Input ~ 0
-B2
-Text GLabel 4900 5100 2    50   Input ~ 0
-C2
-Text GLabel 4900 5000 2    50   Input ~ 0
-D2
-Text GLabel 4900 4900 2    50   Input ~ 0
-E2
-Text GLabel 4900 4800 2    50   Input ~ 0
-F2
-Text GLabel 4900 4700 2    50   Input ~ 0
-G2
-Text GLabel 4900 4600 2    50   Input ~ 0
-DP2
 Wire Wire Line
 	850  1400 900  1400
 Wire Wire Line
@@ -499,38 +456,6 @@ Wire Wire Line
 Wire Wire Line
 	2600 5300 2650 5300
 Wire Wire Line
-	3100 4600 3150 4600
-Wire Wire Line
-	3150 4700 3100 4700
-Wire Wire Line
-	3100 4800 3150 4800
-Wire Wire Line
-	3150 4900 3100 4900
-Wire Wire Line
-	3100 5000 3150 5000
-Wire Wire Line
-	3150 5100 3100 5100
-Wire Wire Line
-	3100 5200 3150 5200
-Wire Wire Line
-	3150 5300 3100 5300
-Wire Wire Line
-	4900 4600 4850 4600
-Wire Wire Line
-	4850 4700 4900 4700
-Wire Wire Line
-	4900 4800 4850 4800
-Wire Wire Line
-	4850 4900 4900 4900
-Wire Wire Line
-	4900 5000 4850 5000
-Wire Wire Line
-	4850 5100 4900 5100
-Wire Wire Line
-	4900 5200 4850 5200
-Wire Wire Line
-	4850 5300 4900 5300
-Wire Wire Line
 	1550 4400 1550 4250
 Wire Wire Line
 	900  4400 2600 4400
@@ -539,15 +464,6 @@ Wire Wire Line
 Wire Wire Line
 	2600 4400 2600 4500
 Connection ~ 1550 4400
-Wire Wire Line
-	4200 4250 4200 4400
-Wire Wire Line
-	3150 4400 4850 4400
-Wire Wire Line
-	4850 4400 4850 4500
-Wire Wire Line
-	3150 4400 3150 4500
-Connection ~ 4200 4400
 Text GLabel 1550 1050 0    60   Input ~ 0
 DIG1
 Connection ~ 1550 1200
@@ -561,8 +477,6 @@ Text GLabel 4200 2650 0    60   Input ~ 0
 DIG4
 Text GLabel 1550 4250 0    60   Input ~ 0
 DIG5
-Text GLabel 4200 4250 0    60   Input ~ 0
-DIG6
 Text GLabel 3350 6000 1    50   Input ~ 0
 A2
 Text GLabel 3450 6000 1    50   Input ~ 0
@@ -605,19 +519,6 @@ Text GLabel 3150 6000 1    50   Input ~ 0
 DIG4
 Text GLabel 3550 6000 1    50   Input ~ 0
 DIG5
-Text GLabel 3650 6000 1    50   Input ~ 0
-DIG6
-$Comp
-L CONN_01X13 P1
-U 1 1 5867A85A
-P 3050 6200
-F 0 "P1" H 3050 6900 50  0000 C CNN
-F 1 "CONN_01X13" V 3150 6200 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x13" H 3050 6200 50  0001 C CNN
-F 3 "" H 3050 6200 50  0000 C CNN
-	1    3050 6200
-	0    -1   1    0   
-$EndComp
 $Comp
 L CONN_01X09 P2
 U 1 1 5867A860
@@ -628,5 +529,16 @@ F 2 "Socket_Strips:Socket_Strip_Straight_1x09" H 3050 6500 50  0001 C CNN
 F 3 "" H 3050 6500 50  0000 C CNN
 	1    3050 6500
 	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X13 P1
+U 1 1 5867A85A
+P 3050 6200
+F 0 "P1" H 3050 6900 50  0000 C CNN
+F 1 "CONN_01X13" V 3150 6200 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x13" H 3050 6200 50  0001 C CNN
+F 3 "" H 3050 6200 50  0000 C CNN
+	1    3050 6200
+	0    -1   1    0   
 $EndComp
 $EndSCHEMATC
