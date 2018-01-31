@@ -1,4 +1,4 @@
-update=1/30/2018 10:26:40 AM
+update=1/31/2018 10:20:03 AM
 version=1
 last_client=eeschema
 [pcbnew]
@@ -63,3 +63,4 @@ LibName31=74hc138
 LibName32=74hc238
 LibName33=7400-ic
 LibName34=dc08
+LibName35=hiletgo_esp-wroom-32_development_board
