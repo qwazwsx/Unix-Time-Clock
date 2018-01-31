@@ -1,4 +1,4 @@
-update=22/05/2015 07:44:53
+update=1/31/2018 3:24:21 PM
 version=1
 last_client=kicad
 [general]
@@ -60,3 +60,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
+LibName30=Super7Controller/hiletgo_esp-wroom-32_development_board
