@@ -1,18 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--****************************************-->
-<!--   File    :                            -->
+<!--   File    : TopoR.fsproj               -->
 <!--   Format  : TopoR Project file         -->
 <!--   Version : 2                          -->
 <!--   Program : TopoR Lite 6.3.18019       -->
 <!--   Date    : Thursday, February 8, 2018 -->
-<!--   Time    : 08:54                      -->
+<!--   Time    : 08:57                      -->
 <!--****************************************-->
 
 <Project>
    <Version current="2"/>
    <GUID>{8896CDC5-0F63-4745-86DF-DEEFCCEEFD37}</GUID>
    <Documents>
-      <Section name="PCB"/>
+      <Section name="PCB">
+         <File path=".\Super7Controller.fsx" isopened="0" dateChange="2018-02-08 08:56:15"/>
+      </Section>
       <Section name="AutoRouting"/>
    </Documents>
+   <Import>
+      <Specctra>
+         <Path name="D:\Users\z003ruax\GitHub\Super7Seg\kicad\Super7Controller\TopoR\Super7Controller.dsn"/>
+      </Specctra>
+   </Import>
 </Project>
