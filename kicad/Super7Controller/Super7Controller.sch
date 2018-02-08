@@ -423,7 +423,7 @@ U 1 1 5A71DF56
 P 7300 3550
 F 0 "U2" H 7300 3550 60  0000 C CNN
 F 1 "HiLetgo_ESP-WROOM-32_Development_Board" H 7300 5750 60  0000 C CNN
-F 2 "" H 7300 3550 60  0001 C CNN
+F 2 "hiletgo_esp-wroom-32_development_board:hiletgo_esp-wroom-32_development_board" H 7300 3550 60  0001 C CNN
 F 3 "" H 7300 3550 60  0001 C CNN
 	1    7300 3550
 	1    0    0    -1  
