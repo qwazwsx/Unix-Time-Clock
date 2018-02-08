@@ -929,97 +929,97 @@
 			</Component>
 			<Component name="R16">
 				<Pins>
-					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="4" gate="-1" gateEqual="0"/>
 					<Pin pinNum="2" name="2" pinSymName="2" pinEqual="0" gate="-1" gateEqual="0"/>
 				</Pins>
 			</Component>
 			<Component name="R15">
 				<Pins>
-					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="4" gate="-1" gateEqual="0"/>
 					<Pin pinNum="2" name="2" pinSymName="2" pinEqual="0" gate="-1" gateEqual="0"/>
 				</Pins>
 			</Component>
 			<Component name="R14">
 				<Pins>
-					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="4" gate="-1" gateEqual="0"/>
 					<Pin pinNum="2" name="2" pinSymName="2" pinEqual="0" gate="-1" gateEqual="0"/>
 				</Pins>
 			</Component>
 			<Component name="R13">
 				<Pins>
-					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="4" gate="-1" gateEqual="0"/>
 					<Pin pinNum="2" name="2" pinSymName="2" pinEqual="0" gate="-1" gateEqual="0"/>
 				</Pins>
 			</Component>
 			<Component name="R12">
 				<Pins>
-					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="4" gate="-1" gateEqual="0"/>
 					<Pin pinNum="2" name="2" pinSymName="2" pinEqual="0" gate="-1" gateEqual="0"/>
 				</Pins>
 			</Component>
 			<Component name="R11">
 				<Pins>
-					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="4" gate="-1" gateEqual="0"/>
 					<Pin pinNum="2" name="2" pinSymName="2" pinEqual="0" gate="-1" gateEqual="0"/>
 				</Pins>
 			</Component>
 			<Component name="R10">
 				<Pins>
-					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="4" gate="-1" gateEqual="0"/>
 					<Pin pinNum="2" name="2" pinSymName="2" pinEqual="0" gate="-1" gateEqual="0"/>
 				</Pins>
 			</Component>
 			<Component name="R9">
 				<Pins>
-					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="4" gate="-1" gateEqual="0"/>
 					<Pin pinNum="2" name="2" pinSymName="2" pinEqual="0" gate="-1" gateEqual="0"/>
 				</Pins>
 			</Component>
 			<Component name="R8">
 				<Pins>
-					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="4" gate="-1" gateEqual="0"/>
 					<Pin pinNum="2" name="2" pinSymName="2" pinEqual="0" gate="-1" gateEqual="0"/>
 				</Pins>
 			</Component>
 			<Component name="R7">
 				<Pins>
-					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="4" gate="-1" gateEqual="0"/>
 					<Pin pinNum="2" name="2" pinSymName="2" pinEqual="0" gate="-1" gateEqual="0"/>
 				</Pins>
 			</Component>
 			<Component name="R6">
 				<Pins>
-					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="4" gate="-1" gateEqual="0"/>
 					<Pin pinNum="2" name="2" pinSymName="2" pinEqual="0" gate="-1" gateEqual="0"/>
 				</Pins>
 			</Component>
 			<Component name="R5">
 				<Pins>
-					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="4" gate="-1" gateEqual="0"/>
 					<Pin pinNum="2" name="2" pinSymName="2" pinEqual="0" gate="-1" gateEqual="0"/>
 				</Pins>
 			</Component>
 			<Component name="R4">
 				<Pins>
-					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="4" gate="-1" gateEqual="0"/>
 					<Pin pinNum="2" name="2" pinSymName="2" pinEqual="0" gate="-1" gateEqual="0"/>
 				</Pins>
 			</Component>
 			<Component name="R3">
 				<Pins>
-					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="4" gate="-1" gateEqual="0"/>
 					<Pin pinNum="2" name="2" pinSymName="2" pinEqual="0" gate="-1" gateEqual="0"/>
 				</Pins>
 			</Component>
 			<Component name="R2">
 				<Pins>
-					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="4" gate="-1" gateEqual="0"/>
 					<Pin pinNum="2" name="2" pinSymName="2" pinEqual="0" gate="-1" gateEqual="0"/>
 				</Pins>
 			</Component>
 			<Component name="R1">
 				<Pins>
-					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="4" gate="-1" gateEqual="0"/>
 					<Pin pinNum="2" name="2" pinSymName="2" pinEqual="0" gate="-1" gateEqual="0"/>
 				</Pins>
 			</Component>
