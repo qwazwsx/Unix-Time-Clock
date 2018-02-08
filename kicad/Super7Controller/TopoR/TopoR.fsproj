@@ -5,7 +5,7 @@
 <!--   Version : 2                          -->
 <!--   Program : TopoR Lite 6.3.18019       -->
 <!--   Date    : Thursday, February 8, 2018 -->
-<!--   Time    : 10:29                      -->
+<!--   Time    : 10:38                      -->
 <!--****************************************-->
 
 <Project>
@@ -13,7 +13,7 @@
    <GUID>{8896CDC5-0F63-4745-86DF-DEEFCCEEFD37}</GUID>
    <Documents>
       <Section name="PCB">
-         <File path=".\Super7Controller.fsx" isopened="0" dateChange="2018-02-08 10:22:32"/>
+         <File path=".\Super7Controller.fsx" isopened="1" dateChange="2018-02-08 10:31:26"/>
       </Section>
       <Section name="AutoRouting">
          <File path=".\autoroute_180208094634\Super7Controller_1809-4s.fsb" isopened="0" dateChange="2018-02-08 09:52:30"/>
