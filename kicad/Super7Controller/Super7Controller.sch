@@ -611,4 +611,16 @@ $EndComp
 Wire Wire Line
 	7250 5050 7250 5100
 NoConn ~ 6850 4650
+NoConn ~ 6800 1750
+NoConn ~ 6800 1850
+NoConn ~ 6800 1950
+NoConn ~ 7800 1950
+NoConn ~ 7800 2050
+NoConn ~ 7800 3250
+NoConn ~ 7800 3350
+NoConn ~ 7800 3450
+NoConn ~ 6800 3450
+NoConn ~ 6800 3350
+NoConn ~ 6800 3250
+NoConn ~ 6800 3150
 $EndSCHEMATC
