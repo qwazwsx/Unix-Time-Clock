@@ -6,7 +6,7 @@
 <!--   Version : 1.2.0                      -->
 <!--   Program : TopoR Lite 6.3.18019       -->
 <!--   Date    : Thursday, February 8, 2018 -->
-<!--   Time    : 14:17                      -->
+<!--   Time    : 14:34                      -->
 <!--****************************************-->
 
 <TopoR_PCB_File>
@@ -14,7 +14,7 @@
 		<Format>TopoR PCB file</Format>
 		<Version>1.2.0</Version>
 		<Program>TopoR Lite 6.3.18019</Program>
-		<Date>Thursday, February 8, 2018 14:17</Date>
+		<Date>Thursday, February 8, 2018 14:34</Date>
 		<OriginalFormat>Specctra</OriginalFormat>
 		<OriginalFile>.\Super7Controller.dsn</OriginalFile>
 		<Units dist="mm" time="ps"/>
@@ -851,11 +851,11 @@
 		<Components>
 			<Component name="U1">
 				<Pins>
-					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="2" gate="-1" gateEqual="0"/>
-					<Pin pinNum="2" name="2" pinSymName="2" pinEqual="2" gate="-1" gateEqual="0"/>
-					<Pin pinNum="3" name="3" pinSymName="3" pinEqual="2" gate="-1" gateEqual="0"/>
-					<Pin pinNum="4" name="4" pinSymName="4" pinEqual="2" gate="-1" gateEqual="0"/>
-					<Pin pinNum="5" name="5" pinSymName="5" pinEqual="2" gate="-1" gateEqual="0"/>
+					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="2" name="2" pinSymName="2" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="3" name="3" pinSymName="3" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="4" name="4" pinSymName="4" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="5" name="5" pinSymName="5" pinEqual="0" gate="-1" gateEqual="0"/>
 					<Pin pinNum="6" name="6" pinSymName="6" pinEqual="0" gate="-1" gateEqual="0"/>
 					<Pin pinNum="7" name="7" pinSymName="7" pinEqual="0" gate="-1" gateEqual="0"/>
 					<Pin pinNum="8" name="8" pinSymName="8" pinEqual="0" gate="-1" gateEqual="0"/>
@@ -1019,15 +1019,15 @@
 					<Pin pinNum="20" name="10" pinSymName="10" pinEqual="0" gate="-1" gateEqual="0"/>
 					<Pin pinNum="21" name="28" pinSymName="28" pinEqual="0" gate="-1" gateEqual="0"/>
 					<Pin pinNum="22" name="11" pinSymName="11" pinEqual="0" gate="-1" gateEqual="0"/>
-					<Pin pinNum="23" name="27" pinSymName="27" pinEqual="1" gate="-1" gateEqual="0"/>
+					<Pin pinNum="23" name="27" pinSymName="27" pinEqual="0" gate="-1" gateEqual="0"/>
 					<Pin pinNum="24" name="12" pinSymName="12" pinEqual="0" gate="-1" gateEqual="0"/>
-					<Pin pinNum="25" name="26" pinSymName="26" pinEqual="1" gate="-1" gateEqual="0"/>
+					<Pin pinNum="25" name="26" pinSymName="26" pinEqual="0" gate="-1" gateEqual="0"/>
 					<Pin pinNum="26" name="13" pinSymName="13" pinEqual="0" gate="-1" gateEqual="0"/>
-					<Pin pinNum="27" name="25" pinSymName="25" pinEqual="1" gate="-1" gateEqual="0"/>
+					<Pin pinNum="27" name="25" pinSymName="25" pinEqual="0" gate="-1" gateEqual="0"/>
 					<Pin pinNum="28" name="14" pinSymName="14" pinEqual="0" gate="-1" gateEqual="0"/>
-					<Pin pinNum="29" name="24" pinSymName="24" pinEqual="1" gate="-1" gateEqual="0"/>
+					<Pin pinNum="29" name="24" pinSymName="24" pinEqual="0" gate="-1" gateEqual="0"/>
 					<Pin pinNum="30" name="15" pinSymName="15" pinEqual="0" gate="-1" gateEqual="0"/>
-					<Pin pinNum="31" name="23" pinSymName="23" pinEqual="1" gate="-1" gateEqual="0"/>
+					<Pin pinNum="31" name="23" pinSymName="23" pinEqual="0" gate="-1" gateEqual="0"/>
 					<Pin pinNum="32" name="16" pinSymName="16" pinEqual="0" gate="-1" gateEqual="0"/>
 					<Pin pinNum="33" name="22" pinSymName="22" pinEqual="0" gate="-1" gateEqual="0"/>
 					<Pin pinNum="34" name="17" pinSymName="17" pinEqual="0" gate="-1" gateEqual="0"/>
@@ -1259,105 +1259,105 @@
 
 	<ComponentsOnBoard version="1.3">
 		<Components>
-			<CompInstance name="U2" uniqueId="QMNMKFBP" side="Top">
+			<CompInstance name="U2" uniqueId="BPVHLVXJ" side="Top">
 				<ComponentRef name="U2"/>
 				<FootprintRef name="hiletgo_esp-wroom-32_development_board:hiletgo_esp-wroom-32_development_board"/>
 				<Org x="94" y="-66"/>
 			</CompInstance>
-			<CompInstance name="P3" uniqueId="LCKKCAHC" side="Bottom">
+			<CompInstance name="P3" uniqueId="CQPGXUHZ" side="Bottom">
 				<ComponentRef name="P3"/>
 				<FootprintRef name="Socket_Strips:Socket_Strip_Straight_1x13"/>
 				<Org x="102.235" y="-64.77"/>
 			</CompInstance>
-			<CompInstance name="P4" uniqueId="YEOOKVHJ" side="Bottom">
+			<CompInstance name="P4" uniqueId="NHKUZMCW" side="Bottom">
 				<ComponentRef name="P4"/>
 				<FootprintRef name="Socket_Strips:Socket_Strip_Straight_1x09"/>
 				<Org x="97.155" y="-67.31"/>
 			</CompInstance>
-			<CompInstance name="R1" uniqueId="EDKGDJJU" side="Top" angle="90">
+			<CompInstance name="R1" uniqueId="TJSAZNPQ" side="Top" angle="90">
 				<ComponentRef name="R1"/>
 				<FootprintRef name="Resistors_SMD:R_0805_HandSoldering"/>
 				<Org x="97.155" y="-72.39"/>
 			</CompInstance>
-			<CompInstance name="R2" uniqueId="JGUTWTVH" side="Top" angle="90">
+			<CompInstance name="R2" uniqueId="NFSQITRC" side="Top" angle="90">
 				<ComponentRef name="R2"/>
 				<FootprintRef name="Resistors_SMD:R_0805_HandSoldering"/>
 				<Org x="94.615" y="-72.39"/>
 			</CompInstance>
-			<CompInstance name="R3" uniqueId="ZPJFXXPY" side="Top" angle="90">
+			<CompInstance name="R3" uniqueId="BJDLHDUK" side="Top" angle="90">
 				<ComponentRef name="R3"/>
 				<FootprintRef name="Resistors_SMD:R_0805_HandSoldering"/>
 				<Org x="92.075" y="-72.39"/>
 			</CompInstance>
-			<CompInstance name="R4" uniqueId="EROJGWOR" side="Top" angle="90">
+			<CompInstance name="R4" uniqueId="XTXWRXSB" side="Top" angle="90">
 				<ComponentRef name="R4"/>
 				<FootprintRef name="Resistors_SMD:R_0805_HandSoldering"/>
 				<Org x="89.535" y="-72.39"/>
 			</CompInstance>
-			<CompInstance name="R5" uniqueId="TRKYGDYC" side="Top" angle="90">
+			<CompInstance name="R5" uniqueId="UEFRODOI" side="Top" angle="90">
 				<ComponentRef name="R5"/>
 				<FootprintRef name="Resistors_SMD:R_0805_HandSoldering"/>
 				<Org x="86.995" y="-72.39"/>
 			</CompInstance>
-			<CompInstance name="R6" uniqueId="CPXLBAFS" side="Top" angle="90">
+			<CompInstance name="R6" uniqueId="QSRTMBHG" side="Top" angle="90">
 				<ComponentRef name="R6"/>
 				<FootprintRef name="Resistors_SMD:R_0805_HandSoldering"/>
 				<Org x="84.455" y="-72.39"/>
 			</CompInstance>
-			<CompInstance name="R7" uniqueId="TZNGRPBW" side="Top" angle="90">
+			<CompInstance name="R7" uniqueId="EOHVAKTO" side="Top" angle="90">
 				<ComponentRef name="R7"/>
 				<FootprintRef name="Resistors_SMD:R_0805_HandSoldering"/>
 				<Org x="81.915" y="-72.39"/>
 			</CompInstance>
-			<CompInstance name="R8" uniqueId="ZOWAVCHA" side="Top" angle="90">
+			<CompInstance name="R8" uniqueId="ABZLGFLC" side="Top" angle="90">
 				<ComponentRef name="R8"/>
 				<FootprintRef name="Resistors_SMD:R_0805_HandSoldering"/>
 				<Org x="79.375" y="-72.39"/>
 			</CompInstance>
-			<CompInstance name="R9" uniqueId="YHQCVAQK" side="Top" angle="90">
+			<CompInstance name="R9" uniqueId="DWJIBJZN" side="Top" angle="90">
 				<ComponentRef name="R9"/>
 				<FootprintRef name="Resistors_SMD:R_0805_HandSoldering"/>
 				<Org x="76.835" y="-72.39"/>
 			</CompInstance>
-			<CompInstance name="R10" uniqueId="OPYOYBHR" side="Top" angle="270">
+			<CompInstance name="R10" uniqueId="UNKOWLHJ" side="Top" angle="270">
 				<ComponentRef name="R10"/>
 				<FootprintRef name="Resistors_SMD:R_0805_HandSoldering"/>
 				<Org x="97.155" y="-59.69"/>
 			</CompInstance>
-			<CompInstance name="R11" uniqueId="EVGORZEA" side="Top" angle="270">
+			<CompInstance name="R11" uniqueId="MLJPRILX" side="Top" angle="270">
 				<ComponentRef name="R11"/>
 				<FootprintRef name="Resistors_SMD:R_0805_HandSoldering"/>
 				<Org x="94.615" y="-59.69"/>
 			</CompInstance>
-			<CompInstance name="R12" uniqueId="JKCGKOBP" side="Top" angle="270">
+			<CompInstance name="R12" uniqueId="DNDDWFSJ" side="Top" angle="270">
 				<ComponentRef name="R12"/>
 				<FootprintRef name="Resistors_SMD:R_0805_HandSoldering"/>
 				<Org x="92.075" y="-59.69"/>
 			</CompInstance>
-			<CompInstance name="R13" uniqueId="EYYJRERK" side="Top" angle="270">
+			<CompInstance name="R13" uniqueId="QKTNUFOK" side="Top" angle="270">
 				<ComponentRef name="R13"/>
 				<FootprintRef name="Resistors_SMD:R_0805_HandSoldering"/>
 				<Org x="89.535" y="-59.69"/>
 			</CompInstance>
-			<CompInstance name="R14" uniqueId="WUYKVJNS" side="Top" angle="270">
+			<CompInstance name="R14" uniqueId="FYVUQSWV" side="Top" angle="270">
 				<ComponentRef name="R14"/>
 				<FootprintRef name="Resistors_SMD:R_0805_HandSoldering"/>
 				<Org x="81.915" y="-59.69"/>
 			</CompInstance>
-			<CompInstance name="R15" uniqueId="VZUCNWIT" side="Top" angle="270">
+			<CompInstance name="R15" uniqueId="YWCJMOMI" side="Top" angle="270">
 				<ComponentRef name="R15"/>
 				<FootprintRef name="Resistors_SMD:R_0805_HandSoldering"/>
 				<Org x="79.375" y="-59.69"/>
 			</CompInstance>
-			<CompInstance name="R16" uniqueId="XTXECYKZ" side="Top" angle="270">
+			<CompInstance name="R16" uniqueId="GZEJWDYS" side="Top" angle="270">
 				<ComponentRef name="R16"/>
 				<FootprintRef name="Resistors_SMD:R_0805_HandSoldering"/>
 				<Org x="76.835" y="-59.69"/>
 			</CompInstance>
-			<CompInstance name="U1" uniqueId="ZYZJQUDT" side="Bottom">
+			<CompInstance name="U1" uniqueId="GKZEOROV" side="Bottom">
 				<ComponentRef name="U1"/>
 				<FootprintRef name="Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm"/>
-				<Org x="110.287" y="-62.9666"/>
+				<Org x="108" y="-62.9"/>
 			</CompInstance>
 		</Components>
 	</ComponentsOnBoard>
@@ -1568,11 +1568,11 @@
 			<PinRef compName="U2" pinName="19"/>
 		</Net>
 		<Net name="DCD_6">
-			<PinRef compName="U2" pinName="27"/>
+			<PinRef compName="U2" pinName="23"/>
 			<PinRef compName="U1" pinName="1"/>
 		</Net>
 		<Net name="DCD_5">
-			<PinRef compName="U2" pinName="26"/>
+			<PinRef compName="U2" pinName="24"/>
 			<PinRef compName="U1" pinName="2"/>
 		</Net>
 		<Net name="DCD_4">
@@ -1584,11 +1584,11 @@
 			<PinRef compName="U1" pinName="6"/>
 		</Net>
 		<Net name="DCD_2">
-			<PinRef compName="U2" pinName="23"/>
+			<PinRef compName="U2" pinName="27"/>
 			<PinRef compName="U1" pinName="5"/>
 		</Net>
 		<Net name="DCD_3">
-			<PinRef compName="U2" pinName="24"/>
+			<PinRef compName="U2" pinName="26"/>
 			<PinRef compName="U1" pinName="4"/>
 		</Net>
 		<Net name="Net-(U2-Pad32)">
@@ -2625,15 +2625,15 @@
 				<LayerRef name="B.Cu"/>
 				<NetRef name="GND"/>
 				<Subwire width="0.254">
-					<Start x="112.987" y="-67.4116"/>
+					<Start x="110.7" y="-67.345"/>
 					<TrackLine>
-						<End x="112.364" y="-67.5846"/>
+						<End x="110.077" y="-67.518"/>
 					</TrackLine>
 					<TrackLine>
-						<End x="112.364" y="-67.7116"/>
+						<End x="110.077" y="-67.645"/>
 					</TrackLine>
 					<TrackLine>
-						<End x="112.364" y="-67.7642"/>
+						<End x="110.077" y="-67.6976"/>
 					</TrackLine>
 					<TrackLine>
 						<End x="104.16" y="-77.025"/>
@@ -2647,18 +2647,18 @@
 				<LayerRef name="B.Cu"/>
 				<NetRef name="DC_1"/>
 				<Subwire width="0.254">
-					<Start x="107.587" y="-64.8716"/>
+					<Start x="105.3" y="-64.805"/>
 					<TrackLine>
-						<End x="106.964" y="-64.8208"/>
+						<End x="104.677" y="-64.7875"/>
 					</TrackLine>
 					<TrackLine>
-						<End x="106.837" y="-64.8208"/>
+						<End x="104.55" y="-64.7875"/>
 					</TrackLine>
 					<TrackLine>
-						<End x="103.0986" y="-64.8208"/>
+						<End x="103.0986" y="-64.7875"/>
 					</TrackLine>
 					<TrackLine>
-						<End x="102.9716" y="-64.8208"/>
+						<End x="102.9716" y="-64.7875"/>
 					</TrackLine>
 					<TrackLine>
 						<End x="102.235" y="-64.77"/>
@@ -2669,21 +2669,12 @@
 				<LayerRef name="B.Cu"/>
 				<NetRef name="DC_2"/>
 				<Subwire width="0.254">
-					<Start x="107.587" y="-63.6016"/>
+					<Start x="105.3" y="-63.535"/>
 					<TrackLine>
-						<End x="106.964" y="-63.4286"/>
+						<End x="104.677" y="-63.3983"/>
 					</TrackLine>
 					<TrackLine>
-						<End x="106.837" y="-63.4286"/>
-					</TrackLine>
-					<TrackLine>
-						<End x="106.7844" y="-63.4286"/>
-					</TrackLine>
-					<TrackLine>
-						<End x="103.2459" y="-63.3983"/>
-					</TrackLine>
-					<TrackLine>
-						<End x="101.5187" y="-63.3983"/>
+						<End x="104.55" y="-63.3983"/>
 					</TrackLine>
 					<TrackLine>
 						<End x="101.2241" y="-63.3983"/>
@@ -2700,15 +2691,15 @@
 				<LayerRef name="B.Cu"/>
 				<NetRef name="DC_3"/>
 				<Subwire width="0.254">
-					<Start x="107.587" y="-62.3316"/>
+					<Start x="105.3" y="-62.265"/>
 					<TrackLine>
-						<End x="106.964" y="-62.5046"/>
+						<End x="104.677" y="-62.438"/>
 					</TrackLine>
 					<TrackLine>
-						<End x="106.837" y="-62.5046"/>
+						<End x="104.55" y="-62.438"/>
 					</TrackLine>
 					<TrackLine>
-						<End x="106.7844" y="-62.5046"/>
+						<End x="104.4974" y="-62.438"/>
 					</TrackLine>
 					<TrackLine>
 						<End x="89.0299" y="-63.3983"/>
@@ -2725,15 +2716,15 @@
 				<LayerRef name="B.Cu"/>
 				<NetRef name="DC_4"/>
 				<Subwire width="0.254">
-					<Start x="107.587" y="-61.0616"/>
+					<Start x="105.3" y="-60.995"/>
 					<TrackLine>
-						<End x="106.964" y="-61.2346"/>
+						<End x="104.677" y="-61.168"/>
 					</TrackLine>
 					<TrackLine>
-						<End x="106.837" y="-61.2346"/>
+						<End x="104.55" y="-61.168"/>
 					</TrackLine>
 					<TrackLine>
-						<End x="106.7844" y="-61.2346"/>
+						<End x="104.4974" y="-61.168"/>
 					</TrackLine>
 					<TrackLine>
 						<End x="88.9252" y="-62.9156"/>
@@ -2753,15 +2744,15 @@
 				<LayerRef name="B.Cu"/>
 				<NetRef name="DC_5"/>
 				<Subwire width="0.254">
-					<Start x="107.587" y="-59.7916"/>
+					<Start x="105.3" y="-59.725"/>
 					<TrackLine>
-						<End x="106.964" y="-59.9646"/>
+						<End x="104.677" y="-59.898"/>
 					</TrackLine>
 					<TrackLine>
-						<End x="106.837" y="-59.9646"/>
+						<End x="104.55" y="-59.898"/>
 					</TrackLine>
 					<TrackLine>
-						<End x="106.7844" y="-59.9646"/>
+						<End x="104.4974" y="-59.898"/>
 					</TrackLine>
 					<TrackLine>
 						<End x="76.3299" y="-63.3983"/>
@@ -2778,15 +2769,15 @@
 				<LayerRef name="B.Cu"/>
 				<NetRef name="DC_6"/>
 				<Subwire width="0.254">
-					<Start x="107.587" y="-58.5216"/>
+					<Start x="105.3" y="-58.455"/>
 					<TrackLine>
-						<End x="106.964" y="-58.6946"/>
+						<End x="104.677" y="-58.628"/>
 					</TrackLine>
 					<TrackLine>
-						<End x="106.837" y="-58.6946"/>
+						<End x="104.55" y="-58.628"/>
 					</TrackLine>
 					<TrackLine>
-						<End x="106.7844" y="-58.6946"/>
+						<End x="104.4974" y="-58.628"/>
 					</TrackLine>
 					<TrackLine>
 						<End x="76.2252" y="-62.9156"/>
@@ -2806,15 +2797,127 @@
 				<LayerRef name="B.Cu"/>
 				<NetRef name="DCD_6"/>
 				<Subwire width="0.1524">
-					<Start x="112.987" y="-58.5216"/>
+					<Start x="110.7" y="-58.455"/>
 					<TrackLine>
-						<End x="112.3132" y="-58.2978"/>
+						<End x="110.0262" y="-58.2312"/>
 					</TrackLine>
 					<TrackLine>
-						<End x="112.237" y="-58.2978"/>
+						<End x="110.0262" y="-58.155"/>
 					</TrackLine>
 					<TrackLine>
-						<End x="112.2054" y="-58.2978"/>
+						<End x="110.0262" y="-58.1234"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="109.24" y="-54.975"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="109.24" y="-54.575"/>
+					</TrackLine>
+				</Subwire>
+			</Wire>
+			<Wire>
+				<LayerRef name="B.Cu"/>
+				<NetRef name="DCD_5"/>
+				<Subwire width="0.1524">
+					<Start x="110.7" y="-59.725"/>
+					<TrackLine>
+						<End x="110.0262" y="-59.5012"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="110.0262" y="-59.425"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="110.0262" y="-59.3934"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="106.7" y="-54.975"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="106.7" y="-54.575"/>
+					</TrackLine>
+				</Subwire>
+			</Wire>
+			<Wire>
+				<LayerRef name="B.Cu"/>
+				<NetRef name="DCD_4"/>
+				<Subwire width="0.1524">
+					<Start x="110.7" y="-60.995"/>
+					<TrackLine>
+						<End x="110.0262" y="-60.7712"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="110.0262" y="-60.695"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="110.0262" y="-60.6634"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="107.1171" y="-57.713"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="106.492" y="-57.0879"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="104.16" y="-54.975"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="104.16" y="-54.575"/>
+					</TrackLine>
+				</Subwire>
+			</Wire>
+			<Wire>
+				<LayerRef name="B.Cu"/>
+				<NetRef name="DCD_1"/>
+				<Subwire width="0.1524">
+					<Start x="110.7" y="-64.805"/>
+					<TrackLine>
+						<End x="111.3738" y="-65.0288"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="111.3738" y="-65.105"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="111.3738" y="-65.1366"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="111.7549" y="-65.6487"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="111.7549" y="-67.5187"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="111.7549" y="-67.7713"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="106.7" y="-77.025"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="106.7" y="-77.425"/>
+					</TrackLine>
+				</Subwire>
+			</Wire>
+			<Wire>
+				<LayerRef name="B.Cu"/>
+				<NetRef name="DCD_2"/>
+				<Subwire width="0.1524">
+					<Start x="110.7" y="-63.535"/>
+					<TrackLine>
+						<End x="110.0262" y="-63.3112"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="110.0262" y="-63.235"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="110.0262" y="-63.2034"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="109.6451" y="-62.6913"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="106.3549" y="-58.0287"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="106.1763" y="-57.8501"/>
 					</TrackLine>
 					<TrackLine>
 						<End x="101.2452" y="-55.8799"/>
@@ -2829,204 +2932,29 @@
 			</Wire>
 			<Wire>
 				<LayerRef name="B.Cu"/>
-				<NetRef name="DCD_5"/>
+				<NetRef name="DCD_3"/>
 				<Subwire width="0.1524">
-					<Start x="112.987" y="-59.7916"/>
+					<Start x="110.7" y="-62.265"/>
 					<TrackLine>
-						<End x="113.6608" y="-59.5678"/>
+						<End x="110.0262" y="-62.0412"/>
 					</TrackLine>
 					<TrackLine>
-						<End x="113.6608" y="-59.4916"/>
+						<End x="110.0262" y="-61.965"/>
 					</TrackLine>
 					<TrackLine>
-						<End x="113.6608" y="-59.46"/>
+						<End x="110.0262" y="-61.9334"/>
 					</TrackLine>
 					<TrackLine>
-						<End x="114.0419" y="-58.9479"/>
+						<End x="106.736" y="-57.8708"/>
 					</TrackLine>
 					<TrackLine>
-						<End x="114.0419" y="-58.6953"/>
-					</TrackLine>
-					<TrackLine>
-						<End x="114.0419" y="-58.0953"/>
-					</TrackLine>
-					<TrackLine>
-						<End x="113.8633" y="-57.9167"/>
-					</TrackLine>
-					<TrackLine>
-						<End x="103.7852" y="-55.8799"/>
+						<End x="106.3342" y="-57.469"/>
 					</TrackLine>
 					<TrackLine>
 						<End x="101.62" y="-54.975"/>
 					</TrackLine>
 					<TrackLine>
 						<End x="101.62" y="-54.575"/>
-					</TrackLine>
-				</Subwire>
-			</Wire>
-			<Wire>
-				<LayerRef name="B.Cu"/>
-				<NetRef name="DCD_4"/>
-				<Subwire width="0.1524">
-					<Start x="112.987" y="-61.0616"/>
-					<TrackLine>
-						<End x="113.6608" y="-60.8378"/>
-					</TrackLine>
-					<TrackLine>
-						<End x="113.6608" y="-60.7616"/>
-					</TrackLine>
-					<TrackLine>
-						<End x="113.6608" y="-60.73"/>
-					</TrackLine>
-					<TrackLine>
-						<End x="114.0419" y="-60.2179"/>
-					</TrackLine>
-					<TrackLine>
-						<End x="114.423" y="-59.1058"/>
-					</TrackLine>
-					<TrackLine>
-						<End x="114.423" y="-58.5374"/>
-					</TrackLine>
-					<TrackLine>
-						<End x="114.423" y="-57.9374"/>
-					</TrackLine>
-					<TrackLine>
-						<End x="114.0212" y="-57.5356"/>
-					</TrackLine>
-					<TrackLine>
-						<End x="106.3252" y="-55.8799"/>
-					</TrackLine>
-					<TrackLine>
-						<End x="104.16" y="-54.975"/>
-					</TrackLine>
-					<TrackLine>
-						<End x="104.16" y="-54.575"/>
-					</TrackLine>
-				</Subwire>
-			</Wire>
-			<Wire>
-				<LayerRef name="B.Cu"/>
-				<NetRef name="DCD_1"/>
-				<Subwire width="0.1524">
-					<Start x="112.987" y="-64.8716"/>
-					<TrackLine>
-						<End x="113.6608" y="-65.0954"/>
-					</TrackLine>
-					<TrackLine>
-						<End x="113.6608" y="-65.1716"/>
-					</TrackLine>
-					<TrackLine>
-						<End x="113.6608" y="-65.2032"/>
-					</TrackLine>
-					<TrackLine>
-						<End x="114.0419" y="-65.7153"/>
-					</TrackLine>
-					<TrackLine>
-						<End x="114.0419" y="-67.5853"/>
-					</TrackLine>
-					<TrackLine>
-						<End x="114.0419" y="-67.8379"/>
-					</TrackLine>
-					<TrackLine>
-						<End x="106.7" y="-77.025"/>
-					</TrackLine>
-					<TrackLine>
-						<End x="106.7" y="-77.425"/>
-					</TrackLine>
-				</Subwire>
-			</Wire>
-			<Wire>
-				<LayerRef name="B.Cu"/>
-				<NetRef name="DCD_2"/>
-				<Subwire width="0.1524">
-					<Start x="112.987" y="-63.6016"/>
-					<TrackLine>
-						<End x="113.6608" y="-63.3778"/>
-					</TrackLine>
-					<TrackLine>
-						<End x="113.6608" y="-63.3016"/>
-					</TrackLine>
-					<TrackLine>
-						<End x="113.6608" y="-63.27"/>
-					</TrackLine>
-					<TrackLine>
-						<End x="114.0419" y="-62.7579"/>
-					</TrackLine>
-					<TrackLine>
-						<End x="114.423" y="-61.6458"/>
-					</TrackLine>
-					<TrackLine>
-						<End x="114.8041" y="-60.5336"/>
-					</TrackLine>
-					<TrackLine>
-						<End x="115.1852" y="-59.3809"/>
-					</TrackLine>
-					<TrackLine>
-						<End x="115.1852" y="-58.2623"/>
-					</TrackLine>
-					<TrackLine>
-						<End x="115.1852" y="-57.6623"/>
-					</TrackLine>
-					<TrackLine>
-						<End x="115.1565" y="-57.5931"/>
-					</TrackLine>
-					<TrackLine>
-						<End x="114.3655" y="-56.8021"/>
-					</TrackLine>
-					<TrackLine>
-						<End x="114.2963" y="-56.7734"/>
-					</TrackLine>
-					<TrackLine>
-						<End x="111.4052" y="-55.8799"/>
-					</TrackLine>
-					<TrackLine>
-						<End x="109.24" y="-54.975"/>
-					</TrackLine>
-					<TrackLine>
-						<End x="109.24" y="-54.575"/>
-					</TrackLine>
-				</Subwire>
-			</Wire>
-			<Wire>
-				<LayerRef name="B.Cu"/>
-				<NetRef name="DCD_3"/>
-				<Subwire width="0.1524">
-					<Start x="112.987" y="-62.3316"/>
-					<TrackLine>
-						<End x="113.6608" y="-62.1078"/>
-					</TrackLine>
-					<TrackLine>
-						<End x="113.6608" y="-62.0316"/>
-					</TrackLine>
-					<TrackLine>
-						<End x="113.6608" y="-62"/>
-					</TrackLine>
-					<TrackLine>
-						<End x="114.0419" y="-61.4879"/>
-					</TrackLine>
-					<TrackLine>
-						<End x="114.423" y="-60.3758"/>
-					</TrackLine>
-					<TrackLine>
-						<End x="114.8041" y="-59.2636"/>
-					</TrackLine>
-					<TrackLine>
-						<End x="114.8041" y="-58.3796"/>
-					</TrackLine>
-					<TrackLine>
-						<End x="114.8041" y="-57.7796"/>
-					</TrackLine>
-					<TrackLine>
-						<End x="114.179" y="-57.1545"/>
-					</TrackLine>
-					<TrackLine>
-						<End x="108.8652" y="-55.8799"/>
-					</TrackLine>
-					<TrackLine>
-						<End x="106.7" y="-54.975"/>
-					</TrackLine>
-					<TrackLine>
-						<End x="106.7" y="-54.575"/>
 					</TrackLine>
 				</Subwire>
 			</Wire>
@@ -3046,7 +2974,7 @@
 	</Settings>
 
 	<DisplayControl version="1.3">
-		<View scale="61.7577" scrollHorz="105.4435" scrollVert="-60.0451"/>
+		<View scale="30.8788" scrollHorz="94.1781" scrollVert="-66.6934"/>
 		<ActiveLayer name="F.Cu"/>
 		<Units preference="Metric"/>
 		<Colors hilightRate="42" darkRate="0"

@@ -61,7 +61,7 @@
       (place R16 76835 -59690 front 270 (PN 120))
     )
     (component "Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm"
-      (place U1 110287 -62966.6 back 0 (PN ULN2003A))
+      (place U1 108000 -62900 back 0 (PN ULN2003A))
     )
   )
   (library
