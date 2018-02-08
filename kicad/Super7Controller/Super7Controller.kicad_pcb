@@ -5,7 +5,7 @@
     (no_connects 0)
     (area 69.139999 53.264999 118.820001 78.815001)
     (thickness 1.6)
-    (drawings 8)
+    (drawings 9)
     (tracks 227)
     (zones 0)
     (modules 20)
@@ -1072,6 +1072,9 @@
       (net 55 "Net-(U2-Pad19)"))
   )
 
+  (gr_text "Pin 1\nESP32 Board\nOn This Side" (at 72.8218 76.1238 90) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.2)) (justify left))
+  )
   (dimension 49.53 (width 0.3) (layer F.Fab)
     (gr_text "1.9500 in" (at 93.98 48.18) (layer F.Fab) (tstamp 5A7C79E7)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
