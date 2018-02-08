@@ -62,7 +62,7 @@
       (place R16 76835 -59690 front 270 (PN 120))
     )
     (component "Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm"
-      (place U1 114300 -59309 front 180 (PN ULN2003A))
+      (place U1 114554 -66421 back 0 (PN ULN2003A))
     )
     (component misc:Strip_1x04
       (place REF** 168275 -68580 front 90 (PN Socket_Strip_Straight_1x04))
