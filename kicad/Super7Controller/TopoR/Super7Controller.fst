@@ -1029,17 +1029,17 @@
 					<Pin pinNum="2" name="1" pinSymName="1" pinEqual="0" gate="-1" gateEqual="0"/>
 					<Pin pinNum="3" name="37" pinSymName="37" pinEqual="0" gate="-1" gateEqual="0"/>
 					<Pin pinNum="4" name="2" pinSymName="2" pinEqual="0" gate="-1" gateEqual="0"/>
-					<Pin pinNum="5" name="36" pinSymName="36" pinEqual="0" gate="-1" gateEqual="0"/>
-					<Pin pinNum="6" name="3" pinSymName="3" pinEqual="0" gate="-1" gateEqual="0"/>
-					<Pin pinNum="7" name="35" pinSymName="35" pinEqual="0" gate="-1" gateEqual="0"/>
-					<Pin pinNum="8" name="4" pinSymName="4" pinEqual="0" gate="-1" gateEqual="0"/>
-					<Pin pinNum="9" name="34" pinSymName="34" pinEqual="0" gate="-1" gateEqual="0"/>
-					<Pin pinNum="10" name="5" pinSymName="5" pinEqual="0" gate="-1" gateEqual="0"/>
-					<Pin pinNum="11" name="33" pinSymName="33" pinEqual="0" gate="-1" gateEqual="0"/>
-					<Pin pinNum="12" name="6" pinSymName="6" pinEqual="0" gate="-1" gateEqual="0"/>
-					<Pin pinNum="13" name="32" pinSymName="32" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="5" name="36" pinSymName="36" pinEqual="1" gate="-1" gateEqual="0"/>
+					<Pin pinNum="6" name="3" pinSymName="3" pinEqual="1" gate="-1" gateEqual="0"/>
+					<Pin pinNum="7" name="35" pinSymName="35" pinEqual="1" gate="-1" gateEqual="0"/>
+					<Pin pinNum="8" name="4" pinSymName="4" pinEqual="1" gate="-1" gateEqual="0"/>
+					<Pin pinNum="9" name="34" pinSymName="34" pinEqual="1" gate="-1" gateEqual="0"/>
+					<Pin pinNum="10" name="5" pinSymName="5" pinEqual="1" gate="-1" gateEqual="0"/>
+					<Pin pinNum="11" name="33" pinSymName="33" pinEqual="1" gate="-1" gateEqual="0"/>
+					<Pin pinNum="12" name="6" pinSymName="6" pinEqual="1" gate="-1" gateEqual="0"/>
+					<Pin pinNum="13" name="32" pinSymName="32" pinEqual="1" gate="-1" gateEqual="0"/>
 					<Pin pinNum="14" name="7" pinSymName="7" pinEqual="0" gate="-1" gateEqual="0"/>
-					<Pin pinNum="15" name="31" pinSymName="31" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="15" name="31" pinSymName="31" pinEqual="1" gate="-1" gateEqual="0"/>
 					<Pin pinNum="16" name="8" pinSymName="8" pinEqual="0" gate="-1" gateEqual="0"/>
 					<Pin pinNum="17" name="30" pinSymName="30" pinEqual="0" gate="-1" gateEqual="0"/>
 					<Pin pinNum="18" name="9" pinSymName="9" pinEqual="0" gate="-1" gateEqual="0"/>
@@ -1047,22 +1047,22 @@
 					<Pin pinNum="20" name="10" pinSymName="10" pinEqual="0" gate="-1" gateEqual="0"/>
 					<Pin pinNum="21" name="28" pinSymName="28" pinEqual="0" gate="-1" gateEqual="0"/>
 					<Pin pinNum="22" name="11" pinSymName="11" pinEqual="0" gate="-1" gateEqual="0"/>
-					<Pin pinNum="23" name="27" pinSymName="27" pinEqual="0" gate="-1" gateEqual="0"/>
-					<Pin pinNum="24" name="12" pinSymName="12" pinEqual="0" gate="-1" gateEqual="0"/>
-					<Pin pinNum="25" name="26" pinSymName="26" pinEqual="0" gate="-1" gateEqual="0"/>
-					<Pin pinNum="26" name="13" pinSymName="13" pinEqual="0" gate="-1" gateEqual="0"/>
-					<Pin pinNum="27" name="25" pinSymName="25" pinEqual="0" gate="-1" gateEqual="0"/>
-					<Pin pinNum="28" name="14" pinSymName="14" pinEqual="0" gate="-1" gateEqual="0"/>
-					<Pin pinNum="29" name="24" pinSymName="24" pinEqual="0" gate="-1" gateEqual="0"/>
-					<Pin pinNum="30" name="15" pinSymName="15" pinEqual="0" gate="-1" gateEqual="0"/>
-					<Pin pinNum="31" name="23" pinSymName="23" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="23" name="27" pinSymName="27" pinEqual="1" gate="-1" gateEqual="0"/>
+					<Pin pinNum="24" name="12" pinSymName="12" pinEqual="1" gate="-1" gateEqual="0"/>
+					<Pin pinNum="25" name="26" pinSymName="26" pinEqual="1" gate="-1" gateEqual="0"/>
+					<Pin pinNum="26" name="13" pinSymName="13" pinEqual="1" gate="-1" gateEqual="0"/>
+					<Pin pinNum="27" name="25" pinSymName="25" pinEqual="1" gate="-1" gateEqual="0"/>
+					<Pin pinNum="28" name="14" pinSymName="14" pinEqual="1" gate="-1" gateEqual="0"/>
+					<Pin pinNum="29" name="24" pinSymName="24" pinEqual="1" gate="-1" gateEqual="0"/>
+					<Pin pinNum="30" name="15" pinSymName="15" pinEqual="1" gate="-1" gateEqual="0"/>
+					<Pin pinNum="31" name="23" pinSymName="23" pinEqual="1" gate="-1" gateEqual="0"/>
 					<Pin pinNum="32" name="16" pinSymName="16" pinEqual="0" gate="-1" gateEqual="0"/>
-					<Pin pinNum="33" name="22" pinSymName="22" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="33" name="22" pinSymName="22" pinEqual="1" gate="-1" gateEqual="0"/>
 					<Pin pinNum="34" name="17" pinSymName="17" pinEqual="0" gate="-1" gateEqual="0"/>
-					<Pin pinNum="35" name="21" pinSymName="21" pinEqual="0" gate="-1" gateEqual="0"/>
-					<Pin pinNum="36" name="18" pinSymName="18" pinEqual="0" gate="-1" gateEqual="0"/>
-					<Pin pinNum="37" name="20" pinSymName="20" pinEqual="0" gate="-1" gateEqual="0"/>
-					<Pin pinNum="38" name="19" pinSymName="19" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="35" name="21" pinSymName="21" pinEqual="1" gate="-1" gateEqual="0"/>
+					<Pin pinNum="36" name="18" pinSymName="18" pinEqual="1" gate="-1" gateEqual="0"/>
+					<Pin pinNum="37" name="20" pinSymName="20" pinEqual="1" gate="-1" gateEqual="0"/>
+					<Pin pinNum="38" name="19" pinSymName="19" pinEqual="1" gate="-1" gateEqual="0"/>
 				</Pins>
 			</Component>
 			<Component name="P4">
