@@ -6,7 +6,7 @@
 <!--   Version : 1.2.0                      -->
 <!--   Program : TopoR Lite 6.3.18019       -->
 <!--   Date    : Thursday, February 8, 2018 -->
-<!--   Time    : 10:29                      -->
+<!--   Time    : 14:17                      -->
 <!--****************************************-->
 
 <TopoR_PCB_File>
@@ -14,7 +14,7 @@
 		<Format>TopoR PCB file</Format>
 		<Version>1.2.0</Version>
 		<Program>TopoR Lite 6.3.18019</Program>
-		<Date>Thursday, February 8, 2018 10:29</Date>
+		<Date>Thursday, February 8, 2018 14:17</Date>
 		<OriginalFormat>Specctra</OriginalFormat>
 		<OriginalFile>.\Super7Controller.dsn</OriginalFile>
 		<Units dist="mm" time="ps"/>
@@ -113,6 +113,220 @@
 			</Viastack>
 		</Viastacks>
 		<Footprints>
+			<Footprint name="hiletgo_esp-wroom-32_development_board:hiletgo_esp-wroom-32_development_board">
+				<Pads>
+					<Pad padNum="1" name="38">
+						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
+						<Org x="-22.86" y="11.425"/>
+					</Pad>
+					<Pad padNum="2" name="1">
+						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
+						<Org x="-22.86" y="-11.425"/>
+					</Pad>
+					<Pad padNum="3" name="37">
+						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
+						<Org x="-20.32" y="11.425"/>
+					</Pad>
+					<Pad padNum="4" name="2">
+						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
+						<Org x="-20.32" y="-11.425"/>
+					</Pad>
+					<Pad padNum="5" name="36">
+						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
+						<Org x="-17.78" y="11.425"/>
+					</Pad>
+					<Pad padNum="6" name="3">
+						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
+						<Org x="-17.78" y="-11.425"/>
+					</Pad>
+					<Pad padNum="7" name="35">
+						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
+						<Org x="-15.24" y="11.425"/>
+					</Pad>
+					<Pad padNum="8" name="4">
+						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
+						<Org x="-15.24" y="-11.425"/>
+					</Pad>
+					<Pad padNum="9" name="34">
+						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
+						<Org x="-12.7" y="11.425"/>
+					</Pad>
+					<Pad padNum="10" name="5">
+						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
+						<Org x="-12.7" y="-11.425"/>
+					</Pad>
+					<Pad padNum="11" name="33">
+						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
+						<Org x="-10.16" y="11.425"/>
+					</Pad>
+					<Pad padNum="12" name="6">
+						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
+						<Org x="-10.16" y="-11.425"/>
+					</Pad>
+					<Pad padNum="13" name="32">
+						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
+						<Org x="-7.62" y="11.425"/>
+					</Pad>
+					<Pad padNum="14" name="7">
+						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
+						<Org x="-7.62" y="-11.425"/>
+					</Pad>
+					<Pad padNum="15" name="31">
+						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
+						<Org x="-5.08" y="11.425"/>
+					</Pad>
+					<Pad padNum="16" name="8">
+						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
+						<Org x="-5.08" y="-11.425"/>
+					</Pad>
+					<Pad padNum="17" name="30">
+						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
+						<Org x="-2.54" y="11.425"/>
+					</Pad>
+					<Pad padNum="18" name="9">
+						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
+						<Org x="-2.54" y="-11.425"/>
+					</Pad>
+					<Pad padNum="19" name="29">
+						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
+						<Org x="0" y="11.425"/>
+					</Pad>
+					<Pad padNum="20" name="10">
+						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
+						<Org x="0" y="-11.425"/>
+					</Pad>
+					<Pad padNum="21" name="28">
+						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
+						<Org x="2.54" y="11.425"/>
+					</Pad>
+					<Pad padNum="22" name="11">
+						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
+						<Org x="2.54" y="-11.425"/>
+					</Pad>
+					<Pad padNum="23" name="27">
+						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
+						<Org x="5.08" y="11.425"/>
+					</Pad>
+					<Pad padNum="24" name="12">
+						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
+						<Org x="5.08" y="-11.425"/>
+					</Pad>
+					<Pad padNum="25" name="26">
+						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
+						<Org x="7.62" y="11.425"/>
+					</Pad>
+					<Pad padNum="26" name="13">
+						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
+						<Org x="7.62" y="-11.425"/>
+					</Pad>
+					<Pad padNum="27" name="25">
+						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
+						<Org x="10.16" y="11.425"/>
+					</Pad>
+					<Pad padNum="28" name="14">
+						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
+						<Org x="10.16" y="-11.425"/>
+					</Pad>
+					<Pad padNum="29" name="24">
+						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
+						<Org x="12.7" y="11.425"/>
+					</Pad>
+					<Pad padNum="30" name="15">
+						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
+						<Org x="12.7" y="-11.425"/>
+					</Pad>
+					<Pad padNum="31" name="23">
+						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
+						<Org x="15.24" y="11.425"/>
+					</Pad>
+					<Pad padNum="32" name="16">
+						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
+						<Org x="15.24" y="-11.425"/>
+					</Pad>
+					<Pad padNum="33" name="22">
+						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
+						<Org x="17.78" y="11.425"/>
+					</Pad>
+					<Pad padNum="34" name="17">
+						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
+						<Org x="17.78" y="-11.425"/>
+					</Pad>
+					<Pad padNum="35" name="21">
+						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
+						<Org x="20.32" y="11.425"/>
+					</Pad>
+					<Pad padNum="36" name="18">
+						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
+						<Org x="20.32" y="-11.425"/>
+					</Pad>
+					<Pad padNum="37" name="20">
+						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
+						<Org x="22.86" y="11.425"/>
+					</Pad>
+					<Pad padNum="38" name="19">
+						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
+						<Org x="22.86" y="-11.425"/>
+					</Pad>
+				</Pads>
+				<Details>
+					<Detail lineWidth="0.15">
+						<LayerRef name="F.Cu_outline"/>
+						<Line>
+							<Dot x="-24.73" y="-13.695"/>
+							<Dot x="24.73" y="-13.695"/>
+						</Line>
+					</Detail>
+					<Detail lineWidth="0.15">
+						<LayerRef name="F.Cu_outline"/>
+						<Line>
+							<Dot x="24.73" y="-13.695"/>
+							<Dot x="24.73" y="13.695"/>
+						</Line>
+					</Detail>
+					<Detail lineWidth="0.15">
+						<LayerRef name="F.Cu_outline"/>
+						<Line>
+							<Dot x="24.73" y="13.695"/>
+							<Dot x="-24.73" y="13.695"/>
+						</Line>
+					</Detail>
+					<Detail lineWidth="0.15">
+						<LayerRef name="F.Cu_outline"/>
+						<Line>
+							<Dot x="-24.73" y="13.695"/>
+							<Dot x="-24.73" y="4.565"/>
+						</Line>
+					</Detail>
+					<Detail lineWidth="0.15">
+						<LayerRef name="F.Cu_outline"/>
+						<Line>
+							<Dot x="-24.73" y="4.565"/>
+							<Dot x="-24.28" y="4.565"/>
+						</Line>
+					</Detail>
+					<Detail lineWidth="0.15">
+						<LayerRef name="F.Cu_outline"/>
+						<Line>
+							<Dot x="-24.28" y="4.565"/>
+							<Dot x="-24.28" y="-4.565"/>
+						</Line>
+					</Detail>
+					<Detail lineWidth="0.15">
+						<LayerRef name="F.Cu_outline"/>
+						<Line>
+							<Dot x="-24.28" y="-4.565"/>
+							<Dot x="-24.73" y="-4.565"/>
+						</Line>
+					</Detail>
+					<Detail lineWidth="0.15">
+						<LayerRef name="F.Cu_outline"/>
+						<Line>
+							<Dot x="-24.73" y="-4.565"/>
+							<Dot x="-24.73" y="-13.695"/>
+						</Line>
+					</Detail>
+				</Details>
+			</Footprint>
 			<Footprint name="Socket_Strips:Socket_Strip_Straight_1x13">
 				<Pads>
 					<Pad padNum="1" name="1">
@@ -363,220 +577,6 @@
 						<Line>
 							<Dot x="-1.55" y="1.55"/>
 							<Dot x="-1.55" y="-1.55"/>
-						</Line>
-					</Detail>
-				</Details>
-			</Footprint>
-			<Footprint name="hiletgo_esp-wroom-32_development_board:hiletgo_esp-wroom-32_development_board">
-				<Pads>
-					<Pad padNum="1" name="38">
-						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
-						<Org x="-22.86" y="11.425"/>
-					</Pad>
-					<Pad padNum="2" name="1">
-						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
-						<Org x="-22.86" y="-11.425"/>
-					</Pad>
-					<Pad padNum="3" name="37">
-						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
-						<Org x="-20.32" y="11.425"/>
-					</Pad>
-					<Pad padNum="4" name="2">
-						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
-						<Org x="-20.32" y="-11.425"/>
-					</Pad>
-					<Pad padNum="5" name="36">
-						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
-						<Org x="-17.78" y="11.425"/>
-					</Pad>
-					<Pad padNum="6" name="3">
-						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
-						<Org x="-17.78" y="-11.425"/>
-					</Pad>
-					<Pad padNum="7" name="35">
-						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
-						<Org x="-15.24" y="11.425"/>
-					</Pad>
-					<Pad padNum="8" name="4">
-						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
-						<Org x="-15.24" y="-11.425"/>
-					</Pad>
-					<Pad padNum="9" name="34">
-						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
-						<Org x="-12.7" y="11.425"/>
-					</Pad>
-					<Pad padNum="10" name="5">
-						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
-						<Org x="-12.7" y="-11.425"/>
-					</Pad>
-					<Pad padNum="11" name="33">
-						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
-						<Org x="-10.16" y="11.425"/>
-					</Pad>
-					<Pad padNum="12" name="6">
-						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
-						<Org x="-10.16" y="-11.425"/>
-					</Pad>
-					<Pad padNum="13" name="32">
-						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
-						<Org x="-7.62" y="11.425"/>
-					</Pad>
-					<Pad padNum="14" name="7">
-						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
-						<Org x="-7.62" y="-11.425"/>
-					</Pad>
-					<Pad padNum="15" name="31">
-						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
-						<Org x="-5.08" y="11.425"/>
-					</Pad>
-					<Pad padNum="16" name="8">
-						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
-						<Org x="-5.08" y="-11.425"/>
-					</Pad>
-					<Pad padNum="17" name="30">
-						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
-						<Org x="-2.54" y="11.425"/>
-					</Pad>
-					<Pad padNum="18" name="9">
-						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
-						<Org x="-2.54" y="-11.425"/>
-					</Pad>
-					<Pad padNum="19" name="29">
-						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
-						<Org x="0" y="11.425"/>
-					</Pad>
-					<Pad padNum="20" name="10">
-						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
-						<Org x="0" y="-11.425"/>
-					</Pad>
-					<Pad padNum="21" name="28">
-						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
-						<Org x="2.54" y="11.425"/>
-					</Pad>
-					<Pad padNum="22" name="11">
-						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
-						<Org x="2.54" y="-11.425"/>
-					</Pad>
-					<Pad padNum="23" name="27">
-						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
-						<Org x="5.08" y="11.425"/>
-					</Pad>
-					<Pad padNum="24" name="12">
-						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
-						<Org x="5.08" y="-11.425"/>
-					</Pad>
-					<Pad padNum="25" name="26">
-						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
-						<Org x="7.62" y="11.425"/>
-					</Pad>
-					<Pad padNum="26" name="13">
-						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
-						<Org x="7.62" y="-11.425"/>
-					</Pad>
-					<Pad padNum="27" name="25">
-						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
-						<Org x="10.16" y="11.425"/>
-					</Pad>
-					<Pad padNum="28" name="14">
-						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
-						<Org x="10.16" y="-11.425"/>
-					</Pad>
-					<Pad padNum="29" name="24">
-						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
-						<Org x="12.7" y="11.425"/>
-					</Pad>
-					<Pad padNum="30" name="15">
-						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
-						<Org x="12.7" y="-11.425"/>
-					</Pad>
-					<Pad padNum="31" name="23">
-						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
-						<Org x="15.24" y="11.425"/>
-					</Pad>
-					<Pad padNum="32" name="16">
-						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
-						<Org x="15.24" y="-11.425"/>
-					</Pad>
-					<Pad padNum="33" name="22">
-						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
-						<Org x="17.78" y="11.425"/>
-					</Pad>
-					<Pad padNum="34" name="17">
-						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
-						<Org x="17.78" y="-11.425"/>
-					</Pad>
-					<Pad padNum="35" name="21">
-						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
-						<Org x="20.32" y="11.425"/>
-					</Pad>
-					<Pad padNum="36" name="18">
-						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
-						<Org x="20.32" y="-11.425"/>
-					</Pad>
-					<Pad padNum="37" name="20">
-						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
-						<Org x="22.86" y="11.425"/>
-					</Pad>
-					<Pad padNum="38" name="19">
-						<PadstackRef name="Oval[A]Pad_1200x2000_um"/>
-						<Org x="22.86" y="-11.425"/>
-					</Pad>
-				</Pads>
-				<Details>
-					<Detail lineWidth="0.15">
-						<LayerRef name="F.Cu_outline"/>
-						<Line>
-							<Dot x="-24.73" y="-13.695"/>
-							<Dot x="24.73" y="-13.695"/>
-						</Line>
-					</Detail>
-					<Detail lineWidth="0.15">
-						<LayerRef name="F.Cu_outline"/>
-						<Line>
-							<Dot x="24.73" y="-13.695"/>
-							<Dot x="24.73" y="13.695"/>
-						</Line>
-					</Detail>
-					<Detail lineWidth="0.15">
-						<LayerRef name="F.Cu_outline"/>
-						<Line>
-							<Dot x="24.73" y="13.695"/>
-							<Dot x="-24.73" y="13.695"/>
-						</Line>
-					</Detail>
-					<Detail lineWidth="0.15">
-						<LayerRef name="F.Cu_outline"/>
-						<Line>
-							<Dot x="-24.73" y="13.695"/>
-							<Dot x="-24.73" y="4.565"/>
-						</Line>
-					</Detail>
-					<Detail lineWidth="0.15">
-						<LayerRef name="F.Cu_outline"/>
-						<Line>
-							<Dot x="-24.73" y="4.565"/>
-							<Dot x="-24.28" y="4.565"/>
-						</Line>
-					</Detail>
-					<Detail lineWidth="0.15">
-						<LayerRef name="F.Cu_outline"/>
-						<Line>
-							<Dot x="-24.28" y="4.565"/>
-							<Dot x="-24.28" y="-4.565"/>
-						</Line>
-					</Detail>
-					<Detail lineWidth="0.15">
-						<LayerRef name="F.Cu_outline"/>
-						<Line>
-							<Dot x="-24.28" y="-4.565"/>
-							<Dot x="-24.73" y="-4.565"/>
-						</Line>
-					</Detail>
-					<Detail lineWidth="0.15">
-						<LayerRef name="F.Cu_outline"/>
-						<Line>
-							<Dot x="-24.73" y="-4.565"/>
-							<Dot x="-24.73" y="-13.695"/>
 						</Line>
 					</Detail>
 				</Details>
@@ -847,222 +847,122 @@
 					</Detail>
 				</Details>
 			</Footprint>
-			<Footprint name="misc:Strip_1x04">
-				<Pads>
-					<Pad padNum="1" name="1">
-						<PadstackRef name="Oval[A]Pad_1727.2x2032_um"/>
-						<Org x="0" y="0"/>
-					</Pad>
-					<Pad padNum="2" name="2">
-						<PadstackRef name="Oval[A]Pad_1727.2x2032_um"/>
-						<Org x="2.54" y="0"/>
-					</Pad>
-					<Pad padNum="3" name="3">
-						<PadstackRef name="Oval[A]Pad_1727.2x2032_um"/>
-						<Org x="5.08" y="0"/>
-					</Pad>
-					<Pad padNum="4" name="4">
-						<PadstackRef name="Oval[A]Pad_1727.2x2032_um"/>
-						<Org x="7.62" y="0"/>
-					</Pad>
-				</Pads>
-				<Details>
-					<Detail lineWidth="0.05">
-						<LayerRef name="F.Cu_outline"/>
-						<Line>
-							<Dot x="-1.75" y="1.75"/>
-							<Dot x="-1.75" y="-1.75"/>
-						</Line>
-					</Detail>
-					<Detail lineWidth="0.05">
-						<LayerRef name="F.Cu_outline"/>
-						<Line>
-							<Dot x="9.4" y="1.75"/>
-							<Dot x="9.4" y="-1.75"/>
-						</Line>
-					</Detail>
-					<Detail lineWidth="0.05">
-						<LayerRef name="F.Cu_outline"/>
-						<Line>
-							<Dot x="-1.75" y="1.75"/>
-							<Dot x="9.4" y="1.75"/>
-						</Line>
-					</Detail>
-					<Detail lineWidth="0.05">
-						<LayerRef name="F.Cu_outline"/>
-						<Line>
-							<Dot x="-1.75" y="-1.75"/>
-							<Dot x="9.4" y="-1.75"/>
-						</Line>
-					</Detail>
-				</Details>
-			</Footprint>
 		</Footprints>
 		<Components>
-			<Component name="REF**">
-				<Pins>
-					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="0" gate="-1" gateEqual="0"/>
-					<Pin pinNum="2" name="2" pinSymName="2" pinEqual="0" gate="-1" gateEqual="0"/>
-					<Pin pinNum="3" name="3" pinSymName="3" pinEqual="0" gate="-1" gateEqual="0"/>
-					<Pin pinNum="4" name="4" pinSymName="4" pinEqual="0" gate="-1" gateEqual="0"/>
-				</Pins>
-			</Component>
 			<Component name="U1">
 				<Pins>
-					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="3" gate="-1" gateEqual="0"/>
-					<Pin pinNum="2" name="2" pinSymName="2" pinEqual="3" gate="-1" gateEqual="0"/>
-					<Pin pinNum="3" name="3" pinSymName="3" pinEqual="3" gate="-1" gateEqual="0"/>
-					<Pin pinNum="4" name="4" pinSymName="4" pinEqual="3" gate="-1" gateEqual="0"/>
-					<Pin pinNum="5" name="5" pinSymName="5" pinEqual="3" gate="-1" gateEqual="0"/>
-					<Pin pinNum="6" name="6" pinSymName="6" pinEqual="3" gate="-1" gateEqual="0"/>
+					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="2" gate="-1" gateEqual="0"/>
+					<Pin pinNum="2" name="2" pinSymName="2" pinEqual="2" gate="-1" gateEqual="0"/>
+					<Pin pinNum="3" name="3" pinSymName="3" pinEqual="2" gate="-1" gateEqual="0"/>
+					<Pin pinNum="4" name="4" pinSymName="4" pinEqual="2" gate="-1" gateEqual="0"/>
+					<Pin pinNum="5" name="5" pinSymName="5" pinEqual="2" gate="-1" gateEqual="0"/>
+					<Pin pinNum="6" name="6" pinSymName="6" pinEqual="0" gate="-1" gateEqual="0"/>
 					<Pin pinNum="7" name="7" pinSymName="7" pinEqual="0" gate="-1" gateEqual="0"/>
 					<Pin pinNum="8" name="8" pinSymName="8" pinEqual="0" gate="-1" gateEqual="0"/>
 					<Pin pinNum="9" name="9" pinSymName="9" pinEqual="0" gate="-1" gateEqual="0"/>
 					<Pin pinNum="10" name="10" pinSymName="10" pinEqual="0" gate="-1" gateEqual="0"/>
-					<Pin pinNum="11" name="11" pinSymName="11" pinEqual="2" gate="-1" gateEqual="0"/>
-					<Pin pinNum="12" name="12" pinSymName="12" pinEqual="2" gate="-1" gateEqual="0"/>
-					<Pin pinNum="13" name="13" pinSymName="13" pinEqual="2" gate="-1" gateEqual="0"/>
-					<Pin pinNum="14" name="14" pinSymName="14" pinEqual="2" gate="-1" gateEqual="0"/>
-					<Pin pinNum="15" name="15" pinSymName="15" pinEqual="2" gate="-1" gateEqual="0"/>
-					<Pin pinNum="16" name="16" pinSymName="16" pinEqual="2" gate="-1" gateEqual="0"/>
+					<Pin pinNum="11" name="11" pinSymName="11" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="12" name="12" pinSymName="12" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="13" name="13" pinSymName="13" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="14" name="14" pinSymName="14" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="15" name="15" pinSymName="15" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="16" name="16" pinSymName="16" pinEqual="0" gate="-1" gateEqual="0"/>
 				</Pins>
 			</Component>
 			<Component name="R16">
 				<Pins>
-					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="4" gate="-1" gateEqual="5"/>
+					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="0" gate="-1" gateEqual="0"/>
 					<Pin pinNum="2" name="2" pinSymName="2" pinEqual="0" gate="-1" gateEqual="0"/>
 				</Pins>
 			</Component>
 			<Component name="R15">
 				<Pins>
-					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="4" gate="-1" gateEqual="5"/>
+					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="0" gate="-1" gateEqual="0"/>
 					<Pin pinNum="2" name="2" pinSymName="2" pinEqual="0" gate="-1" gateEqual="0"/>
 				</Pins>
 			</Component>
 			<Component name="R14">
 				<Pins>
-					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="4" gate="-1" gateEqual="5"/>
+					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="0" gate="-1" gateEqual="0"/>
 					<Pin pinNum="2" name="2" pinSymName="2" pinEqual="0" gate="-1" gateEqual="0"/>
 				</Pins>
 			</Component>
 			<Component name="R13">
 				<Pins>
-					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="4" gate="-1" gateEqual="5"/>
+					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="0" gate="-1" gateEqual="0"/>
 					<Pin pinNum="2" name="2" pinSymName="2" pinEqual="0" gate="-1" gateEqual="0"/>
 				</Pins>
 			</Component>
 			<Component name="R12">
 				<Pins>
-					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="4" gate="-1" gateEqual="5"/>
+					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="0" gate="-1" gateEqual="0"/>
 					<Pin pinNum="2" name="2" pinSymName="2" pinEqual="0" gate="-1" gateEqual="0"/>
 				</Pins>
 			</Component>
 			<Component name="R11">
 				<Pins>
-					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="4" gate="-1" gateEqual="5"/>
+					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="0" gate="-1" gateEqual="0"/>
 					<Pin pinNum="2" name="2" pinSymName="2" pinEqual="0" gate="-1" gateEqual="0"/>
 				</Pins>
 			</Component>
 			<Component name="R10">
 				<Pins>
-					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="4" gate="-1" gateEqual="5"/>
+					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="0" gate="-1" gateEqual="0"/>
 					<Pin pinNum="2" name="2" pinSymName="2" pinEqual="0" gate="-1" gateEqual="0"/>
 				</Pins>
 			</Component>
 			<Component name="R9">
 				<Pins>
-					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="4" gate="-1" gateEqual="5"/>
+					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="0" gate="-1" gateEqual="0"/>
 					<Pin pinNum="2" name="2" pinSymName="2" pinEqual="0" gate="-1" gateEqual="0"/>
 				</Pins>
 			</Component>
 			<Component name="R8">
 				<Pins>
-					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="4" gate="-1" gateEqual="5"/>
+					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="0" gate="-1" gateEqual="0"/>
 					<Pin pinNum="2" name="2" pinSymName="2" pinEqual="0" gate="-1" gateEqual="0"/>
 				</Pins>
 			</Component>
 			<Component name="R7">
 				<Pins>
-					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="4" gate="-1" gateEqual="5"/>
+					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="0" gate="-1" gateEqual="0"/>
 					<Pin pinNum="2" name="2" pinSymName="2" pinEqual="0" gate="-1" gateEqual="0"/>
 				</Pins>
 			</Component>
 			<Component name="R6">
 				<Pins>
-					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="4" gate="-1" gateEqual="5"/>
+					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="0" gate="-1" gateEqual="0"/>
 					<Pin pinNum="2" name="2" pinSymName="2" pinEqual="0" gate="-1" gateEqual="0"/>
 				</Pins>
 			</Component>
 			<Component name="R5">
 				<Pins>
-					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="4" gate="-1" gateEqual="5"/>
+					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="0" gate="-1" gateEqual="0"/>
 					<Pin pinNum="2" name="2" pinSymName="2" pinEqual="0" gate="-1" gateEqual="0"/>
 				</Pins>
 			</Component>
 			<Component name="R4">
 				<Pins>
-					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="4" gate="-1" gateEqual="5"/>
+					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="0" gate="-1" gateEqual="0"/>
 					<Pin pinNum="2" name="2" pinSymName="2" pinEqual="0" gate="-1" gateEqual="0"/>
 				</Pins>
 			</Component>
 			<Component name="R3">
 				<Pins>
-					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="4" gate="-1" gateEqual="5"/>
+					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="0" gate="-1" gateEqual="0"/>
 					<Pin pinNum="2" name="2" pinSymName="2" pinEqual="0" gate="-1" gateEqual="0"/>
 				</Pins>
 			</Component>
 			<Component name="R2">
 				<Pins>
-					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="4" gate="-1" gateEqual="5"/>
+					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="0" gate="-1" gateEqual="0"/>
 					<Pin pinNum="2" name="2" pinSymName="2" pinEqual="0" gate="-1" gateEqual="0"/>
 				</Pins>
 			</Component>
 			<Component name="R1">
 				<Pins>
-					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="4" gate="-1" gateEqual="5"/>
+					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="0" gate="-1" gateEqual="0"/>
 					<Pin pinNum="2" name="2" pinSymName="2" pinEqual="0" gate="-1" gateEqual="0"/>
-				</Pins>
-			</Component>
-			<Component name="U2">
-				<Pins>
-					<Pin pinNum="1" name="38" pinSymName="38" pinEqual="0" gate="-1" gateEqual="0"/>
-					<Pin pinNum="2" name="1" pinSymName="1" pinEqual="0" gate="-1" gateEqual="0"/>
-					<Pin pinNum="3" name="37" pinSymName="37" pinEqual="0" gate="-1" gateEqual="0"/>
-					<Pin pinNum="4" name="2" pinSymName="2" pinEqual="0" gate="-1" gateEqual="0"/>
-					<Pin pinNum="5" name="36" pinSymName="36" pinEqual="1" gate="-1" gateEqual="0"/>
-					<Pin pinNum="6" name="3" pinSymName="3" pinEqual="1" gate="-1" gateEqual="0"/>
-					<Pin pinNum="7" name="35" pinSymName="35" pinEqual="1" gate="-1" gateEqual="0"/>
-					<Pin pinNum="8" name="4" pinSymName="4" pinEqual="1" gate="-1" gateEqual="0"/>
-					<Pin pinNum="9" name="34" pinSymName="34" pinEqual="1" gate="-1" gateEqual="0"/>
-					<Pin pinNum="10" name="5" pinSymName="5" pinEqual="1" gate="-1" gateEqual="0"/>
-					<Pin pinNum="11" name="33" pinSymName="33" pinEqual="1" gate="-1" gateEqual="0"/>
-					<Pin pinNum="12" name="6" pinSymName="6" pinEqual="1" gate="-1" gateEqual="0"/>
-					<Pin pinNum="13" name="32" pinSymName="32" pinEqual="1" gate="-1" gateEqual="0"/>
-					<Pin pinNum="14" name="7" pinSymName="7" pinEqual="0" gate="-1" gateEqual="0"/>
-					<Pin pinNum="15" name="31" pinSymName="31" pinEqual="1" gate="-1" gateEqual="0"/>
-					<Pin pinNum="16" name="8" pinSymName="8" pinEqual="0" gate="-1" gateEqual="0"/>
-					<Pin pinNum="17" name="30" pinSymName="30" pinEqual="0" gate="-1" gateEqual="0"/>
-					<Pin pinNum="18" name="9" pinSymName="9" pinEqual="0" gate="-1" gateEqual="0"/>
-					<Pin pinNum="19" name="29" pinSymName="29" pinEqual="0" gate="-1" gateEqual="0"/>
-					<Pin pinNum="20" name="10" pinSymName="10" pinEqual="0" gate="-1" gateEqual="0"/>
-					<Pin pinNum="21" name="28" pinSymName="28" pinEqual="0" gate="-1" gateEqual="0"/>
-					<Pin pinNum="22" name="11" pinSymName="11" pinEqual="0" gate="-1" gateEqual="0"/>
-					<Pin pinNum="23" name="27" pinSymName="27" pinEqual="1" gate="-1" gateEqual="0"/>
-					<Pin pinNum="24" name="12" pinSymName="12" pinEqual="1" gate="-1" gateEqual="0"/>
-					<Pin pinNum="25" name="26" pinSymName="26" pinEqual="1" gate="-1" gateEqual="0"/>
-					<Pin pinNum="26" name="13" pinSymName="13" pinEqual="1" gate="-1" gateEqual="0"/>
-					<Pin pinNum="27" name="25" pinSymName="25" pinEqual="1" gate="-1" gateEqual="0"/>
-					<Pin pinNum="28" name="14" pinSymName="14" pinEqual="1" gate="-1" gateEqual="0"/>
-					<Pin pinNum="29" name="24" pinSymName="24" pinEqual="1" gate="-1" gateEqual="0"/>
-					<Pin pinNum="30" name="15" pinSymName="15" pinEqual="1" gate="-1" gateEqual="0"/>
-					<Pin pinNum="31" name="23" pinSymName="23" pinEqual="1" gate="-1" gateEqual="0"/>
-					<Pin pinNum="32" name="16" pinSymName="16" pinEqual="0" gate="-1" gateEqual="0"/>
-					<Pin pinNum="33" name="22" pinSymName="22" pinEqual="1" gate="-1" gateEqual="0"/>
-					<Pin pinNum="34" name="17" pinSymName="17" pinEqual="0" gate="-1" gateEqual="0"/>
-					<Pin pinNum="35" name="21" pinSymName="21" pinEqual="1" gate="-1" gateEqual="0"/>
-					<Pin pinNum="36" name="18" pinSymName="18" pinEqual="1" gate="-1" gateEqual="0"/>
-					<Pin pinNum="37" name="20" pinSymName="20" pinEqual="1" gate="-1" gateEqual="0"/>
-					<Pin pinNum="38" name="19" pinSymName="19" pinEqual="1" gate="-1" gateEqual="0"/>
 				</Pins>
 			</Component>
 			<Component name="P4">
@@ -1095,16 +995,50 @@
 					<Pin pinNum="13" name="13" pinSymName="13" pinEqual="0" gate="-1" gateEqual="0"/>
 				</Pins>
 			</Component>
+			<Component name="U2">
+				<Pins>
+					<Pin pinNum="1" name="38" pinSymName="38" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="2" name="1" pinSymName="1" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="3" name="37" pinSymName="37" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="4" name="2" pinSymName="2" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="5" name="36" pinSymName="36" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="6" name="3" pinSymName="3" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="7" name="35" pinSymName="35" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="8" name="4" pinSymName="4" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="9" name="34" pinSymName="34" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="10" name="5" pinSymName="5" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="11" name="33" pinSymName="33" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="12" name="6" pinSymName="6" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="13" name="32" pinSymName="32" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="14" name="7" pinSymName="7" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="15" name="31" pinSymName="31" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="16" name="8" pinSymName="8" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="17" name="30" pinSymName="30" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="18" name="9" pinSymName="9" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="19" name="29" pinSymName="29" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="20" name="10" pinSymName="10" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="21" name="28" pinSymName="28" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="22" name="11" pinSymName="11" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="23" name="27" pinSymName="27" pinEqual="1" gate="-1" gateEqual="0"/>
+					<Pin pinNum="24" name="12" pinSymName="12" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="25" name="26" pinSymName="26" pinEqual="1" gate="-1" gateEqual="0"/>
+					<Pin pinNum="26" name="13" pinSymName="13" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="27" name="25" pinSymName="25" pinEqual="1" gate="-1" gateEqual="0"/>
+					<Pin pinNum="28" name="14" pinSymName="14" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="29" name="24" pinSymName="24" pinEqual="1" gate="-1" gateEqual="0"/>
+					<Pin pinNum="30" name="15" pinSymName="15" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="31" name="23" pinSymName="23" pinEqual="1" gate="-1" gateEqual="0"/>
+					<Pin pinNum="32" name="16" pinSymName="16" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="33" name="22" pinSymName="22" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="34" name="17" pinSymName="17" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="35" name="21" pinSymName="21" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="36" name="18" pinSymName="18" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="37" name="20" pinSymName="20" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="38" name="19" pinSymName="19" pinEqual="0" gate="-1" gateEqual="0"/>
+				</Pins>
+			</Component>
 		</Components>
 		<Packages>
-			<Package>
-				<ComponentRef name="REF**"/>
-				<FootprintRef name="misc:Strip_1x04"/>
-				<Pinpack pinNum="1" padNum="1"/>
-				<Pinpack pinNum="2" padNum="2"/>
-				<Pinpack pinNum="3" padNum="3"/>
-				<Pinpack pinNum="4" padNum="4"/>
-			</Package>
 			<Package>
 				<ComponentRef name="U1"/>
 				<FootprintRef name="Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm"/>
@@ -1220,6 +1154,36 @@
 				<FootprintRef name="Resistors_SMD:R_0805_HandSoldering"/>
 				<Pinpack pinNum="1" padNum="1"/>
 				<Pinpack pinNum="2" padNum="2"/>
+			</Package>
+			<Package>
+				<ComponentRef name="P4"/>
+				<FootprintRef name="Socket_Strips:Socket_Strip_Straight_1x09"/>
+				<Pinpack pinNum="1" padNum="1"/>
+				<Pinpack pinNum="2" padNum="2"/>
+				<Pinpack pinNum="3" padNum="3"/>
+				<Pinpack pinNum="4" padNum="4"/>
+				<Pinpack pinNum="5" padNum="5"/>
+				<Pinpack pinNum="6" padNum="6"/>
+				<Pinpack pinNum="7" padNum="7"/>
+				<Pinpack pinNum="8" padNum="8"/>
+				<Pinpack pinNum="9" padNum="9"/>
+			</Package>
+			<Package>
+				<ComponentRef name="P3"/>
+				<FootprintRef name="Socket_Strips:Socket_Strip_Straight_1x13"/>
+				<Pinpack pinNum="1" padNum="1"/>
+				<Pinpack pinNum="2" padNum="2"/>
+				<Pinpack pinNum="3" padNum="3"/>
+				<Pinpack pinNum="4" padNum="4"/>
+				<Pinpack pinNum="5" padNum="5"/>
+				<Pinpack pinNum="6" padNum="6"/>
+				<Pinpack pinNum="7" padNum="7"/>
+				<Pinpack pinNum="8" padNum="8"/>
+				<Pinpack pinNum="9" padNum="9"/>
+				<Pinpack pinNum="10" padNum="10"/>
+				<Pinpack pinNum="11" padNum="11"/>
+				<Pinpack pinNum="12" padNum="12"/>
+				<Pinpack pinNum="13" padNum="13"/>
 			</Package>
 			<Package>
 				<ComponentRef name="U2"/>
@@ -1263,36 +1227,6 @@
 				<Pinpack pinNum="37" padNum="37"/>
 				<Pinpack pinNum="38" padNum="38"/>
 			</Package>
-			<Package>
-				<ComponentRef name="P4"/>
-				<FootprintRef name="Socket_Strips:Socket_Strip_Straight_1x09"/>
-				<Pinpack pinNum="1" padNum="1"/>
-				<Pinpack pinNum="2" padNum="2"/>
-				<Pinpack pinNum="3" padNum="3"/>
-				<Pinpack pinNum="4" padNum="4"/>
-				<Pinpack pinNum="5" padNum="5"/>
-				<Pinpack pinNum="6" padNum="6"/>
-				<Pinpack pinNum="7" padNum="7"/>
-				<Pinpack pinNum="8" padNum="8"/>
-				<Pinpack pinNum="9" padNum="9"/>
-			</Package>
-			<Package>
-				<ComponentRef name="P3"/>
-				<FootprintRef name="Socket_Strips:Socket_Strip_Straight_1x13"/>
-				<Pinpack pinNum="1" padNum="1"/>
-				<Pinpack pinNum="2" padNum="2"/>
-				<Pinpack pinNum="3" padNum="3"/>
-				<Pinpack pinNum="4" padNum="4"/>
-				<Pinpack pinNum="5" padNum="5"/>
-				<Pinpack pinNum="6" padNum="6"/>
-				<Pinpack pinNum="7" padNum="7"/>
-				<Pinpack pinNum="8" padNum="8"/>
-				<Pinpack pinNum="9" padNum="9"/>
-				<Pinpack pinNum="10" padNum="10"/>
-				<Pinpack pinNum="11" padNum="11"/>
-				<Pinpack pinNum="12" padNum="12"/>
-				<Pinpack pinNum="13" padNum="13"/>
-			</Package>
 		</Packages>
 	</LocalLibrary>
 
@@ -1301,7 +1235,7 @@
 			<Contour>
 				<Shape>
 					<Polyline>
-						<Start x="74.295" y="-78.74"/>
+						<Start x="118.745" y="-78.74"/>
 						<SegmentLine>
 							<End x="69.215" y="-78.74"/>
 						</SegmentLine>
@@ -1309,37 +1243,13 @@
 							<End x="69.215" y="-53.34"/>
 						</SegmentLine>
 						<SegmentLine>
-							<End x="74.295" y="-53.34"/>
+							<End x="118.745" y="-53.34"/>
 						</SegmentLine>
 						<SegmentLine>
-							<End x="140.335" y="-53.34"/>
+							<End x="118.745" y="-78.74"/>
 						</SegmentLine>
 						<SegmentLine>
-							<End x="175.895" y="-53.34"/>
-						</SegmentLine>
-						<SegmentLine>
-							<End x="175.895" y="-55.88"/>
-						</SegmentLine>
-						<SegmentLine>
-							<End x="175.895" y="-60.96"/>
-						</SegmentLine>
-						<SegmentLine>
-							<End x="175.895" y="-71.12"/>
-						</SegmentLine>
-						<SegmentLine>
-							<End x="175.895" y="-76.2"/>
-						</SegmentLine>
-						<SegmentLine>
-							<End x="175.895" y="-78.74"/>
-						</SegmentLine>
-						<SegmentLine>
-							<End x="140.335" y="-78.74"/>
-						</SegmentLine>
-						<SegmentLine>
-							<End x="74.295" y="-78.74"/>
-						</SegmentLine>
-						<SegmentLine>
-							<End x="74.295" y="-78.74"/>
+							<End x="118.745" y="-78.74"/>
 						</SegmentLine>
 					</Polyline>
 				</Shape>
@@ -1349,117 +1259,111 @@
 
 	<ComponentsOnBoard version="1.3">
 		<Components>
-			<CompInstance name="P3" uniqueId="TXNNXLOA" side="Bottom">
+			<CompInstance name="U2" uniqueId="QMNMKFBP" side="Top">
+				<ComponentRef name="U2"/>
+				<FootprintRef name="hiletgo_esp-wroom-32_development_board:hiletgo_esp-wroom-32_development_board"/>
+				<Org x="94" y="-66"/>
+			</CompInstance>
+			<CompInstance name="P3" uniqueId="LCKKCAHC" side="Bottom">
 				<ComponentRef name="P3"/>
 				<FootprintRef name="Socket_Strips:Socket_Strip_Straight_1x13"/>
 				<Org x="102.235" y="-64.77"/>
 			</CompInstance>
-			<CompInstance name="P4" uniqueId="MMEYGVAB" side="Bottom">
+			<CompInstance name="P4" uniqueId="YEOOKVHJ" side="Bottom">
 				<ComponentRef name="P4"/>
 				<FootprintRef name="Socket_Strips:Socket_Strip_Straight_1x09"/>
 				<Org x="97.155" y="-67.31"/>
 			</CompInstance>
-			<CompInstance name="U2" uniqueId="IEPXMPEX" side="Top" angle="180">
-				<ComponentRef name="U2"/>
-				<FootprintRef name="hiletgo_esp-wroom-32_development_board:hiletgo_esp-wroom-32_development_board"/>
-				<Org x="151" y="-66"/>
-			</CompInstance>
-			<CompInstance name="R1" uniqueId="VRIQSMMC" side="Top" angle="90">
+			<CompInstance name="R1" uniqueId="EDKGDJJU" side="Top" angle="90">
 				<ComponentRef name="R1"/>
 				<FootprintRef name="Resistors_SMD:R_0805_HandSoldering"/>
 				<Org x="97.155" y="-72.39"/>
 			</CompInstance>
-			<CompInstance name="R2" uniqueId="FKRTQIFK" side="Top" angle="90">
+			<CompInstance name="R2" uniqueId="JGUTWTVH" side="Top" angle="90">
 				<ComponentRef name="R2"/>
 				<FootprintRef name="Resistors_SMD:R_0805_HandSoldering"/>
 				<Org x="94.615" y="-72.39"/>
 			</CompInstance>
-			<CompInstance name="R3" uniqueId="EYQBSRLL" side="Top" angle="90">
+			<CompInstance name="R3" uniqueId="ZPJFXXPY" side="Top" angle="90">
 				<ComponentRef name="R3"/>
 				<FootprintRef name="Resistors_SMD:R_0805_HandSoldering"/>
 				<Org x="92.075" y="-72.39"/>
 			</CompInstance>
-			<CompInstance name="R4" uniqueId="YGJVXPUC" side="Top" angle="90">
+			<CompInstance name="R4" uniqueId="EROJGWOR" side="Top" angle="90">
 				<ComponentRef name="R4"/>
 				<FootprintRef name="Resistors_SMD:R_0805_HandSoldering"/>
 				<Org x="89.535" y="-72.39"/>
 			</CompInstance>
-			<CompInstance name="R5" uniqueId="TOGNTNGE" side="Top" angle="90">
+			<CompInstance name="R5" uniqueId="TRKYGDYC" side="Top" angle="90">
 				<ComponentRef name="R5"/>
 				<FootprintRef name="Resistors_SMD:R_0805_HandSoldering"/>
 				<Org x="86.995" y="-72.39"/>
 			</CompInstance>
-			<CompInstance name="R6" uniqueId="QERMOKVB" side="Top" angle="90">
+			<CompInstance name="R6" uniqueId="CPXLBAFS" side="Top" angle="90">
 				<ComponentRef name="R6"/>
 				<FootprintRef name="Resistors_SMD:R_0805_HandSoldering"/>
 				<Org x="84.455" y="-72.39"/>
 			</CompInstance>
-			<CompInstance name="R7" uniqueId="IMUWTLHH" side="Top" angle="90">
+			<CompInstance name="R7" uniqueId="TZNGRPBW" side="Top" angle="90">
 				<ComponentRef name="R7"/>
 				<FootprintRef name="Resistors_SMD:R_0805_HandSoldering"/>
 				<Org x="81.915" y="-72.39"/>
 			</CompInstance>
-			<CompInstance name="R8" uniqueId="CBPYBJBG" side="Top" angle="90">
+			<CompInstance name="R8" uniqueId="ZOWAVCHA" side="Top" angle="90">
 				<ComponentRef name="R8"/>
 				<FootprintRef name="Resistors_SMD:R_0805_HandSoldering"/>
 				<Org x="79.375" y="-72.39"/>
 			</CompInstance>
-			<CompInstance name="R9" uniqueId="RRYOPBTH" side="Top" angle="90">
+			<CompInstance name="R9" uniqueId="YHQCVAQK" side="Top" angle="90">
 				<ComponentRef name="R9"/>
 				<FootprintRef name="Resistors_SMD:R_0805_HandSoldering"/>
 				<Org x="76.835" y="-72.39"/>
 			</CompInstance>
-			<CompInstance name="R10" uniqueId="TIKUFRVT" side="Top" angle="270">
+			<CompInstance name="R10" uniqueId="OPYOYBHR" side="Top" angle="270">
 				<ComponentRef name="R10"/>
 				<FootprintRef name="Resistors_SMD:R_0805_HandSoldering"/>
 				<Org x="97.155" y="-59.69"/>
 			</CompInstance>
-			<CompInstance name="R11" uniqueId="RGEYIZRY" side="Top" angle="270">
+			<CompInstance name="R11" uniqueId="EVGORZEA" side="Top" angle="270">
 				<ComponentRef name="R11"/>
 				<FootprintRef name="Resistors_SMD:R_0805_HandSoldering"/>
 				<Org x="94.615" y="-59.69"/>
 			</CompInstance>
-			<CompInstance name="R12" uniqueId="DQSSDWDR" side="Top" angle="270">
+			<CompInstance name="R12" uniqueId="JKCGKOBP" side="Top" angle="270">
 				<ComponentRef name="R12"/>
 				<FootprintRef name="Resistors_SMD:R_0805_HandSoldering"/>
 				<Org x="92.075" y="-59.69"/>
 			</CompInstance>
-			<CompInstance name="R13" uniqueId="YQHVNPVQ" side="Top" angle="270">
+			<CompInstance name="R13" uniqueId="EYYJRERK" side="Top" angle="270">
 				<ComponentRef name="R13"/>
 				<FootprintRef name="Resistors_SMD:R_0805_HandSoldering"/>
 				<Org x="89.535" y="-59.69"/>
 			</CompInstance>
-			<CompInstance name="R14" uniqueId="ZKUGYWKE" side="Top" angle="270">
+			<CompInstance name="R14" uniqueId="WUYKVJNS" side="Top" angle="270">
 				<ComponentRef name="R14"/>
 				<FootprintRef name="Resistors_SMD:R_0805_HandSoldering"/>
 				<Org x="81.915" y="-59.69"/>
 			</CompInstance>
-			<CompInstance name="R15" uniqueId="FNURRKVT" side="Top" angle="270">
+			<CompInstance name="R15" uniqueId="VZUCNWIT" side="Top" angle="270">
 				<ComponentRef name="R15"/>
 				<FootprintRef name="Resistors_SMD:R_0805_HandSoldering"/>
 				<Org x="79.375" y="-59.69"/>
 			</CompInstance>
-			<CompInstance name="R16" uniqueId="ZNYGGQJH" side="Top" angle="270">
+			<CompInstance name="R16" uniqueId="XTXECYKZ" side="Top" angle="270">
 				<ComponentRef name="R16"/>
 				<FootprintRef name="Resistors_SMD:R_0805_HandSoldering"/>
 				<Org x="76.835" y="-59.69"/>
 			</CompInstance>
-			<CompInstance name="U1" uniqueId="VJFHOJKZ" side="Bottom">
+			<CompInstance name="U1" uniqueId="ZYZJQUDT" side="Bottom">
 				<ComponentRef name="U1"/>
 				<FootprintRef name="Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm"/>
-				<Org x="114.554" y="-66.421"/>
-			</CompInstance>
-			<CompInstance name="REF**" uniqueId="RTPRCWHD" side="Top" angle="90">
-				<ComponentRef name="REF**"/>
-				<FootprintRef name="misc:Strip_1x04"/>
-				<Org x="168.275" y="-68.58"/>
+				<Org x="110.287" y="-62.9666"/>
 			</CompInstance>
 		</Components>
 	</ComponentsOnBoard>
 
 	<NetList version="2.0">
 		<Net name="GND">
-			<PinRef compName="U2" pinName="32"/>
 			<PinRef compName="U2" pinName="14"/>
 			<PinRef compName="U1" pinName="8"/>
 		</Net>
@@ -1468,15 +1372,15 @@
 		</Net>
 		<Net name="DC_1">
 			<PinRef compName="P3" pinName="1"/>
-			<PinRef compName="U1" pinName="16"/>
+			<PinRef compName="U1" pinName="11"/>
 		</Net>
 		<Net name="DC_2">
 			<PinRef compName="P3" pinName="2"/>
-			<PinRef compName="U1" pinName="15"/>
+			<PinRef compName="U1" pinName="12"/>
 		</Net>
 		<Net name="DC_3">
 			<PinRef compName="P3" pinName="7"/>
-			<PinRef compName="U1" pinName="14"/>
+			<PinRef compName="U1" pinName="13"/>
 		</Net>
 		<Net name="H_F1">
 			<PinRef compName="P3" pinName="3"/>
@@ -1496,7 +1400,7 @@
 		</Net>
 		<Net name="DC_4">
 			<PinRef compName="P3" pinName="8"/>
-			<PinRef compName="U1" pinName="13"/>
+			<PinRef compName="U1" pinName="14"/>
 		</Net>
 		<Net name="H_F2">
 			<PinRef compName="P3" pinName="9"/>
@@ -1512,11 +1416,11 @@
 		</Net>
 		<Net name="DC_5">
 			<PinRef compName="P3" pinName="12"/>
-			<PinRef compName="U1" pinName="12"/>
+			<PinRef compName="U1" pinName="15"/>
 		</Net>
 		<Net name="DC_6">
 			<PinRef compName="P3" pinName="13"/>
-			<PinRef compName="U1" pinName="11"/>
+			<PinRef compName="U1" pinName="16"/>
 		</Net>
 		<Net name="H_E1">
 			<PinRef compName="P4" pinName="1"/>
@@ -1561,27 +1465,27 @@
 			<PinRef compName="U1" pinName="10"/>
 		</Net>
 		<Net name="Net-(R1-Pad1)">
-			<PinRef compName="U2" pinName="30"/>
+			<PinRef compName="U2" pinName="13"/>
 			<PinRef compName="R1" pinName="1"/>
 		</Net>
 		<Net name="Net-(R2-Pad1)">
-			<PinRef compName="U2" pinName="31"/>
+			<PinRef compName="U2" pinName="12"/>
 			<PinRef compName="R2" pinName="1"/>
 		</Net>
 		<Net name="Net-(R3-Pad1)">
-			<PinRef compName="U2" pinName="33"/>
+			<PinRef compName="U2" pinName="11"/>
 			<PinRef compName="R3" pinName="1"/>
 		</Net>
 		<Net name="Net-(R4-Pad1)">
-			<PinRef compName="U2" pinName="27"/>
+			<PinRef compName="U2" pinName="10"/>
 			<PinRef compName="R4" pinName="1"/>
 		</Net>
 		<Net name="Net-(R5-Pad1)">
-			<PinRef compName="U2" pinName="5"/>
+			<PinRef compName="U2" pinName="9"/>
 			<PinRef compName="R5" pinName="1"/>
 		</Net>
 		<Net name="Net-(R6-Pad1)">
-			<PinRef compName="U2" pinName="23"/>
+			<PinRef compName="U2" pinName="8"/>
 			<PinRef compName="R6" pinName="1"/>
 		</Net>
 		<Net name="Net-(R7-Pad1)">
@@ -1589,64 +1493,40 @@
 			<PinRef compName="R7" pinName="1"/>
 		</Net>
 		<Net name="Net-(R8-Pad1)">
-			<PinRef compName="U2" pinName="24"/>
+			<PinRef compName="U2" pinName="6"/>
 			<PinRef compName="R8" pinName="1"/>
 		</Net>
 		<Net name="Net-(R9-Pad1)">
-			<PinRef compName="U2" pinName="8"/>
+			<PinRef compName="U2" pinName="5"/>
 			<PinRef compName="R9" pinName="1"/>
 		</Net>
 		<Net name="Net-(R10-Pad1)">
-			<PinRef compName="U2" pinName="29"/>
+			<PinRef compName="U2" pinName="28"/>
 			<PinRef compName="R10" pinName="1"/>
 		</Net>
 		<Net name="Net-(R11-Pad1)">
-			<PinRef compName="U2" pinName="28"/>
+			<PinRef compName="U2" pinName="29"/>
 			<PinRef compName="R11" pinName="1"/>
 		</Net>
 		<Net name="Net-(R12-Pad1)">
-			<PinRef compName="U2" pinName="38"/>
+			<PinRef compName="U2" pinName="30"/>
 			<PinRef compName="R12" pinName="1"/>
 		</Net>
 		<Net name="Net-(R13-Pad1)">
-			<PinRef compName="U2" pinName="36"/>
+			<PinRef compName="U2" pinName="31"/>
 			<PinRef compName="R13" pinName="1"/>
 		</Net>
 		<Net name="Net-(R14-Pad1)">
-			<PinRef compName="U2" pinName="6"/>
+			<PinRef compName="U2" pinName="33"/>
 			<PinRef compName="R14" pinName="1"/>
 		</Net>
 		<Net name="Net-(R15-Pad1)">
-			<PinRef compName="U2" pinName="26"/>
+			<PinRef compName="U2" pinName="36"/>
 			<PinRef compName="R15" pinName="1"/>
 		</Net>
 		<Net name="Net-(R16-Pad1)">
-			<PinRef compName="U2" pinName="25"/>
+			<PinRef compName="U2" pinName="37"/>
 			<PinRef compName="R16" pinName="1"/>
-		</Net>
-		<Net name="Net-(U1-Pad1)">
-			<PinRef compName="U2" pinName="15"/>
-			<PinRef compName="U1" pinName="1"/>
-		</Net>
-		<Net name="Net-(U1-Pad2)">
-			<PinRef compName="U2" pinName="13"/>
-			<PinRef compName="U1" pinName="2"/>
-		</Net>
-		<Net name="Net-(U1-Pad3)">
-			<PinRef compName="U2" pinName="12"/>
-			<PinRef compName="U1" pinName="3"/>
-		</Net>
-		<Net name="Net-(U1-Pad4)">
-			<PinRef compName="U2" pinName="11"/>
-			<PinRef compName="U1" pinName="4"/>
-		</Net>
-		<Net name="Net-(U1-Pad5)">
-			<PinRef compName="U2" pinName="10"/>
-			<PinRef compName="U1" pinName="5"/>
-		</Net>
-		<Net name="Net-(U1-Pad6)">
-			<PinRef compName="U2" pinName="9"/>
-			<PinRef compName="U1" pinName="6"/>
 		</Net>
 		<Net name="Net-(U1-Pad7)">
 			<PinRef compName="U1" pinName="7"/>
@@ -1687,14 +1567,46 @@
 		<Net name="Net-(U2-Pad19)">
 			<PinRef compName="U2" pinName="19"/>
 		</Net>
+		<Net name="DCD_6">
+			<PinRef compName="U2" pinName="27"/>
+			<PinRef compName="U1" pinName="1"/>
+		</Net>
+		<Net name="DCD_5">
+			<PinRef compName="U2" pinName="26"/>
+			<PinRef compName="U1" pinName="2"/>
+		</Net>
+		<Net name="DCD_4">
+			<PinRef compName="U2" pinName="25"/>
+			<PinRef compName="U1" pinName="3"/>
+		</Net>
+		<Net name="DCD_1">
+			<PinRef compName="U2" pinName="15"/>
+			<PinRef compName="U1" pinName="6"/>
+		</Net>
+		<Net name="DCD_2">
+			<PinRef compName="U2" pinName="23"/>
+			<PinRef compName="U1" pinName="5"/>
+		</Net>
+		<Net name="DCD_3">
+			<PinRef compName="U2" pinName="24"/>
+			<PinRef compName="U1" pinName="4"/>
+		</Net>
+		<Net name="Net-(U2-Pad32)">
+			<PinRef compName="U2" pinName="32"/>
+		</Net>
+		<Net name="Net-(U2-Pad38)">
+			<PinRef compName="U2" pinName="38"/>
+		</Net>
 	</NetList>
 
 	<Groups version="1.1">
 		<NetGroups>
 			<NetGroup name="kicad_default">
 				<NetRef name="Net-(U2-Pad4)"/>
+				<NetRef name="Net-(U2-Pad38)"/>
 				<NetRef name="Net-(U2-Pad35)"/>
 				<NetRef name="Net-(U2-Pad34)"/>
+				<NetRef name="Net-(U2-Pad32)"/>
 				<NetRef name="Net-(U2-Pad3)"/>
 				<NetRef name="Net-(U2-Pad22)"/>
 				<NetRef name="Net-(U2-Pad21)"/>
@@ -1706,13 +1618,7 @@
 				<NetRef name="Net-(U2-Pad16)"/>
 				<NetRef name="Net-(U1-Pad9)"/>
 				<NetRef name="Net-(U1-Pad7)"/>
-				<NetRef name="Net-(U1-Pad6)"/>
-				<NetRef name="Net-(U1-Pad5)"/>
-				<NetRef name="Net-(U1-Pad4)"/>
-				<NetRef name="Net-(U1-Pad3)"/>
-				<NetRef name="Net-(U1-Pad2)"/>
 				<NetRef name="Net-(U1-Pad10)"/>
-				<NetRef name="Net-(U1-Pad1)"/>
 				<NetRef name="Net-(R9-Pad1)"/>
 				<NetRef name="Net-(R8-Pad1)"/>
 				<NetRef name="Net-(R7-Pad1)"/>
@@ -1745,6 +1651,12 @@
 				<NetRef name="H_B1"/>
 				<NetRef name="H_A2"/>
 				<NetRef name="H_A1"/>
+				<NetRef name="DCD_6"/>
+				<NetRef name="DCD_5"/>
+				<NetRef name="DCD_4"/>
+				<NetRef name="DCD_3"/>
+				<NetRef name="DCD_2"/>
+				<NetRef name="DCD_1"/>
 			</NetGroup>
 			<NetGroup name="LED Power">
 				<NetRef name="VCC"/>
@@ -1982,24 +1894,6 @@
 				<NetRef name="Net-(R16-Pad1)"/>
 			</NetProperty>
 			<NetProperty flexfix="off" route="on">
-				<NetRef name="Net-(U1-Pad1)"/>
-			</NetProperty>
-			<NetProperty flexfix="off" route="on">
-				<NetRef name="Net-(U1-Pad2)"/>
-			</NetProperty>
-			<NetProperty flexfix="off" route="on">
-				<NetRef name="Net-(U1-Pad3)"/>
-			</NetProperty>
-			<NetProperty flexfix="off" route="on">
-				<NetRef name="Net-(U1-Pad4)"/>
-			</NetProperty>
-			<NetProperty flexfix="off" route="on">
-				<NetRef name="Net-(U1-Pad5)"/>
-			</NetProperty>
-			<NetProperty flexfix="off" route="on">
-				<NetRef name="Net-(U1-Pad6)"/>
-			</NetProperty>
-			<NetProperty flexfix="off" route="on">
 				<NetRef name="Net-(U1-Pad7)"/>
 			</NetProperty>
 			<NetProperty flexfix="off" route="on">
@@ -2038,9 +1932,1106 @@
 			<NetProperty flexfix="off" route="on">
 				<NetRef name="Net-(U2-Pad19)"/>
 			</NetProperty>
+			<NetProperty flexfix="off" route="on">
+				<NetRef name="DCD_6"/>
+			</NetProperty>
+			<NetProperty flexfix="off" route="on">
+				<NetRef name="DCD_5"/>
+			</NetProperty>
+			<NetProperty flexfix="off" route="on">
+				<NetRef name="DCD_4"/>
+			</NetProperty>
+			<NetProperty flexfix="off" route="on">
+				<NetRef name="DCD_1"/>
+			</NetProperty>
+			<NetProperty flexfix="off" route="on">
+				<NetRef name="DCD_2"/>
+			</NetProperty>
+			<NetProperty flexfix="off" route="on">
+				<NetRef name="DCD_3"/>
+			</NetProperty>
+			<NetProperty flexfix="off" route="on">
+				<NetRef name="Net-(U2-Pad32)"/>
+			</NetProperty>
+			<NetProperty flexfix="off" route="on">
+				<NetRef name="Net-(U2-Pad38)"/>
+			</NetProperty>
 		</NetProperties>
 		<PadConnectSettings mode="AutoConnect"/>
 	</Rules>
+
+	<Connectivity version="1.3">
+		<Wires>
+			<Wire>
+				<LayerRef name="F.Cu"/>
+				<NetRef name="H_F1"/>
+				<Subwire width="0.1524">
+					<Start x="97.155" y="-61.04"/>
+					<TrackLine>
+						<End x="97.155" y="-61.7138"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="97.155" y="-61.79"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="97.155" y="-64.6176"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="97.155" y="-64.77"/>
+					</TrackLine>
+				</Subwire>
+			</Wire>
+			<Wire>
+				<LayerRef name="F.Cu"/>
+				<NetRef name="H_G1"/>
+				<Subwire width="0.1524">
+					<Start x="94.615" y="-61.04"/>
+					<TrackLine>
+						<End x="94.615" y="-61.7138"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="94.615" y="-61.79"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="94.615" y="-64.6176"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="94.615" y="-64.77"/>
+					</TrackLine>
+				</Subwire>
+			</Wire>
+			<Wire>
+				<LayerRef name="F.Cu"/>
+				<NetRef name="H_A1"/>
+				<Subwire width="0.1524">
+					<Start x="92.075" y="-61.04"/>
+					<TrackLine>
+						<End x="92.075" y="-61.7138"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="92.075" y="-61.79"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="92.075" y="-64.6176"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="92.075" y="-64.77"/>
+					</TrackLine>
+				</Subwire>
+			</Wire>
+			<Wire>
+				<LayerRef name="F.Cu"/>
+				<NetRef name="H_B1"/>
+				<Subwire width="0.1524">
+					<Start x="89.535" y="-61.04"/>
+					<TrackLine>
+						<End x="89.535" y="-61.7138"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="89.535" y="-61.79"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="89.535" y="-64.6176"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="89.535" y="-64.77"/>
+					</TrackLine>
+				</Subwire>
+			</Wire>
+			<Wire>
+				<LayerRef name="F.Cu"/>
+				<NetRef name="H_F2"/>
+				<Subwire width="0.1524">
+					<Start x="81.915" y="-61.04"/>
+					<TrackLine>
+						<End x="81.915" y="-61.7138"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="81.915" y="-61.79"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="81.915" y="-64.6176"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="81.915" y="-64.77"/>
+					</TrackLine>
+				</Subwire>
+			</Wire>
+			<Wire>
+				<LayerRef name="F.Cu"/>
+				<NetRef name="H_A2"/>
+				<Subwire width="0.1524">
+					<Start x="79.375" y="-61.04"/>
+					<TrackLine>
+						<End x="79.375" y="-61.7138"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="79.375" y="-61.79"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="79.375" y="-64.6176"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="79.375" y="-64.77"/>
+					</TrackLine>
+				</Subwire>
+			</Wire>
+			<Wire>
+				<LayerRef name="F.Cu"/>
+				<NetRef name="H_B2"/>
+				<Subwire width="0.1524">
+					<Start x="76.835" y="-61.04"/>
+					<TrackLine>
+						<End x="76.835" y="-61.7138"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="76.835" y="-61.79"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="76.835" y="-64.6176"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="76.835" y="-64.77"/>
+					</TrackLine>
+				</Subwire>
+			</Wire>
+			<Wire>
+				<LayerRef name="F.Cu"/>
+				<NetRef name="H_E1"/>
+				<Subwire width="0.1524">
+					<Start x="97.155" y="-71.04"/>
+					<TrackLine>
+						<End x="97.155" y="-70.3662"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="97.155" y="-70.29"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="97.155" y="-68.326"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="97.155" y="-68.2498"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="97.155" y="-67.31"/>
+					</TrackLine>
+				</Subwire>
+			</Wire>
+			<Wire>
+				<LayerRef name="F.Cu"/>
+				<NetRef name="H_D1"/>
+				<Subwire width="0.1524">
+					<Start x="94.615" y="-71.04"/>
+					<TrackLine>
+						<End x="94.615" y="-70.3662"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="94.615" y="-70.29"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="94.615" y="-67.4624"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="94.615" y="-67.31"/>
+					</TrackLine>
+				</Subwire>
+			</Wire>
+			<Wire>
+				<LayerRef name="F.Cu"/>
+				<NetRef name="H_C1"/>
+				<Subwire width="0.1524">
+					<Start x="92.075" y="-71.04"/>
+					<TrackLine>
+						<End x="92.075" y="-70.3662"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="92.075" y="-70.29"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="92.075" y="-67.4624"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="92.075" y="-67.31"/>
+					</TrackLine>
+				</Subwire>
+			</Wire>
+			<Wire>
+				<LayerRef name="F.Cu"/>
+				<NetRef name="H_DP1"/>
+				<Subwire width="0.1524">
+					<Start x="89.535" y="-71.04"/>
+					<TrackLine>
+						<End x="89.535" y="-70.3662"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="89.535" y="-70.29"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="89.535" y="-67.4624"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="89.535" y="-67.31"/>
+					</TrackLine>
+				</Subwire>
+			</Wire>
+			<Wire>
+				<LayerRef name="F.Cu"/>
+				<NetRef name="H_E2"/>
+				<Subwire width="0.1524">
+					<Start x="86.995" y="-71.04"/>
+					<TrackLine>
+						<End x="86.995" y="-70.3662"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="86.995" y="-70.29"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="86.995" y="-67.4624"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="86.995" y="-67.31"/>
+					</TrackLine>
+				</Subwire>
+			</Wire>
+			<Wire>
+				<LayerRef name="F.Cu"/>
+				<NetRef name="H_D2"/>
+				<Subwire width="0.1524">
+					<Start x="84.455" y="-71.04"/>
+					<TrackLine>
+						<End x="84.455" y="-70.3662"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="84.455" y="-70.29"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="84.455" y="-67.4624"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="84.455" y="-67.31"/>
+					</TrackLine>
+				</Subwire>
+			</Wire>
+			<Wire>
+				<LayerRef name="F.Cu"/>
+				<NetRef name="H_G2"/>
+				<Subwire width="0.1524">
+					<Start x="81.915" y="-71.04"/>
+					<TrackLine>
+						<End x="81.915" y="-70.3662"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="81.915" y="-70.29"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="81.915" y="-67.4624"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="81.915" y="-67.31"/>
+					</TrackLine>
+				</Subwire>
+			</Wire>
+			<Wire>
+				<LayerRef name="F.Cu"/>
+				<NetRef name="H_C2"/>
+				<Subwire width="0.1524">
+					<Start x="79.375" y="-71.04"/>
+					<TrackLine>
+						<End x="79.375" y="-70.3662"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="79.375" y="-70.29"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="79.375" y="-67.4624"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="79.375" y="-67.31"/>
+					</TrackLine>
+				</Subwire>
+			</Wire>
+			<Wire>
+				<LayerRef name="F.Cu"/>
+				<NetRef name="H_DP2"/>
+				<Subwire width="0.1524">
+					<Start x="76.835" y="-71.04"/>
+					<TrackLine>
+						<End x="76.835" y="-70.3662"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="76.835" y="-70.29"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="76.835" y="-67.4624"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="76.835" y="-67.31"/>
+					</TrackLine>
+				</Subwire>
+			</Wire>
+			<Wire>
+				<LayerRef name="F.Cu"/>
+				<NetRef name="Net-(R1-Pad1)"/>
+				<Subwire width="0.1524">
+					<Start x="97.155" y="-73.74"/>
+					<TrackLine>
+						<End x="97.7288" y="-74.4138"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="97.805" y="-74.4138"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="97.8366" y="-74.4138"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="101.62" y="-77.025"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="101.62" y="-77.425"/>
+					</TrackLine>
+				</Subwire>
+			</Wire>
+			<Wire>
+				<LayerRef name="F.Cu"/>
+				<NetRef name="Net-(R2-Pad1)"/>
+				<Subwire width="0.1524">
+					<Start x="94.615" y="-73.74"/>
+					<TrackLine>
+						<End x="95.1888" y="-74.4138"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="95.265" y="-74.4138"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="95.2966" y="-74.4138"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="99.08" y="-77.025"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="99.08" y="-77.425"/>
+					</TrackLine>
+				</Subwire>
+			</Wire>
+			<Wire>
+				<LayerRef name="F.Cu"/>
+				<NetRef name="Net-(R3-Pad1)"/>
+				<Subwire width="0.1524">
+					<Start x="92.075" y="-73.74"/>
+					<TrackLine>
+						<End x="92.6488" y="-74.4138"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="92.725" y="-74.4138"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="92.7566" y="-74.4138"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="96.54" y="-77.025"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="96.54" y="-77.425"/>
+					</TrackLine>
+				</Subwire>
+			</Wire>
+			<Wire>
+				<LayerRef name="F.Cu"/>
+				<NetRef name="Net-(R4-Pad1)"/>
+				<Subwire width="0.1524">
+					<Start x="89.535" y="-73.74"/>
+					<TrackLine>
+						<End x="90.1088" y="-74.4138"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="90.185" y="-74.4138"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="90.2166" y="-74.4138"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="94" y="-77.025"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="94" y="-77.425"/>
+					</TrackLine>
+				</Subwire>
+			</Wire>
+			<Wire>
+				<LayerRef name="F.Cu"/>
+				<NetRef name="Net-(R5-Pad1)"/>
+				<Subwire width="0.1524">
+					<Start x="86.995" y="-73.74"/>
+					<TrackLine>
+						<End x="87.5688" y="-74.4138"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="87.645" y="-74.4138"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="87.6766" y="-74.4138"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="91.46" y="-77.025"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="91.46" y="-77.425"/>
+					</TrackLine>
+				</Subwire>
+			</Wire>
+			<Wire>
+				<LayerRef name="F.Cu"/>
+				<NetRef name="Net-(R6-Pad1)"/>
+				<Subwire width="0.1524">
+					<Start x="84.455" y="-73.74"/>
+					<TrackLine>
+						<End x="85.0288" y="-74.4138"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="85.105" y="-74.4138"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="85.1366" y="-74.4138"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="88.92" y="-77.025"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="88.92" y="-77.425"/>
+					</TrackLine>
+				</Subwire>
+			</Wire>
+			<Wire>
+				<LayerRef name="F.Cu"/>
+				<NetRef name="Net-(R7-Pad1)"/>
+				<Subwire width="0.1524">
+					<Start x="81.915" y="-73.74"/>
+					<TrackLine>
+						<End x="82.4888" y="-74.4138"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="82.565" y="-74.4138"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="82.5966" y="-74.4138"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="86.38" y="-77.025"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="86.38" y="-77.425"/>
+					</TrackLine>
+				</Subwire>
+			</Wire>
+			<Wire>
+				<LayerRef name="F.Cu"/>
+				<NetRef name="Net-(R8-Pad1)"/>
+				<Subwire width="0.1524">
+					<Start x="79.375" y="-73.74"/>
+					<TrackLine>
+						<End x="79.9488" y="-74.4138"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="80.025" y="-74.4138"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="80.0566" y="-74.4138"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="83.84" y="-77.025"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="83.84" y="-77.425"/>
+					</TrackLine>
+				</Subwire>
+			</Wire>
+			<Wire>
+				<LayerRef name="F.Cu"/>
+				<NetRef name="Net-(R9-Pad1)"/>
+				<Subwire width="0.1524">
+					<Start x="76.835" y="-73.74"/>
+					<TrackLine>
+						<End x="77.4088" y="-74.4138"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="77.485" y="-74.4138"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="77.5166" y="-74.4138"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="81.3" y="-77.025"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="81.3" y="-77.425"/>
+					</TrackLine>
+				</Subwire>
+			</Wire>
+			<Wire>
+				<LayerRef name="F.Cu"/>
+				<NetRef name="Net-(R10-Pad1)"/>
+				<Subwire width="0.1524">
+					<Start x="97.155" y="-58.34"/>
+					<TrackLine>
+						<End x="96.5812" y="-57.6662"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="96.5812" y="-57.59"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="96.5812" y="-57.5584"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="96.54" y="-54.975"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="96.54" y="-54.575"/>
+					</TrackLine>
+				</Subwire>
+			</Wire>
+			<Wire>
+				<LayerRef name="F.Cu"/>
+				<NetRef name="Net-(R11-Pad1)"/>
+				<Subwire width="0.1524">
+					<Start x="94.615" y="-58.34"/>
+					<TrackLine>
+						<End x="94.0412" y="-57.6662"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="94.0412" y="-57.59"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="94.0412" y="-57.5584"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="94" y="-54.975"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="94" y="-54.575"/>
+					</TrackLine>
+				</Subwire>
+			</Wire>
+			<Wire>
+				<LayerRef name="F.Cu"/>
+				<NetRef name="Net-(R12-Pad1)"/>
+				<Subwire width="0.1524">
+					<Start x="92.075" y="-58.34"/>
+					<TrackLine>
+						<End x="91.5012" y="-57.6662"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="91.5012" y="-57.59"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="91.5012" y="-57.5584"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="91.46" y="-54.975"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="91.46" y="-54.575"/>
+					</TrackLine>
+				</Subwire>
+			</Wire>
+			<Wire>
+				<LayerRef name="F.Cu"/>
+				<NetRef name="Net-(R13-Pad1)"/>
+				<Subwire width="0.1524">
+					<Start x="89.535" y="-58.34"/>
+					<TrackLine>
+						<End x="88.9612" y="-57.6662"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="88.9612" y="-57.59"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="88.9612" y="-57.5584"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="88.92" y="-54.975"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="88.92" y="-54.575"/>
+					</TrackLine>
+				</Subwire>
+			</Wire>
+			<Wire>
+				<LayerRef name="F.Cu"/>
+				<NetRef name="Net-(R14-Pad1)"/>
+				<Subwire width="0.1524">
+					<Start x="81.915" y="-58.34"/>
+					<TrackLine>
+						<End x="82.4888" y="-57.6662"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="82.4888" y="-57.59"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="82.4888" y="-57.5584"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="83.84" y="-54.975"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="83.84" y="-54.575"/>
+					</TrackLine>
+				</Subwire>
+			</Wire>
+			<Wire>
+				<LayerRef name="F.Cu"/>
+				<NetRef name="Net-(R15-Pad1)"/>
+				<Subwire width="0.1524">
+					<Start x="79.375" y="-58.34"/>
+					<TrackLine>
+						<End x="78.8012" y="-57.6662"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="78.8012" y="-57.59"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="78.8012" y="-57.5584"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="76.22" y="-54.975"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="76.22" y="-54.575"/>
+					</TrackLine>
+				</Subwire>
+			</Wire>
+			<Wire>
+				<LayerRef name="F.Cu"/>
+				<NetRef name="Net-(R16-Pad1)"/>
+				<Subwire width="0.1524">
+					<Start x="76.835" y="-58.34"/>
+					<TrackLine>
+						<End x="76.2612" y="-57.6662"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="76.2612" y="-57.59"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="76.2612" y="-57.5584"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="73.68" y="-54.975"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="73.68" y="-54.575"/>
+					</TrackLine>
+				</Subwire>
+			</Wire>
+			<Wire>
+				<LayerRef name="B.Cu"/>
+				<NetRef name="GND"/>
+				<Subwire width="0.254">
+					<Start x="112.987" y="-67.4116"/>
+					<TrackLine>
+						<End x="112.364" y="-67.5846"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="112.364" y="-67.7116"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="112.364" y="-67.7642"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="104.16" y="-77.025"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="104.16" y="-77.425"/>
+					</TrackLine>
+				</Subwire>
+			</Wire>
+			<Wire>
+				<LayerRef name="B.Cu"/>
+				<NetRef name="DC_1"/>
+				<Subwire width="0.254">
+					<Start x="107.587" y="-64.8716"/>
+					<TrackLine>
+						<End x="106.964" y="-64.8208"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="106.837" y="-64.8208"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="103.0986" y="-64.8208"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="102.9716" y="-64.8208"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="102.235" y="-64.77"/>
+					</TrackLine>
+				</Subwire>
+			</Wire>
+			<Wire>
+				<LayerRef name="B.Cu"/>
+				<NetRef name="DC_2"/>
+				<Subwire width="0.254">
+					<Start x="107.587" y="-63.6016"/>
+					<TrackLine>
+						<End x="106.964" y="-63.4286"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="106.837" y="-63.4286"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="106.7844" y="-63.4286"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="103.2459" y="-63.3983"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="101.5187" y="-63.3983"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="101.2241" y="-63.3983"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="99.695" y="-64.6176"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="99.695" y="-64.77"/>
+					</TrackLine>
+				</Subwire>
+			</Wire>
+			<Wire>
+				<LayerRef name="B.Cu"/>
+				<NetRef name="DC_3"/>
+				<Subwire width="0.254">
+					<Start x="107.587" y="-62.3316"/>
+					<TrackLine>
+						<End x="106.964" y="-62.5046"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="106.837" y="-62.5046"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="106.7844" y="-62.5046"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="89.0299" y="-63.3983"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="86.995" y="-64.6176"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="86.995" y="-64.77"/>
+					</TrackLine>
+				</Subwire>
+			</Wire>
+			<Wire>
+				<LayerRef name="B.Cu"/>
+				<NetRef name="DC_4"/>
+				<Subwire width="0.254">
+					<Start x="107.587" y="-61.0616"/>
+					<TrackLine>
+						<End x="106.964" y="-61.2346"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="106.837" y="-61.2346"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="106.7844" y="-61.2346"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="88.9252" y="-62.9156"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="86.4899" y="-63.3983"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="84.455" y="-64.6176"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="84.455" y="-64.77"/>
+					</TrackLine>
+				</Subwire>
+			</Wire>
+			<Wire>
+				<LayerRef name="B.Cu"/>
+				<NetRef name="DC_5"/>
+				<Subwire width="0.254">
+					<Start x="107.587" y="-59.7916"/>
+					<TrackLine>
+						<End x="106.964" y="-59.9646"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="106.837" y="-59.9646"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="106.7844" y="-59.9646"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="76.3299" y="-63.3983"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="74.295" y="-64.6176"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="74.295" y="-64.77"/>
+					</TrackLine>
+				</Subwire>
+			</Wire>
+			<Wire>
+				<LayerRef name="B.Cu"/>
+				<NetRef name="DC_6"/>
+				<Subwire width="0.254">
+					<Start x="107.587" y="-58.5216"/>
+					<TrackLine>
+						<End x="106.964" y="-58.6946"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="106.837" y="-58.6946"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="106.7844" y="-58.6946"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="76.2252" y="-62.9156"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="73.7899" y="-63.3983"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="71.755" y="-64.6176"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="71.755" y="-64.77"/>
+					</TrackLine>
+				</Subwire>
+			</Wire>
+			<Wire>
+				<LayerRef name="B.Cu"/>
+				<NetRef name="DCD_6"/>
+				<Subwire width="0.1524">
+					<Start x="112.987" y="-58.5216"/>
+					<TrackLine>
+						<End x="112.3132" y="-58.2978"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="112.237" y="-58.2978"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="112.2054" y="-58.2978"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="101.2452" y="-55.8799"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="99.08" y="-54.975"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="99.08" y="-54.575"/>
+					</TrackLine>
+				</Subwire>
+			</Wire>
+			<Wire>
+				<LayerRef name="B.Cu"/>
+				<NetRef name="DCD_5"/>
+				<Subwire width="0.1524">
+					<Start x="112.987" y="-59.7916"/>
+					<TrackLine>
+						<End x="113.6608" y="-59.5678"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="113.6608" y="-59.4916"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="113.6608" y="-59.46"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="114.0419" y="-58.9479"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="114.0419" y="-58.6953"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="114.0419" y="-58.0953"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="113.8633" y="-57.9167"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="103.7852" y="-55.8799"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="101.62" y="-54.975"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="101.62" y="-54.575"/>
+					</TrackLine>
+				</Subwire>
+			</Wire>
+			<Wire>
+				<LayerRef name="B.Cu"/>
+				<NetRef name="DCD_4"/>
+				<Subwire width="0.1524">
+					<Start x="112.987" y="-61.0616"/>
+					<TrackLine>
+						<End x="113.6608" y="-60.8378"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="113.6608" y="-60.7616"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="113.6608" y="-60.73"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="114.0419" y="-60.2179"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="114.423" y="-59.1058"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="114.423" y="-58.5374"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="114.423" y="-57.9374"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="114.0212" y="-57.5356"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="106.3252" y="-55.8799"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="104.16" y="-54.975"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="104.16" y="-54.575"/>
+					</TrackLine>
+				</Subwire>
+			</Wire>
+			<Wire>
+				<LayerRef name="B.Cu"/>
+				<NetRef name="DCD_1"/>
+				<Subwire width="0.1524">
+					<Start x="112.987" y="-64.8716"/>
+					<TrackLine>
+						<End x="113.6608" y="-65.0954"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="113.6608" y="-65.1716"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="113.6608" y="-65.2032"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="114.0419" y="-65.7153"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="114.0419" y="-67.5853"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="114.0419" y="-67.8379"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="106.7" y="-77.025"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="106.7" y="-77.425"/>
+					</TrackLine>
+				</Subwire>
+			</Wire>
+			<Wire>
+				<LayerRef name="B.Cu"/>
+				<NetRef name="DCD_2"/>
+				<Subwire width="0.1524">
+					<Start x="112.987" y="-63.6016"/>
+					<TrackLine>
+						<End x="113.6608" y="-63.3778"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="113.6608" y="-63.3016"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="113.6608" y="-63.27"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="114.0419" y="-62.7579"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="114.423" y="-61.6458"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="114.8041" y="-60.5336"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="115.1852" y="-59.3809"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="115.1852" y="-58.2623"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="115.1852" y="-57.6623"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="115.1565" y="-57.5931"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="114.3655" y="-56.8021"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="114.2963" y="-56.7734"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="111.4052" y="-55.8799"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="109.24" y="-54.975"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="109.24" y="-54.575"/>
+					</TrackLine>
+				</Subwire>
+			</Wire>
+			<Wire>
+				<LayerRef name="B.Cu"/>
+				<NetRef name="DCD_3"/>
+				<Subwire width="0.1524">
+					<Start x="112.987" y="-62.3316"/>
+					<TrackLine>
+						<End x="113.6608" y="-62.1078"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="113.6608" y="-62.0316"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="113.6608" y="-62"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="114.0419" y="-61.4879"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="114.423" y="-60.3758"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="114.8041" y="-59.2636"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="114.8041" y="-58.3796"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="114.8041" y="-57.7796"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="114.179" y="-57.1545"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="108.8652" y="-55.8799"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="106.7" y="-54.975"/>
+					</TrackLine>
+					<TrackLine>
+						<End x="106.7" y="-54.575"/>
+					</TrackLine>
+				</Subwire>
+			</Wire>
+		</Wires>
+	</Connectivity>
 
 	<Settings version="1.3">
 		<Autoroute/>
@@ -2055,7 +3046,7 @@
 	</Settings>
 
 	<DisplayControl version="1.3">
-		<View scale="12.8855" scrollHorz="122.555" scrollVert="-66.04"/>
+		<View scale="61.7577" scrollHorz="105.4435" scrollVert="-60.0451"/>
 		<ActiveLayer name="F.Cu"/>
 		<Units preference="Metric"/>
 		<Colors hilightRate="42" darkRate="0"
