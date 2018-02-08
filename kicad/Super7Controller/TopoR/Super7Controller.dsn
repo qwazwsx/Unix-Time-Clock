@@ -405,10 +405,10 @@
       (pins U2-19)
     )
     (net DCD_6
-      (pins U2-27 U1-1)
+      (pins U2-23 U1-1)
     )
     (net DCD_5
-      (pins U2-26 U1-2)
+      (pins U2-24 U1-2)
     )
     (net DCD_4
       (pins U2-25 U1-3)
@@ -417,10 +417,10 @@
       (pins U2-15 U1-6)
     )
     (net DCD_2
-      (pins U2-23 U1-5)
+      (pins U2-27 U1-5)
     )
     (net DCD_3
-      (pins U2-24 U1-4)
+      (pins U2-26 U1-4)
     )
     (net "Net-(U2-Pad32)"
       (pins U2-32)

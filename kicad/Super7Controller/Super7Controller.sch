@@ -491,13 +491,13 @@ Wire Wire Line
 	6850 4250 6550 4250
 Wire Wire Line
 	6850 4450 6550 4450
-Text GLabel 8000 2750 2    60   Input ~ 0
-DCD_6
-Text GLabel 8000 2850 2    60   Input ~ 0
-DCD_5
-Text GLabel 8000 3050 2    60   Input ~ 0
-DCD_3
 Text GLabel 8000 3150 2    60   Input ~ 0
+DCD_6
+Text GLabel 8000 3050 2    60   Input ~ 0
+DCD_5
+Text GLabel 8000 2850 2    60   Input ~ 0
+DCD_3
+Text GLabel 8000 2750 2    60   Input ~ 0
 DCD_2
 Text GLabel 6500 3050 0    60   Input ~ 0
 DCD_1
@@ -546,13 +546,13 @@ Wire Wire Line
 Wire Wire Line
 	6800 3050 6500 3050
 Wire Wire Line
-	8000 2750 7800 2750
+	7800 2750 8000 2750
 Wire Wire Line
-	7800 2850 8000 2850
+	8000 2850 7800 2850
 Wire Wire Line
-	8000 2950 7800 2950
+	7800 2950 8000 2950
 Wire Wire Line
-	7800 3050 8000 3050
+	8000 3050 7800 3050
 Wire Wire Line
-	8000 3150 7800 3150
+	7800 3150 8000 3150
 $EndSCHEMATC
