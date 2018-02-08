@@ -335,10 +335,10 @@
     )
   )
 
-  (module hiletgo_esp-wroom-32_development_board:hiletgo_esp-wroom-32_development_board (layer F.Cu) (tedit 5A7B7E1D) (tstamp 5A7C4F9D)
+  (module hiletgo_esp-wroom-32_development_board:hiletgo_esp-wroom-32_development_board (layer F.Cu) (tedit 5A7C51C4) (tstamp 5A7C4F9D)
     (at 151 66 180)
     (path /5A71DF56)
-    (fp_text reference U2 (at -25.93 0 270) (layer F.SilkS)
+    (fp_text reference U2 (at -23.117 0.087 270) (layer F.SilkS)
       (effects (font (size 1.2 1.2) (thickness 0.15)))
     )
     (fp_text value HiLetgo_ESP-WROOM-32_Development_Board (at 0 0 180) (layer F.Fab)
