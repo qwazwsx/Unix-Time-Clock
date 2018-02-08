@@ -909,12 +909,12 @@
 			</Component>
 			<Component name="U1">
 				<Pins>
-					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="0" gate="-1" gateEqual="0"/>
-					<Pin pinNum="2" name="2" pinSymName="2" pinEqual="0" gate="-1" gateEqual="0"/>
-					<Pin pinNum="3" name="3" pinSymName="3" pinEqual="0" gate="-1" gateEqual="0"/>
-					<Pin pinNum="4" name="4" pinSymName="4" pinEqual="0" gate="-1" gateEqual="0"/>
-					<Pin pinNum="5" name="5" pinSymName="5" pinEqual="0" gate="-1" gateEqual="0"/>
-					<Pin pinNum="6" name="6" pinSymName="6" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="1" name="1" pinSymName="1" pinEqual="3" gate="-1" gateEqual="0"/>
+					<Pin pinNum="2" name="2" pinSymName="2" pinEqual="3" gate="-1" gateEqual="0"/>
+					<Pin pinNum="3" name="3" pinSymName="3" pinEqual="3" gate="-1" gateEqual="0"/>
+					<Pin pinNum="4" name="4" pinSymName="4" pinEqual="3" gate="-1" gateEqual="0"/>
+					<Pin pinNum="5" name="5" pinSymName="5" pinEqual="3" gate="-1" gateEqual="0"/>
+					<Pin pinNum="6" name="6" pinSymName="6" pinEqual="3" gate="-1" gateEqual="0"/>
 					<Pin pinNum="7" name="7" pinSymName="7" pinEqual="0" gate="-1" gateEqual="0"/>
 					<Pin pinNum="8" name="8" pinSymName="8" pinEqual="0" gate="-1" gateEqual="0"/>
 					<Pin pinNum="9" name="9" pinSymName="9" pinEqual="0" gate="-1" gateEqual="0"/>
