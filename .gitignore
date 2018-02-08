@@ -1,6 +1,7 @@
 # kicad
 *.bak
 *.bck
+*.kicad_pcb-bak
 
 # python
 *.pyc
