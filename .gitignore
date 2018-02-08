@@ -4,6 +4,7 @@
 *.kicad_pcb-bak
 *.lock.lock
 *-cache.lib
+*_saved_*.sch
 
 # python
 *.pyc
