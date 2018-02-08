@@ -3,7 +3,7 @@
   (general
     (links 45)
     (no_connects 0)
-    (area 59.789287 46.83 118.820001 78.815001)
+    (area 69.139999 53.264999 118.820001 78.815001)
     (thickness 1.6)
     (drawings 8)
     (tracks 227)
@@ -241,11 +241,11 @@
     (at 102.235 64.77 180)
     (descr "Through hole socket strip")
     (tags "socket strip")
-    (path /5867A2A3)
+    (path /5A7CB928)
     (fp_text reference P3 (at -2.54 0 180) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value CONN_01X13 (at 0 3.1 180) (layer B.Fab) hide
+    (fp_text value Conn_01x13 (at 0 3.1 180) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -1.75 1.75) (end -1.75 -1.75) (layer B.CrtYd) (width 0.05))
@@ -296,11 +296,11 @@
     (at 97.155 67.31 180)
     (descr "Through hole socket strip")
     (tags "socket strip")
-    (path /5867A59F)
+    (path /5A7CBA4E)
     (fp_text reference P4 (at -2.54 0 180) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value CONN_01X09 (at 0 3.1 180) (layer B.Fab) hide
+    (fp_text value Conn_01x09 (at 0 3.1 180) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -1.75 1.75) (end -1.75 -1.75) (layer B.CrtYd) (width 0.05))
