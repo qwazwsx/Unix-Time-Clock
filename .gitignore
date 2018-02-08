@@ -3,6 +3,7 @@
 *.bck
 *.kicad_pcb-bak
 *.lock.lock
+*-cache.lib
 
 # python
 *.pyc
