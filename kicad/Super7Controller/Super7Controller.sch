@@ -436,10 +436,10 @@ F 3 "" H 7350 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR09
+L GND #PWR07
 U 1 1 5A722BDF
 P 7250 5100
-F 0 "#PWR09" H 7250 4850 50  0001 C CNN
+F 0 "#PWR07" H 7250 4850 50  0001 C CNN
 F 1 "GND" H 7250 4950 50  0000 C CNN
 F 2 "" H 7250 5100 50  0000 C CNN
 F 3 "" H 7250 5100 50  0000 C CNN
@@ -540,17 +540,17 @@ DCD_5
 Wire Wire Line
 	7800 3050 8100 3050
 Text GLabel 6500 3050 0    60   Input ~ 0
-DCD_4
+DCD_3
 Wire Wire Line
 	6800 3050 6500 3050
 Text GLabel 6500 2650 0    60   Input ~ 0
-DCD_1
+DCD_2
 Wire Wire Line
 	6500 2650 6800 2650
 Text GLabel 6500 2550 0    60   Input ~ 0
-DCD_2
+DCD_1
 Text GLabel 6500 2450 0    60   Input ~ 0
-DCD_3
+DCD_4
 Wire Wire Line
 	6500 2450 6800 2450
 Wire Wire Line
