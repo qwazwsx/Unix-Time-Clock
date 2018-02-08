@@ -6,7 +6,7 @@
 <!--   Version : 1.2.0                      -->
 <!--   Program : TopoR Lite 6.3.18019       -->
 <!--   Date    : Thursday, February 8, 2018 -->
-<!--   Time    : 08:58                      -->
+<!--   Time    : 10:29                      -->
 <!--****************************************-->
 
 <TopoR_PCB_File>
@@ -14,7 +14,7 @@
 		<Format>TopoR PCB file</Format>
 		<Version>1.2.0</Version>
 		<Program>TopoR Lite 6.3.18019</Program>
-		<Date>Thursday, February 8, 2018 08:58</Date>
+		<Date>Thursday, February 8, 2018 10:29</Date>
 		<OriginalFormat>Specctra</OriginalFormat>
 		<OriginalFile>.\Super7Controller.dsn</OriginalFile>
 		<Units dist="mm" time="ps"/>
@@ -1349,107 +1349,107 @@
 
 	<ComponentsOnBoard version="1.3">
 		<Components>
-			<CompInstance name="P3" uniqueId="XUGQLGEN" side="Bottom">
+			<CompInstance name="P3" uniqueId="TXNNXLOA" side="Bottom">
 				<ComponentRef name="P3"/>
 				<FootprintRef name="Socket_Strips:Socket_Strip_Straight_1x13"/>
 				<Org x="102.235" y="-64.77"/>
 			</CompInstance>
-			<CompInstance name="P4" uniqueId="YLXQCJTU" side="Bottom">
+			<CompInstance name="P4" uniqueId="MMEYGVAB" side="Bottom">
 				<ComponentRef name="P4"/>
 				<FootprintRef name="Socket_Strips:Socket_Strip_Straight_1x09"/>
 				<Org x="97.155" y="-67.31"/>
 			</CompInstance>
-			<CompInstance name="U2" uniqueId="LYCWJSUQ" side="Top" angle="180">
+			<CompInstance name="U2" uniqueId="IEPXMPEX" side="Top" angle="180">
 				<ComponentRef name="U2"/>
 				<FootprintRef name="hiletgo_esp-wroom-32_development_board:hiletgo_esp-wroom-32_development_board"/>
 				<Org x="151" y="-66"/>
 			</CompInstance>
-			<CompInstance name="R1" uniqueId="WAFIFDEF" side="Top" angle="90">
+			<CompInstance name="R1" uniqueId="VRIQSMMC" side="Top" angle="90">
 				<ComponentRef name="R1"/>
 				<FootprintRef name="Resistors_SMD:R_0805_HandSoldering"/>
 				<Org x="97.155" y="-72.39"/>
 			</CompInstance>
-			<CompInstance name="R2" uniqueId="KENXCNZI" side="Top" angle="90">
+			<CompInstance name="R2" uniqueId="FKRTQIFK" side="Top" angle="90">
 				<ComponentRef name="R2"/>
 				<FootprintRef name="Resistors_SMD:R_0805_HandSoldering"/>
 				<Org x="94.615" y="-72.39"/>
 			</CompInstance>
-			<CompInstance name="R3" uniqueId="HUHWDFWK" side="Top" angle="90">
+			<CompInstance name="R3" uniqueId="EYQBSRLL" side="Top" angle="90">
 				<ComponentRef name="R3"/>
 				<FootprintRef name="Resistors_SMD:R_0805_HandSoldering"/>
 				<Org x="92.075" y="-72.39"/>
 			</CompInstance>
-			<CompInstance name="R4" uniqueId="QHCMQGMN" side="Top" angle="90">
+			<CompInstance name="R4" uniqueId="YGJVXPUC" side="Top" angle="90">
 				<ComponentRef name="R4"/>
 				<FootprintRef name="Resistors_SMD:R_0805_HandSoldering"/>
 				<Org x="89.535" y="-72.39"/>
 			</CompInstance>
-			<CompInstance name="R5" uniqueId="LGRXNMQY" side="Top" angle="90">
+			<CompInstance name="R5" uniqueId="TOGNTNGE" side="Top" angle="90">
 				<ComponentRef name="R5"/>
 				<FootprintRef name="Resistors_SMD:R_0805_HandSoldering"/>
 				<Org x="86.995" y="-72.39"/>
 			</CompInstance>
-			<CompInstance name="R6" uniqueId="FTSXNSRQ" side="Top" angle="90">
+			<CompInstance name="R6" uniqueId="QERMOKVB" side="Top" angle="90">
 				<ComponentRef name="R6"/>
 				<FootprintRef name="Resistors_SMD:R_0805_HandSoldering"/>
 				<Org x="84.455" y="-72.39"/>
 			</CompInstance>
-			<CompInstance name="R7" uniqueId="NQDHQQPS" side="Top" angle="90">
+			<CompInstance name="R7" uniqueId="IMUWTLHH" side="Top" angle="90">
 				<ComponentRef name="R7"/>
 				<FootprintRef name="Resistors_SMD:R_0805_HandSoldering"/>
 				<Org x="81.915" y="-72.39"/>
 			</CompInstance>
-			<CompInstance name="R8" uniqueId="FKWTEIZG" side="Top" angle="90">
+			<CompInstance name="R8" uniqueId="CBPYBJBG" side="Top" angle="90">
 				<ComponentRef name="R8"/>
 				<FootprintRef name="Resistors_SMD:R_0805_HandSoldering"/>
 				<Org x="79.375" y="-72.39"/>
 			</CompInstance>
-			<CompInstance name="R9" uniqueId="JNAAWANG" side="Top" angle="90">
+			<CompInstance name="R9" uniqueId="RRYOPBTH" side="Top" angle="90">
 				<ComponentRef name="R9"/>
 				<FootprintRef name="Resistors_SMD:R_0805_HandSoldering"/>
 				<Org x="76.835" y="-72.39"/>
 			</CompInstance>
-			<CompInstance name="R10" uniqueId="ZDTFYJVH" side="Top" angle="270">
+			<CompInstance name="R10" uniqueId="TIKUFRVT" side="Top" angle="270">
 				<ComponentRef name="R10"/>
 				<FootprintRef name="Resistors_SMD:R_0805_HandSoldering"/>
 				<Org x="97.155" y="-59.69"/>
 			</CompInstance>
-			<CompInstance name="R11" uniqueId="IWDKPLYR" side="Top" angle="270">
+			<CompInstance name="R11" uniqueId="RGEYIZRY" side="Top" angle="270">
 				<ComponentRef name="R11"/>
 				<FootprintRef name="Resistors_SMD:R_0805_HandSoldering"/>
 				<Org x="94.615" y="-59.69"/>
 			</CompInstance>
-			<CompInstance name="R12" uniqueId="LIVVVJQS" side="Top" angle="270">
+			<CompInstance name="R12" uniqueId="DQSSDWDR" side="Top" angle="270">
 				<ComponentRef name="R12"/>
 				<FootprintRef name="Resistors_SMD:R_0805_HandSoldering"/>
 				<Org x="92.075" y="-59.69"/>
 			</CompInstance>
-			<CompInstance name="R13" uniqueId="YCFCLLAC" side="Top" angle="270">
+			<CompInstance name="R13" uniqueId="YQHVNPVQ" side="Top" angle="270">
 				<ComponentRef name="R13"/>
 				<FootprintRef name="Resistors_SMD:R_0805_HandSoldering"/>
 				<Org x="89.535" y="-59.69"/>
 			</CompInstance>
-			<CompInstance name="R14" uniqueId="IKUSQFAH" side="Top" angle="270">
+			<CompInstance name="R14" uniqueId="ZKUGYWKE" side="Top" angle="270">
 				<ComponentRef name="R14"/>
 				<FootprintRef name="Resistors_SMD:R_0805_HandSoldering"/>
 				<Org x="81.915" y="-59.69"/>
 			</CompInstance>
-			<CompInstance name="R15" uniqueId="CTBONWZB" side="Top" angle="270">
+			<CompInstance name="R15" uniqueId="FNURRKVT" side="Top" angle="270">
 				<ComponentRef name="R15"/>
 				<FootprintRef name="Resistors_SMD:R_0805_HandSoldering"/>
 				<Org x="79.375" y="-59.69"/>
 			</CompInstance>
-			<CompInstance name="R16" uniqueId="BTKQECNU" side="Top" angle="270">
+			<CompInstance name="R16" uniqueId="ZNYGGQJH" side="Top" angle="270">
 				<ComponentRef name="R16"/>
 				<FootprintRef name="Resistors_SMD:R_0805_HandSoldering"/>
 				<Org x="76.835" y="-59.69"/>
 			</CompInstance>
-			<CompInstance name="U1" uniqueId="RFGBUZRI" side="Top" angle="180">
+			<CompInstance name="U1" uniqueId="VJFHOJKZ" side="Bottom">
 				<ComponentRef name="U1"/>
 				<FootprintRef name="Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm"/>
-				<Org x="114.3" y="-59.309"/>
+				<Org x="114.554" y="-66.421"/>
 			</CompInstance>
-			<CompInstance name="REF**" uniqueId="YAEQTTUM" side="Top" angle="90">
+			<CompInstance name="REF**" uniqueId="RTPRCWHD" side="Top" angle="90">
 				<ComponentRef name="REF**"/>
 				<FootprintRef name="misc:Strip_1x04"/>
 				<Org x="168.275" y="-68.58"/>
