@@ -391,11 +391,11 @@ F 3 "" H 10850 2650 50  0000 C CNN
 	1    10850 2650
 	0    -1   -1   0   
 $EndComp
-Text GLabel 7950 4350 2    60   Input ~ 0
+Text GLabel 7950 4550 2    60   Input ~ 0
 DC_1
 Text GLabel 7950 4450 2    60   Input ~ 0
 DC_2
-Text GLabel 7950 4550 2    60   Input ~ 0
+Text GLabel 7950 4350 2    60   Input ~ 0
 DC_3
 Text GLabel 7950 4250 2    60   Input ~ 0
 DC_4
@@ -463,11 +463,11 @@ NoConn ~ 6800 3250
 NoConn ~ 6800 3150
 NoConn ~ 7800 2250
 NoConn ~ 7800 1650
-Text GLabel 6550 4350 0    60   Input ~ 0
+Text GLabel 6550 4550 0    60   Input ~ 0
 DCD_1
 Text GLabel 6550 4450 0    60   Input ~ 0
 DCD_2
-Text GLabel 6550 4550 0    60   Input ~ 0
+Text GLabel 6550 4350 0    60   Input ~ 0
 DCD_3
 Text GLabel 6550 4250 0    60   Input ~ 0
 DCD_4
@@ -476,11 +476,7 @@ DCD_5
 Text GLabel 6550 4050 0    60   Input ~ 0
 DCD_6
 Wire Wire Line
-	7950 4350 7650 4350
-Wire Wire Line
 	7650 4450 7950 4450
-Wire Wire Line
-	7650 4550 7950 4550
 Wire Wire Line
 	7650 4250 7950 4250
 Wire Wire Line
@@ -494,28 +490,18 @@ Wire Wire Line
 Wire Wire Line
 	6850 4250 6550 4250
 Wire Wire Line
-	6550 4350 6850 4350
-Wire Wire Line
 	6850 4450 6550 4450
-Wire Wire Line
-	6550 4550 6850 4550
-Text GLabel 8100 3150 2    60   Input ~ 0
+Text GLabel 8000 2750 2    60   Input ~ 0
 DCD_6
-Wire Wire Line
-	7800 3150 8100 3150
-Text GLabel 8100 3050 2    60   Input ~ 0
+Text GLabel 8000 2850 2    60   Input ~ 0
 DCD_5
-Wire Wire Line
-	7800 3050 8100 3050
-Text GLabel 6500 3050 0    60   Input ~ 0
+Text GLabel 8000 3050 2    60   Input ~ 0
 DCD_3
-Wire Wire Line
-	6800 3050 6500 3050
-Text GLabel 9150 2900 0    60   Input ~ 0
+Text GLabel 8000 3150 2    60   Input ~ 0
 DCD_2
-Text GLabel 9150 2800 0    60   Input ~ 0
+Text GLabel 6500 3050 0    60   Input ~ 0
 DCD_1
-Text GLabel 9150 3100 0    60   Input ~ 0
+Text GLabel 8000 2950 2    60   Input ~ 0
 DCD_4
 Wire Wire Line
 	6550 2050 6800 2050
@@ -549,4 +535,24 @@ Wire Wire Line
 	8450 2550 7800 2550
 Wire Wire Line
 	7800 2650 7950 2650
+Wire Wire Line
+	6850 4350 6550 4350
+Wire Wire Line
+	6550 4550 6850 4550
+Wire Wire Line
+	7650 4550 7950 4550
+Wire Wire Line
+	7950 4350 7650 4350
+Wire Wire Line
+	6800 3050 6500 3050
+Wire Wire Line
+	8000 2750 7800 2750
+Wire Wire Line
+	7800 2850 8000 2850
+Wire Wire Line
+	8000 2950 7800 2950
+Wire Wire Line
+	7800 3050 8000 3050
+Wire Wire Line
+	8000 3150 7800 3150
 $EndSCHEMATC
