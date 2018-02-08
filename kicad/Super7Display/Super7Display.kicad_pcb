@@ -713,6 +713,31 @@
     )
   )
 
+  (module misc:Strip_1x04 (layer F.Cu) (tedit 5866E92E) (tstamp 586ACC33)
+    (at 185.42 69.85 90)
+    (descr "Through hole socket strip")
+    (tags "socket strip")
+    (fp_text reference REF** (at 0 -5.1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Socket_Strip_Straight_1x04 (at 0 -3.1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -1.75 -1.75) (end -1.75 1.75) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 9.4 -1.75) (end 9.4 1.75) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -1.75 -1.75) (end 9.4 -1.75) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -1.75 1.75) (end 9.4 1.75) (layer F.CrtYd) (width 0.05))
+    (pad 1 thru_hole oval (at 0 0 90) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask))
+    (pad 2 thru_hole oval (at 2.54 0 90) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask))
+    (pad 3 thru_hole oval (at 5.08 0 90) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask))
+    (pad 4 thru_hole oval (at 7.62 0 90) (size 1.7272 2.032) (drill 1.016) (layers *.Cu *.Mask))
+    (model Socket_Strips.3dshapes/Socket_Strip_Straight_1x04.wrl
+      (at (xyz 0.15 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 180))
+    )
+  )
+
   (gr_line (start 195.58 83.82) (end 264.795 83.82) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 337.185 83.82) (end 267.97 83.82) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 354.965 83.82) (end 340.36 83.82) (angle 90) (layer Edge.Cuts) (width 0.15))
