@@ -919,12 +919,12 @@
 					<Pin pinNum="8" name="8" pinSymName="8" pinEqual="0" gate="-1" gateEqual="0"/>
 					<Pin pinNum="9" name="9" pinSymName="9" pinEqual="0" gate="-1" gateEqual="0"/>
 					<Pin pinNum="10" name="10" pinSymName="10" pinEqual="0" gate="-1" gateEqual="0"/>
-					<Pin pinNum="11" name="11" pinSymName="11" pinEqual="0" gate="-1" gateEqual="0"/>
-					<Pin pinNum="12" name="12" pinSymName="12" pinEqual="0" gate="-1" gateEqual="0"/>
-					<Pin pinNum="13" name="13" pinSymName="13" pinEqual="0" gate="-1" gateEqual="0"/>
-					<Pin pinNum="14" name="14" pinSymName="14" pinEqual="0" gate="-1" gateEqual="0"/>
-					<Pin pinNum="15" name="15" pinSymName="15" pinEqual="0" gate="-1" gateEqual="0"/>
-					<Pin pinNum="16" name="16" pinSymName="16" pinEqual="0" gate="-1" gateEqual="0"/>
+					<Pin pinNum="11" name="11" pinSymName="11" pinEqual="2" gate="-1" gateEqual="0"/>
+					<Pin pinNum="12" name="12" pinSymName="12" pinEqual="2" gate="-1" gateEqual="0"/>
+					<Pin pinNum="13" name="13" pinSymName="13" pinEqual="2" gate="-1" gateEqual="0"/>
+					<Pin pinNum="14" name="14" pinSymName="14" pinEqual="2" gate="-1" gateEqual="0"/>
+					<Pin pinNum="15" name="15" pinSymName="15" pinEqual="2" gate="-1" gateEqual="0"/>
+					<Pin pinNum="16" name="16" pinSymName="16" pinEqual="2" gate="-1" gateEqual="0"/>
 				</Pins>
 			</Component>
 			<Component name="R16">
