@@ -1,6 +1,6 @@
-update=1/31/2018 3:26:50 PM
+update=2/8/2018 9:22:26 AM
 version=1
-last_client=eeschema
+last_client=kicad
 [pcbnew]
 version=1
 LastNetListRead=
@@ -64,3 +64,13 @@ LibName32=74hc238
 LibName33=7400-ic
 LibName34=dc08
 LibName35=hiletgo_esp-wroom-32_development_board
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
