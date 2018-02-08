@@ -1011,7 +1011,7 @@
   )
 
   (module Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm (layer B.Cu) (tedit 58CC8F64) (tstamp 5A7C506E)
-    (at 110.3884 63.7286 180)
+    (at 110.2868 62.9666 180)
     (descr "16-Lead Plastic Small Outline (SL) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SOIC 1.27")
     (path /5A72257F)
