@@ -61,95 +61,263 @@ void displaySetup()
   pinMode(DC_6, OUTPUT);
 }
 
-// cycle through and display each digit
-// dp is for decimal point: 0 for off; 1 for on
-void displayDigits(int dig1, int dig2, int dig3, int dig4, int dig5)
+// cycle through and display the time across all digits
+void displayTime(int time)
 {
-  setDigit(1, dig1, 0);
-  setDigit(2, dig2, 0);
-  setDigit(3, dig3, 0);
-  setDigit(4, dig4, 0);
+  // go from digit 5 to digit 1
+  for (int display = 5; display > 0; display--)
+  {
+    // get lowest digit
+    int timeSlice2 = time % 10;
+    // shift over
+    time = time / 10;
+    // get next lowest digit
+    int timeSlice1 = time % 10;
+    // shift over agin for the next round
+    time = time / 10;
 
+    // show those digits on the display
+    selectDisplay(display, timeSlice1, timeSlice2);
+  }
 }
 
-// display a number on the selected digit 1, 2, 3, or 4
-void setDigit(int digit, int number1, int number2)
+// display a number on the selected display
+// display can be between 1-5
+// numbers can be between 0-9
+void selectDisplay(int display, int number1, int number2)
 {
   // turn all digits off
+  digitalWrite(DC_1, HIGH);
+  digitalWrite(DC_2, HIGH);
+  digitalWrite(DC_3, HIGH);
+  digitalWrite(DC_4, HIGH);
+  digitalWrite(DC_5, HIGH);
+  //digitalWrite(DC_6, HIGH);
 
   // set up segments while digits off,
   // so that the full digit comes up simultanously
   // (although who is going to be able to detect a couple clk cycles?)
-  setSegment(number1);
+  resetSegments();
+  setSegment1(number1);
+  setSegment2(number2);
 
   // then turn on specfic digit
-  switch(digit)
+  switch(display)
   {
     case 1:
-      
+      digitalWrite(DC_1, LOW);
       break;
     case 2:
-      
+      digitalWrite(DC_2, LOW);
       break;
     case 3:
-      
+      digitalWrite(DC_3, LOW);
       break;
     case 4:
-      
+      digitalWrite(DC_4, LOW);
+      break;
+    case 5:
+      digitalWrite(DC_5, LOW);
       break;
     //default:
       // bad - should't be here
   }
 }
 
-// display a number or symbol using the 7 segments
-// number can be between 0-9 or settings screen uses A-F
+// reset all segments
+void resetSegments(void)
+{
+  digitalWrite(SEG_A1, LOW);
+  digitalWrite(SEG_B1, LOW);
+  digitalWrite(SEG_C1, LOW);
+  digitalWrite(SEG_D1, LOW);
+  digitalWrite(SEG_E1, LOW);
+  digitalWrite(SEG_F1, LOW);
+  digitalWrite(SEG_G1, LOW);
+
+  digitalWrite(SEG_A2, LOW);
+  digitalWrite(SEG_B2, LOW);
+  digitalWrite(SEG_C2, LOW);
+  digitalWrite(SEG_D2, LOW);
+  digitalWrite(SEG_E2, LOW);
+  digitalWrite(SEG_F2, LOW);
+  digitalWrite(SEG_G2, LOW);
+}
+
+// display a number on the first 7 segment display
+// number can be between 0-9
 void setSegment1(int number)
 {
-  // first, reset all segments
-
-  // then set the coorespoding segments
+  // set the coorespoding segments
   switch(number)
   {
     case 0:
       // A B C D E F
-      
+      digitalWrite(SEG_A1, HIGH);
+      digitalWrite(SEG_B1, HIGH);
+      digitalWrite(SEG_C1, HIGH);
+      digitalWrite(SEG_D1, HIGH);
+      digitalWrite(SEG_E1, HIGH);
+      digitalWrite(SEG_F1, HIGH);
       break;
     case 1:
       // B C
-      
+      digitalWrite(SEG_B1, HIGH);
+      digitalWrite(SEG_C1, HIGH);
       break;
     case 2:
       // A B D E G
-
+      digitalWrite(SEG_A1, HIGH);
+      digitalWrite(SEG_B1, HIGH);
+      digitalWrite(SEG_D1, HIGH);
+      digitalWrite(SEG_E1, HIGH);
+      digitalWrite(SEG_G1, HIGH);
       break;
     case 3:
       // A B C D G
-
+      digitalWrite(SEG_A1, HIGH);
+      digitalWrite(SEG_B1, HIGH);
+      digitalWrite(SEG_C1, HIGH);
+      digitalWrite(SEG_D1, HIGH);
+      digitalWrite(SEG_G1, HIGH);
       break;
     case 4:
       // B C F G
-
+      digitalWrite(SEG_B1, HIGH);
+      digitalWrite(SEG_C1, HIGH);
+      digitalWrite(SEG_F1, HIGH);
+      digitalWrite(SEG_G1, HIGH);
       break;
     case 5:
       // A C D F G
-
+      digitalWrite(SEG_A1, HIGH);
+      digitalWrite(SEG_C1, HIGH);
+      digitalWrite(SEG_D1, HIGH);
+      digitalWrite(SEG_F1, HIGH);
+      digitalWrite(SEG_G1, HIGH);
       break;
     case 6:
       // A C D E F G
-
+      digitalWrite(SEG_A1, HIGH);
+      digitalWrite(SEG_C1, HIGH);
+      digitalWrite(SEG_D1, HIGH);
+      digitalWrite(SEG_E1, HIGH);
+      digitalWrite(SEG_F1, HIGH);
+      digitalWrite(SEG_G1, HIGH);
       break;
     case 7:
       // A B C
-
+      digitalWrite(SEG_A1, HIGH);
+      digitalWrite(SEG_B1, HIGH);
+      digitalWrite(SEG_C1, HIGH);
       break;
     case 8:
       // A B C D E F G
-
+      digitalWrite(SEG_A1, HIGH);
+      digitalWrite(SEG_B1, HIGH);
+      digitalWrite(SEG_C1, HIGH);
+      digitalWrite(SEG_D1, HIGH);
+      digitalWrite(SEG_E1, HIGH);
+      digitalWrite(SEG_F1, HIGH);
+      digitalWrite(SEG_G1, HIGH);
       break;
     case 9:
       // A B C D F G
+      digitalWrite(SEG_A1, HIGH);
+      digitalWrite(SEG_B1, HIGH);
+      digitalWrite(SEG_C1, HIGH);
+      digitalWrite(SEG_D1, HIGH);
+      digitalWrite(SEG_F1, HIGH);
+      digitalWrite(SEG_G1, HIGH);
+      break;
+  }
+}
 
+// display a number on the second 7 segment display
+// number can be between 0-9
+void setSegment2(int number)
+{
+  // set the coorespoding segments
+  switch(number)
+  {
+    case 0:
+      // A B C D E F
+      digitalWrite(SEG_A2, HIGH);
+      digitalWrite(SEG_B2, HIGH);
+      digitalWrite(SEG_C2, HIGH);
+      digitalWrite(SEG_D2, HIGH);
+      digitalWrite(SEG_E2, HIGH);
+      digitalWrite(SEG_F2, HIGH);
+      break;
+    case 1:
+      // B C
+      digitalWrite(SEG_B2, HIGH);
+      digitalWrite(SEG_C2, HIGH);
+      break;
+    case 2:
+      // A B D E G
+      digitalWrite(SEG_A2, HIGH);
+      digitalWrite(SEG_B2, HIGH);
+      digitalWrite(SEG_D2, HIGH);
+      digitalWrite(SEG_E2, HIGH);
+      digitalWrite(SEG_G2, HIGH);
+      break;
+    case 3:
+      // A B C D G
+      digitalWrite(SEG_A2, HIGH);
+      digitalWrite(SEG_B2, HIGH);
+      digitalWrite(SEG_C2, HIGH);
+      digitalWrite(SEG_D2, HIGH);
+      digitalWrite(SEG_G2, HIGH);
+      break;
+    case 4:
+      // B C F G
+      digitalWrite(SEG_B2, HIGH);
+      digitalWrite(SEG_C2, HIGH);
+      digitalWrite(SEG_F2, HIGH);
+      digitalWrite(SEG_G2, HIGH);
+      break;
+    case 5:
+      // A C D F G
+      digitalWrite(SEG_A2, HIGH);
+      digitalWrite(SEG_C2, HIGH);
+      digitalWrite(SEG_D2, HIGH);
+      digitalWrite(SEG_F2, HIGH);
+      digitalWrite(SEG_G2, HIGH);
+      break;
+    case 6:
+      // A C D E F G
+      digitalWrite(SEG_A2, HIGH);
+      digitalWrite(SEG_C2, HIGH);
+      digitalWrite(SEG_D2, HIGH);
+      digitalWrite(SEG_E2, HIGH);
+      digitalWrite(SEG_F2, HIGH);
+      digitalWrite(SEG_G2, HIGH);
+      break;
+    case 7:
+      // A B C
+      digitalWrite(SEG_A2, HIGH);
+      digitalWrite(SEG_B2, HIGH);
+      digitalWrite(SEG_C2, HIGH);
+      break;
+    case 8:
+      // A B C D E F G
+      digitalWrite(SEG_A2, HIGH);
+      digitalWrite(SEG_B2, HIGH);
+      digitalWrite(SEG_C2, HIGH);
+      digitalWrite(SEG_D2, HIGH);
+      digitalWrite(SEG_E2, HIGH);
+      digitalWrite(SEG_F2, HIGH);
+      digitalWrite(SEG_G2, HIGH);
+      break;
+    case 9:
+      // A B C D F G
+      digitalWrite(SEG_A2, HIGH);
+      digitalWrite(SEG_B2, HIGH);
+      digitalWrite(SEG_C2, HIGH);
+      digitalWrite(SEG_D2, HIGH);
+      digitalWrite(SEG_F2, HIGH);
+      digitalWrite(SEG_G2, HIGH);
       break;
   }
 }
