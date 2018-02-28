@@ -1,4 +1,5 @@
 #include "display.h"
+#include "arduino.h"
 
 // pinouts for common cathode 7 segment LED display:
 
@@ -62,41 +63,39 @@ void displaySetup()
 
 // cycle through and display each digit
 // dp is for decimal point: 0 for off; 1 for on
-void displayDigits(int dig1, int dig2, int dp, int dig3, int dig4, int dig5)
+void displayDigits(int dig1, int dig2, int dig3, int dig4, int dig5)
 {
-  setDigit(1, dig1);
-  setDigit(2, dig2);
-  setDigit(3, dig3);
-  setDigit(4, dig4);
+  setDigit(1, dig1, 0);
+  setDigit(2, dig2, 0);
+  setDigit(3, dig3, 0);
+  setDigit(4, dig4, 0);
 
 }
 
 // display a number on the selected digit 1, 2, 3, or 4
-void setDigit(int digit, int number)
+void setDigit(int digit, int number1, int number2)
 {
   // turn all digits off
-  PORTB |= (1<<PORTB2); // 1
-  PORTD |= (1<<PORTD7 | 1<<PORTD6 | 1<<PORTD2); // 2 3 4
 
   // set up segments while digits off,
   // so that the full digit comes up simultanously
   // (although who is going to be able to detect a couple clk cycles?)
-  setSegment(number);
+  setSegment(number1);
 
   // then turn on specfic digit
   switch(digit)
   {
     case 1:
-      PORTB &= ~(1<<PORTB2); // 1
+      
       break;
     case 2:
-      PORTD &= ~(1<<PORTD7); // 2
+      
       break;
     case 3:
-      PORTD &= ~(1<<PORTD6); // 3
+      
       break;
     case 4:
-      PORTD &= ~(1<<PORTD2); // 4
+      
       break;
     //default:
       // bad - should't be here
@@ -151,10 +150,6 @@ void setSegment(int number)
     case 9:
       // A B C D F G
 
-      break;
-    case DP_ON:
-      // DP
-      PORTC |= (1<<PORTC4);
       break;
   }
 }
