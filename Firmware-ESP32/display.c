@@ -104,7 +104,7 @@ void setDigit(int digit, int number1, int number2)
 
 // display a number or symbol using the 7 segments
 // number can be between 0-9 or settings screen uses A-F
-void setSegment(int number)
+void setSegment1(int number)
 {
   // first, reset all segments
 
