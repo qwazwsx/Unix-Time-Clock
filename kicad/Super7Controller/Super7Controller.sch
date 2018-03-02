@@ -34,7 +34,6 @@ LIBS:74hc238
 LIBS:7400-ic
 LIBS:dc08
 LIBS:hiletgo_esp-wroom-32_development_board
-LIBS:Super7Controller-cache
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
@@ -63,8 +62,6 @@ Text GLabel 8250 2650 2    50   Input ~ 0
 H_F1
 Text GLabel 8750 2550 2    50   Input ~ 0
 H_G1
-Text GLabel 5700 2550 0    50   Input ~ 0
-H_DP1
 $Comp
 L R R12
 U 1 1 585D9209
@@ -157,18 +154,14 @@ Text GLabel 8750 1850 2    50   Input ~ 0
 H_A2
 Text GLabel 8250 1750 2    50   Input ~ 0
 H_B2
-Text GLabel 5700 2150 0    50   Input ~ 0
-H_C2
-Text GLabel 5700 2350 0    50   Input ~ 0
-H_D2
 Text GLabel 6250 2450 0    50   Input ~ 0
+H_D2
+Text GLabel 5700 2550 0    50   Input ~ 0
 H_E2
 Text GLabel 8250 2150 2    50   Input ~ 0
 H_F2
-Text GLabel 6250 2250 0    50   Input ~ 0
+Text GLabel 5700 2350 0    50   Input ~ 0
 H_G2
-Text GLabel 6250 2050 0    50   Input ~ 0
-H_DP2
 $Comp
 L R R15
 U 1 1 585DB9FB
@@ -190,17 +183,6 @@ F 2 "Resistors_SMD:R_0805_HandSoldering" V 8030 1750 50  0001 C CNN
 F 3 "" H 8100 1750 50  0000 C CNN
 	1    8100 1750
 	0    -1   -1   0   
-$EndComp
-$Comp
-L R R8
-U 1 1 585DBA07
-P 5850 2150
-F 0 "R8" V 5930 2150 50  0000 C CNN
-F 1 "120" V 5850 2150 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 5780 2150 50  0001 C CNN
-F 3 "" H 5850 2150 50  0000 C CNN
-	1    5850 2150
-	0    1    -1   0   
 $EndComp
 $Comp
 L R R6
@@ -244,17 +226,6 @@ F 1 "120" V 6400 2250 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 6330 2250 50  0001 C CNN
 F 3 "" H 6400 2250 50  0000 C CNN
 	1    6400 2250
-	0    1    -1   0   
-$EndComp
-$Comp
-L R R9
-U 1 1 585DBA25
-P 6400 2050
-F 0 "R9" V 6480 2050 50  0000 C CNN
-F 1 "120" V 6400 2050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 6330 2050 50  0001 C CNN
-F 3 "" H 6400 2050 50  0000 C CNN
-	1    6400 2050
 	0    1    -1   0   
 $EndComp
 $Comp
@@ -341,8 +312,6 @@ Text GLabel 11050 2150 1    50   Input ~ 0
 H_F2
 Text GLabel 11050 2850 3    50   Input ~ 0
 H_G2
-Text GLabel 11250 2850 3    50   Input ~ 0
-H_DP2
 Text GLabel 10650 2150 1    50   Input ~ 0
 H_A1
 Text GLabel 10750 2150 1    50   Input ~ 0
@@ -357,8 +326,6 @@ Text GLabel 10450 2150 1    50   Input ~ 0
 H_F1
 Text GLabel 10550 2150 1    50   Input ~ 0
 H_G1
-Text GLabel 10750 2850 3    50   Input ~ 0
-H_DP1
 Text GLabel 10250 2150 1    50   Input ~ 0
 DC_1
 Text GLabel 10350 2150 1    50   Input ~ 0
@@ -482,17 +449,11 @@ DCD_1
 Text GLabel 8000 2950 2    60   Input ~ 0
 DCD_4
 Wire Wire Line
-	6550 2050 6800 2050
-Wire Wire Line
-	6800 2150 6000 2150
-Wire Wire Line
 	6550 2250 6800 2250
 Wire Wire Line
 	6800 2350 6000 2350
 Wire Wire Line
 	6550 2450 6800 2450
-Wire Wire Line
-	6800 2550 6000 2550
 Wire Wire Line
 	6550 2650 6800 2650
 Wire Wire Line
@@ -555,4 +516,12 @@ F 3 "" H 10850 2650 50  0001 C CNN
 	1    10850 2650
 	0    -1   -1   0   
 $EndComp
+NoConn ~ 11250 2850
+NoConn ~ 10750 2850
+NoConn ~ 6800 2050
+Wire Wire Line
+	6800 2550 6000 2550
+Text GLabel 6250 2250 0    50   Input ~ 0
+H_C2
+NoConn ~ 6800 2150
 $EndSCHEMATC
