@@ -12,16 +12,16 @@
 #define SEG_E1  12
 #define SEG_F1  17
 #define SEG_G1  5
-#define SEG_DP1 26
+//#define SEG_DP1 26
 
-#define SEG_C2  35
 #define SEG_A2  22
 #define SEG_B2  23
+#define SEG_C2  26
 #define SEG_D2  33
 #define SEG_E2  25
 #define SEG_F2  21
 #define SEG_G2  32
-#define SEG_DP2 34
+//#define SEG_DP2 34
 
 // digit is active low
 // digit | ESP32 pin
@@ -42,7 +42,7 @@ void displaySetup()
   pinMode(SEG_E1, OUTPUT);
   pinMode(SEG_F1, OUTPUT);
   pinMode(SEG_G1, OUTPUT);
-  pinMode(SEG_DP1, OUTPUT);
+  //pinMode(SEG_DP1, OUTPUT);
 
   pinMode(SEG_A2, OUTPUT);
   pinMode(SEG_B2, OUTPUT);
@@ -51,7 +51,7 @@ void displaySetup()
   pinMode(SEG_E2, OUTPUT);
   pinMode(SEG_F2, OUTPUT);
   pinMode(SEG_G2, OUTPUT);
-  pinMode(SEG_DP2, OUTPUT);
+  //pinMode(SEG_DP2, OUTPUT);
 
   pinMode(DC_1, OUTPUT);
   pinMode(DC_2, OUTPUT);
