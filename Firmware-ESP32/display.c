@@ -87,12 +87,12 @@ void displayTime(int time)
 void selectDisplay(int display, int number1, int number2)
 {
   // turn all digits off
-  digitalWrite(DC_1, HIGH);
-  digitalWrite(DC_2, HIGH);
-  digitalWrite(DC_3, HIGH);
-  digitalWrite(DC_4, HIGH);
-  digitalWrite(DC_5, HIGH);
-  //digitalWrite(DC_6, HIGH);
+  digitalWrite(DC_1, LOW);
+  digitalWrite(DC_2, LOW);
+  digitalWrite(DC_3, LOW);
+  digitalWrite(DC_4, LOW);
+  digitalWrite(DC_5, LOW);
+  //digitalWrite(DC_6, LOW);
 
   // set up segments while digits off,
   // so that the full digit comes up simultanously
@@ -105,19 +105,19 @@ void selectDisplay(int display, int number1, int number2)
   switch(display)
   {
     case 1:
-      digitalWrite(DC_1, LOW);
+      digitalWrite(DC_1, HIGH);
       break;
     case 2:
-      digitalWrite(DC_2, LOW);
+      digitalWrite(DC_2, HIGH);
       break;
     case 3:
-      digitalWrite(DC_3, LOW);
+      digitalWrite(DC_3, HIGH);
       break;
     case 4:
-      digitalWrite(DC_4, LOW);
+      digitalWrite(DC_4, HIGH);
       break;
     case 5:
-      digitalWrite(DC_5, LOW);
+      digitalWrite(DC_5, HIGH);
       break;
     //default:
       // bad - should't be here
