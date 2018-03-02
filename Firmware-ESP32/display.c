@@ -14,12 +14,12 @@
 #define SEG_G1  5
 #define SEG_DP1 26
 
-#define SEG_A2  36
-#define SEG_B2  37
 #define SEG_C2  35
+#define SEG_A2  22
+#define SEG_B2  23
 #define SEG_D2  33
 #define SEG_E2  25
-#define SEG_F2  33
+#define SEG_F2  21
 #define SEG_G2  32
 #define SEG_DP2 34
 
