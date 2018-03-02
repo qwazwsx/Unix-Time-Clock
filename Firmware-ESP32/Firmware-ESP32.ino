@@ -7,6 +7,6 @@ void setup() {
 }
 
 void loop() {
-  displayTime(time);
+  displayTime(time/1000);
   time++;
 }
