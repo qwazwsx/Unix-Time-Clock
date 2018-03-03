@@ -108,6 +108,8 @@ void displaySetup()
   pinMode(DC_6, OUTPUT);
 }
 
+#define DELAYTIME 1
+
 // cycle through and display the time across all digits
 void displayTime(void)
 {
@@ -129,10 +131,15 @@ void displayTime(void)
   }
   */
   selectDisplay(1, display_time.dig1, display_time.dig2);
+  delay(DELAYTIME);
   selectDisplay(2, display_time.dig3, display_time.dig4);
+  delay(DELAYTIME);
   selectDisplay(3, display_time.dig5, display_time.dig6);
+  delay(DELAYTIME);
   selectDisplay(4, display_time.dig7, display_time.dig8);
+  delay(DELAYTIME);
   selectDisplay(5, display_time.dig9, display_time.dig10);
+  delay(DELAYTIME);
 }
 
 // display a number on the selected display
