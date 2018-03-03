@@ -44,5 +44,6 @@ void setup() {
 }
 
 void loop() {
+  setTime(time(NULL));
   displayTime();
 }
