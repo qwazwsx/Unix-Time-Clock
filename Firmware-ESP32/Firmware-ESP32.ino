@@ -9,15 +9,13 @@ const char * ntpServer = "pool.ntp.org";
 const long gmtOffset_sec = 3600;
 const int daylightOffset_sec = 3600;
 
-int unix_time = 0;
-
 void printLocalTime() {
   struct tm timeinfo;
   if (!getLocalTime( & timeinfo)) {
     Serial.println("Failed to obtain time");
     return;
   }
-  unix_time = time(NULL);
+  int unix_time = time(NULL);
   setTime(unix_time);
   Serial.println(unix_time);
 }
