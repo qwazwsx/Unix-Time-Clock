@@ -32,6 +32,53 @@
 #define DC_5  2
 #define DC_6  23
 
+struct Time_Digits {
+   byte dig1;
+   byte dig2;
+   byte dig3;
+   byte dig4;
+   byte dig5;
+   byte dig6;
+   byte dig7;
+   byte dig8;
+   byte dig9;
+   byte dig10;
+}; 
+
+struct Time_Digits display_time;
+
+void setTime(int unix_time)
+{
+  // loop through the time and set each digit
+  
+  // get lowest digit
+  display_time.dig10 = unix_time % 10;
+  // shift over
+  unix_time = unix_time / 10;
+  // get next lowest digit
+  display_time.dig9 = unix_time % 10;
+  // shift over agin for the next round
+  unix_time = unix_time / 10;
+
+  // loop over each digit
+
+  display_time.dig8 = unix_time % 10;
+  unix_time = unix_time / 10;
+  display_time.dig7 = unix_time % 10;
+  unix_time = unix_time / 10;
+  display_time.dig6 = unix_time % 10;
+  unix_time = unix_time / 10;
+  display_time.dig5 = unix_time % 10;
+  unix_time = unix_time / 10;
+  display_time.dig4 = unix_time % 10;
+  unix_time = unix_time / 10;
+  display_time.dig3 = unix_time % 10;
+  unix_time = unix_time / 10;
+  display_time.dig2 = unix_time % 10;
+  unix_time = unix_time / 10;
+  display_time.dig1 = unix_time % 10;
+}
+
 // set display pins to outputs
 void displaySetup()
 {
@@ -62,8 +109,9 @@ void displaySetup()
 }
 
 // cycle through and display the time across all digits
-void displayTime(int time)
+void displayTime(void)
 {
+  /*
   // go from digit 5 to digit 1
   for (int display = 5; display > 0; display--)
   {
@@ -79,6 +127,12 @@ void displayTime(int time)
     // show those digits on the display
     selectDisplay(display, timeSlice1, timeSlice2);
   }
+  */
+  selectDisplay(1, display_time.dig1, display_time.dig2);
+  selectDisplay(2, display_time.dig3, display_time.dig4);
+  selectDisplay(3, display_time.dig5, display_time.dig6);
+  selectDisplay(4, display_time.dig7, display_time.dig8);
+  selectDisplay(5, display_time.dig9, display_time.dig10);
 }
 
 // display a number on the selected display

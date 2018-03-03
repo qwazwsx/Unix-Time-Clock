@@ -18,6 +18,7 @@ void printLocalTime() {
     return;
   }
   unix_time = time(NULL);
+  setTime(unix_time);
   Serial.println(unix_time);
 }
 
@@ -45,5 +46,5 @@ void setup() {
 }
 
 void loop() {
-  displayTime(time(NULL));
+  displayTime();
 }
