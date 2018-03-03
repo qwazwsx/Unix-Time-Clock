@@ -15,8 +15,6 @@ void printLocalTime() {
     //Serial.println("Failed to obtain time");
     return;
   }
-  int unix_time = time(NULL);
-  setTime(unix_time);
   //Serial.println(unix_time);
 }
 
