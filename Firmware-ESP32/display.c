@@ -65,23 +65,6 @@ void displaySetup()
 // cycle through and display the time across all digits
 void displayTime(void)
 {
-  /*
-  // go from digit 5 to digit 1
-  for (int display = 5; display > 0; display--)
-  {
-    // get lowest digit
-    int timeSlice2 = time % 10;
-    // shift over
-    time = time / 10;
-    // get next lowest digit
-    int timeSlice1 = time % 10;
-    // shift over agin for the next round
-    time = time / 10;
-
-    // show those digits on the display
-    selectDisplay(display, timeSlice1, timeSlice2);
-  }
-  */
   selectDisplay(1, getDigit(1), getDigit(2));
   delay(DELAYTIME);
   selectDisplay(2, getDigit(3), getDigit(4));
