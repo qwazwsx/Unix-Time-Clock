@@ -1,15 +1,18 @@
-#include "display.h"
 #include "getTime.h"
+#include "display.h"
 
 void setup() {
-  //Serial.begin(115200);
-
+  // get initial time from internet
   getTimeFromInternet();
 
+  // set up the display pins
   displaySetup();
 }
 
 void loop() {
+  // set the variables for the individual digits from the time library
   setTime();
+
+  // display the digits on the display
   displayTime();
 }
