@@ -47,6 +47,7 @@ struct Time_Digits {
    byte dig8;
    byte dig9;
    byte dig10;
+   byte refresh;
 }; 
 
 struct Time_Digits display_time;
@@ -85,6 +86,18 @@ void setTime(void)
   display_time.dig2 = unix_time % 10;
   unix_time = unix_time / 10;
   display_time.dig1 = unix_time % 10;
+
+  // every 10,000 seconds (~2.7 hours),
+  // check the time from the internet to re-sync the internal clock
+  // TODO: change from dig9 to dig6
+  if (display_time.refresh != display_time.dig9)
+  {
+    // re-sync the time from the internet
+    getTimeFromInternet();
+
+    // set to current digit catch it next time
+    display_time.refresh = display_time.dig9;
+  }
 }
 
 // return the individual digits at the index
