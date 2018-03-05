@@ -93,6 +93,7 @@ void setTime(void)
   if (display_time.refresh != display_time.dig9)
   {
     // re-sync the time from the internet
+    // TODO: launch on other core so it doesn't hold up setting the time
     getTimeFromInternet();
 
     // set to current digit catch it next time
