@@ -60,6 +60,7 @@ void displaySetup()
   pinMode(DC_6, OUTPUT);
 }
 
+// delay so all displays are on for the same amount of time
 #define DELAYTIME 1
 
 // cycle through and display the time across all digits
