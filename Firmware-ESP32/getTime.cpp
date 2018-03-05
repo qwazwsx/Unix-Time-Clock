@@ -9,6 +9,7 @@ const char * ntpServer = "pool.ntp.org";
 const long gmtOffset_sec = 3600;
 const int daylightOffset_sec = 3600;
 
+// get current time from the NTP server
 void getTimeFromInternet(void) {
   //connect to WiFi
   //Serial.printf("Connecting to %s ", SSID);
@@ -34,6 +35,7 @@ void getTimeFromInternet(void) {
   WiFi.mode(WIFI_OFF);
 }
 
+// store the individual decimal digits of the unix time
 struct Time_Digits {
    byte dig1;
    byte dig2;
@@ -49,11 +51,13 @@ struct Time_Digits {
 
 struct Time_Digits display_time;
 
+// get current time and store it in individual digits
 void setTime(void)
 {
+  // get current time
   int unix_time = time(NULL);
   
-  // loop through the time and set each digit
+  // loop through the time and set each digit:
   
   // get lowest digit
   display_time.dig10 = unix_time % 10;
@@ -64,7 +68,7 @@ void setTime(void)
   // shift over agin for the next round
   unix_time = unix_time / 10;
 
-  // loop over each digit
+  // continue looping over the remaining digits:
 
   display_time.dig8 = unix_time % 10;
   unix_time = unix_time / 10;
@@ -83,6 +87,7 @@ void setTime(void)
   display_time.dig1 = unix_time % 10;
 }
 
+// return the individual digits at the index
 byte getDigit(int digit)
 {
   switch (digit) {
