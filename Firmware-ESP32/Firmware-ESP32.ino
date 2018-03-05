@@ -10,6 +10,6 @@ void setup() {
 }
 
 void loop() {
-  setTime(time(NULL));
+  setTime();
   displayTime();
 }

@@ -1,7 +1,7 @@
 #ifndef gettime_h
 #define gettime_h
 
-//#include <WiFi.h>
+#include "arduino.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -9,6 +9,8 @@ extern "C" {
 
 // for unix time:
 void getTimeFromInternet(void);
+void setTime(void);
+byte getDigit(int digit);
 
 #ifdef __cplusplus
 }

@@ -1,5 +1,4 @@
 #include "display.h"
-#include "arduino.h"
 
 // pinouts for common cathode 7 segment LED display:
 
@@ -31,53 +30,6 @@
 #define DC_4  0
 #define DC_5  2
 #define DC_6  23
-
-struct Time_Digits {
-   byte dig1;
-   byte dig2;
-   byte dig3;
-   byte dig4;
-   byte dig5;
-   byte dig6;
-   byte dig7;
-   byte dig8;
-   byte dig9;
-   byte dig10;
-}; 
-
-struct Time_Digits display_time;
-
-void setTime(int unix_time)
-{
-  // loop through the time and set each digit
-  
-  // get lowest digit
-  display_time.dig10 = unix_time % 10;
-  // shift over
-  unix_time = unix_time / 10;
-  // get next lowest digit
-  display_time.dig9 = unix_time % 10;
-  // shift over agin for the next round
-  unix_time = unix_time / 10;
-
-  // loop over each digit
-
-  display_time.dig8 = unix_time % 10;
-  unix_time = unix_time / 10;
-  display_time.dig7 = unix_time % 10;
-  unix_time = unix_time / 10;
-  display_time.dig6 = unix_time % 10;
-  unix_time = unix_time / 10;
-  display_time.dig5 = unix_time % 10;
-  unix_time = unix_time / 10;
-  display_time.dig4 = unix_time % 10;
-  unix_time = unix_time / 10;
-  display_time.dig3 = unix_time % 10;
-  unix_time = unix_time / 10;
-  display_time.dig2 = unix_time % 10;
-  unix_time = unix_time / 10;
-  display_time.dig1 = unix_time % 10;
-}
 
 // set display pins to outputs
 void displaySetup()
@@ -130,22 +82,22 @@ void displayTime(void)
     selectDisplay(display, timeSlice1, timeSlice2);
   }
   */
-  selectDisplay(1, display_time.dig1, display_time.dig2);
+  selectDisplay(1, getDigit(1), getDigit(2));
   delay(DELAYTIME);
-  selectDisplay(2, display_time.dig3, display_time.dig4);
+  selectDisplay(2, getDigit(3), getDigit(4));
   delay(DELAYTIME);
-  selectDisplay(3, display_time.dig5, display_time.dig6);
+  selectDisplay(3, getDigit(5), getDigit(6));
   delay(DELAYTIME);
-  selectDisplay(4, display_time.dig7, display_time.dig8);
+  selectDisplay(4, getDigit(7), getDigit(8));
   delay(DELAYTIME);
-  selectDisplay(5, display_time.dig9, display_time.dig10);
+  selectDisplay(5, getDigit(9), getDigit(10));
   delay(DELAYTIME);
 }
 
 // display a number on the selected display
 // display can be between 1-5
 // numbers can be between 0-9
-void selectDisplay(int display, int number1, int number2)
+void selectDisplay(int display, byte number1, byte number2)
 {
   // turn all digits off
   digitalWrite(DC_1, LOW);
