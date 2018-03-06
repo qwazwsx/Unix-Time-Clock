@@ -25,4 +25,6 @@ void loop() {
 
   // display the digits on the display
   displayTime();
+
+  delay(1000);
 }
