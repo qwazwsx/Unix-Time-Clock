@@ -8,7 +8,6 @@ extern "C" {
 #endif
 
 // for unix time:
-void initClock(void);
 void coreTask(void * pvParameters);
 void getTimeFromInternet(void);
 void setTime(void);
