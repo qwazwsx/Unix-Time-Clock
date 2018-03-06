@@ -12,13 +12,13 @@ const int daylightOffset_sec = 3600;
 // get current time from the NTP server
 void getTimeFromInternet(void) {
   //connect to WiFi
-  //Serial.printf("Connecting to %s ", SSID);
+  Serial.printf("Connecting to %s ", SSID);
   WiFi.begin(SSID, PASSWORD);
   while (WiFi.status() != WL_CONNECTED) {
     delay(250);
-    //Serial.print(".");
+    Serial.print(".");
   }
-  //Serial.println(" CONNECTED");
+  Serial.println(" CONNECTED");
 
   //init and get the time
   configTime(gmtOffset_sec, daylightOffset_sec, ntpServer);
@@ -65,6 +65,8 @@ void setTime(void)
 {
   // get current time
   int unix_time = time(NULL);
+
+  Serial.println(unix_time);
   
   // loop through the time and set each digit:
   
