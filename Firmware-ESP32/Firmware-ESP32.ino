@@ -7,16 +7,18 @@ void setup() {
   // set up the display pins
   displaySetup();
 
-  //displayConnecting();
-
+  // start background task to get time from internet
   xTaskCreatePinnedToCore(
-                  coreTask,   /* Function to implement the task */
-                  "coreTask", /* Name of the task */
-                  10000,      /* Stack size in words */
-                  NULL,       /* Task input parameter */
-                  0,          /* Priority of the task */
-                  NULL,       /* Task handle. */
-                  0);         /* Core where the task should run */
+    coreTask,   /* Function to implement the task */
+    "coreTask", /* Name of the task */
+    10000,      /* Stack size in words */
+    NULL,       /* Task input parameter */
+    0,          /* Priority of the task */
+    NULL,       /* Task handle. */
+    0);         /* Core where the task should run */
+
+  // TODO: want this animation to continue until time is set
+  displayConnecting();
 }
 
 void loop() {

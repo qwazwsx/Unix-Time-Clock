@@ -5,12 +5,42 @@
 #include <WiFi.h>
 #include "time.h"
 
+// send start and stop signals to WiFi task
+QueueHandle_t WiFiStatus;
+#define WIFI_WAIT 0
+#define WIFI_REFRESH 1
+
+// run the WiFi tasks on another core
 void coreTask(void * pvParameters)
-{ 
+{
+  // create a queue to send data across cores
+  WiFiStatus = xQueueCreate(1, sizeof(int));
+
+  // start out by getting time
   getTimeFromInternet();
 
-  // can't return
-  while(1);
+  // then go into a wait state until told to refresh
+  int currentWiFiStatus = WIFI_WAIT;
+
+  // can't return, so keep on loopin'
+  while(1)
+  {
+    // continue recieving the queue data
+    xQueueReceive(WiFiStatus, &currentWiFiStatus, portMAX_DELAY);
+    
+    // when asked to refresh,
+    if (currentWiFiStatus == WIFI_REFRESH)
+    {
+      // get the time from the internet again
+      getTimeFromInternet();
+
+      // and continue to wait
+      currentWiFiStatus = WIFI_WAIT;
+    }
+  }
+
+  // remove a task from management:
+  //vTaskDelete(NULL);
 }
 
 const char * ntpServer = "pool.ntp.org";
@@ -100,17 +130,17 @@ void setTime(void)
   // every 10,000 seconds (~2.7 hours),
   // check the time from the internet to re-sync the internal clock
   // TODO: change from dig9 to dig6
-  /*
-  if (display_time.refresh != display_time.dig8)
+  if (display_time.refresh != display_time.dig9)
   {
     // re-sync the time from the internet
     // TODO: launch on other core so it doesn't hold up setting the time
-    getTimeFromInternet();
+    //getTimeFromInternet();
+    int currentWiFiStatus = WIFI_REFRESH;
+    xQueueSend(WiFiStatus, &currentWiFiStatus, portMAX_DELAY);
 
     // set to current digit catch it next time
-    display_time.refresh = display_time.dig8;
+    display_time.refresh = display_time.dig9;
   }
-  */
 }
 
 // return the individual digits at the index
