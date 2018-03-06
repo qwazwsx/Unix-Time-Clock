@@ -52,6 +52,14 @@ struct Time_Digits {
 
 struct Time_Digits display_time;
 
+// set refresh to an out of bounds number (not 0-9)
+// so when setTime() runs, it determines the number
+// has changed and gets the time from the internet
+void initClock(void)
+{
+  display_time.refresh = 10;
+}
+
 // get current time and store it in individual digits
 void setTime(void)
 {

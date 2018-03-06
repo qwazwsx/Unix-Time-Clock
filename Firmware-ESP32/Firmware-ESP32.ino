@@ -2,14 +2,11 @@
 #include "display.h"
 
 void setup() {
-  // get initial time from internet
-  // should now automatically do this inside setTime()
-  // if it doesn't, create a function to set refresh to 10
-  // (so it would have to be different)
-  //getTimeFromInternet();
-
   // set up the display pins
   displaySetup();
+
+  // set a flag to get time from internet
+  initClock();
 }
 
 void loop() {

@@ -8,6 +8,7 @@ extern "C" {
 #endif
 
 // for unix time:
+void initClock(void);
 void getTimeFromInternet(void);
 void setTime(void);
 byte getDigit(int digit);
