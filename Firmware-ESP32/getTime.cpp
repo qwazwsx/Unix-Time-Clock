@@ -90,14 +90,14 @@ void setTime(void)
   // every 10,000 seconds (~2.7 hours),
   // check the time from the internet to re-sync the internal clock
   // TODO: change from dig9 to dig6
-  if (display_time.refresh != display_time.dig9)
+  if (display_time.refresh != display_time.dig8)
   {
     // re-sync the time from the internet
     // TODO: launch on other core so it doesn't hold up setting the time
     getTimeFromInternet();
 
     // set to current digit catch it next time
-    display_time.refresh = display_time.dig9;
+    display_time.refresh = display_time.dig8;
   }
 }
 
