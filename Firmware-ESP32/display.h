@@ -9,6 +9,7 @@ extern "C" {
 
 // For 7 segment display:
 void displaySetup(void);
+void displayConnecting(void);
 void displayTime(void);
 void selectDisplay(int display, byte number1, byte number2);
 void resetSegments(void);

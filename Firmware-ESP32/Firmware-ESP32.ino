@@ -7,6 +7,8 @@ void setup() {
 
   // set a flag to get time from internet
   initClock();
+
+  displayConnecting();
 }
 
 void loop() {

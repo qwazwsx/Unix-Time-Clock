@@ -60,6 +60,29 @@ void displaySetup()
   pinMode(DC_6, OUTPUT);
 }
 
+// use middle segment as 10th "number" to display
+#define CONNECTING 10
+
+// delay between progress bar animations
+#define CONNECTING_DELAY 250
+
+// display a progress bar for WiFi connecting animation
+void displayConnecting(void)
+{
+  // animate right
+  for (int n=1; n<=5; n++)
+  {
+    selectDisplay(n, CONNECTING, CONNECTING);
+    delay(CONNECTING_DELAY);
+  }
+  // animate left
+  for (int n=4; n>1; n--)
+  {
+    selectDisplay(n, CONNECTING, CONNECTING);
+    delay(CONNECTING_DELAY);
+  }
+}
+
 // delay so all displays are on for the same amount of time
 #define DELAYTIME 1
 
@@ -227,6 +250,10 @@ void setSegment1(int number)
       digitalWrite(SEG_F1, HIGH);
       digitalWrite(SEG_G1, HIGH);
       break;
+    case CONNECTING:
+      // G
+      digitalWrite(SEG_G1, HIGH);
+      break;
   }
 }
 
@@ -314,6 +341,10 @@ void setSegment2(int number)
       digitalWrite(SEG_C2, HIGH);
       digitalWrite(SEG_D2, HIGH);
       digitalWrite(SEG_F2, HIGH);
+      digitalWrite(SEG_G2, HIGH);
+      break;
+    case CONNECTING:
+      // G
       digitalWrite(SEG_G2, HIGH);
       break;
   }
