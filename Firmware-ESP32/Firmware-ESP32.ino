@@ -8,9 +8,18 @@ void setup() {
   displaySetup();
 
   // set a flag to get time from internet
-  initClock();
+  //initClock();
 
-  displayConnecting();
+  //displayConnecting();
+
+  xTaskCreatePinnedToCore(
+                  coreTask,   /* Function to implement the task */
+                  "coreTask", /* Name of the task */
+                  10000,      /* Stack size in words */
+                  NULL,       /* Task input parameter */
+                  0,          /* Priority of the task */
+                  NULL,       /* Task handle. */
+                  0);         /* Core where the task should run */
 }
 
 void loop() {

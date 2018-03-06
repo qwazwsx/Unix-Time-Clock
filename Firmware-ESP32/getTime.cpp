@@ -5,6 +5,14 @@
 #include <WiFi.h>
 #include "time.h"
 
+void coreTask(void * pvParameters)
+{ 
+  getTimeFromInternet();
+
+  // can't return
+  while(1);
+}
+
 const char * ntpServer = "pool.ntp.org";
 const long gmtOffset_sec = 3600;
 const int daylightOffset_sec = 3600;
@@ -100,6 +108,7 @@ void setTime(void)
   // every 10,000 seconds (~2.7 hours),
   // check the time from the internet to re-sync the internal clock
   // TODO: change from dig9 to dig6
+  /*
   if (display_time.refresh != display_time.dig8)
   {
     // re-sync the time from the internet
@@ -109,6 +118,7 @@ void setTime(void)
     // set to current digit catch it next time
     display_time.refresh = display_time.dig8;
   }
+  */
 }
 
 // return the individual digits at the index
