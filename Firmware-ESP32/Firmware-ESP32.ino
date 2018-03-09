@@ -1,6 +1,15 @@
 #include "getTime.h"
 #include "display.h"
 
+// store 1 second timer details
+hw_timer_t * timer = NULL;
+
+// interrupt function that is called once per second
+void IRAM_ATTR onTimer(){
+  // set the variables for the individual digits from the time library
+  setTime();
+}
+
 void setup() {
   //Serial.begin(112500);
   
@@ -19,12 +28,23 @@ void setup() {
 
   // display connecting animation until time is set
   displayConnecting();
+
+  // set 80 divider for prescaler to get 1 microsecond ticks
+  timer = timerBegin(0, 80, true);
+
+  // attach onTimer function to our timer.
+  timerAttachInterrupt(timer, &onTimer, true);
+
+  // set alarm to call onTimer function every second
+  // this number of 1 microsecond ticks = 1 second
+  // set alarm to repeat
+  timerAlarmWrite(timer, 1000000, true);
+
+  // start the alarm
+  timerAlarmEnable(timer);
 }
 
 void loop() {
-  // set the variables for the individual digits from the time library
-  setTime();
-
   // display the digits on the display
   displayTime();
 }

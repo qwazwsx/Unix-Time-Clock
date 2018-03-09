@@ -104,6 +104,9 @@ void displayConnecting(void)
     // each display is on for 1/10 second
     delay(CONNECTING_DELAY);
   }
+
+  // set up the time so it's ready since animation is now complete
+  setTime();
 }
 
 // delay so all displays are on for the same amount of time
