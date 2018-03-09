@@ -96,7 +96,7 @@ void setTime(void)
   // get current time
   int unix_time = time(NULL);
 
-  Serial.println(unix_time);
+  //Serial.println(unix_time);
   
   // loop through the time and set each digit:
   
