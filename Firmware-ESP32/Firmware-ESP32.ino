@@ -17,7 +17,7 @@ void setup() {
     NULL,       /* Task handle. */
     0);         /* Core where the task should run */
 
-  // TODO: want this animation to continue until time is set
+  // display connecting animation until time is set
   displayConnecting();
 }
 

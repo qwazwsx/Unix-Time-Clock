@@ -9,6 +9,7 @@ extern "C" {
 
 // for unix time:
 void coreTask(void * pvParameters);
+int isConnecting(void);
 void getTimeFromInternet(void);
 void setTime(void);
 byte getDigit(int digit);

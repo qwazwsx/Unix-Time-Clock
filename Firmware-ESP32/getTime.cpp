@@ -10,6 +10,9 @@ QueueHandle_t WiFiStatus;
 #define WIFI_WAIT 0
 #define WIFI_REFRESH 1
 
+// display startup animation until connected
+int displayAnimation = 1;
+
 // run the WiFi tasks on another core
 void coreTask(void * pvParameters)
 {
@@ -18,6 +21,9 @@ void coreTask(void * pvParameters)
 
   // start out by getting time
   getTimeFromInternet();
+
+  // connected, stop displaying animation, display real time instead
+  displayAnimation = 0;
 
   // then go into a wait state until told to refresh
   int currentWiFiStatus = WIFI_WAIT;
@@ -41,6 +47,13 @@ void coreTask(void * pvParameters)
 
   // remove a task from management:
   //vTaskDelete(NULL);
+}
+
+// return 1 when connecting to WiFi
+// and want to display startup animation
+int isConnecting(void)
+{
+  return displayAnimation;
 }
 
 const char * ntpServer = "pool.ntp.org";

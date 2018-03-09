@@ -1,4 +1,5 @@
 #include "display.h"
+#include "getTime.h"
 
 // pinouts for common cathode 7 segment LED display:
 
@@ -64,21 +65,43 @@ void displaySetup()
 #define CONNECTING 10
 
 // delay between progress bar animations
-#define CONNECTING_DELAY 250
+#define CONNECTING_DELAY 100
 
 // display a progress bar for WiFi connecting animation
 void displayConnecting(void)
 {
-  // animate right
-  for (int n=1; n<=5; n++)
+  // go right if 1; left if 0
+  int right = 1;
+  // index of display to light
+  int n = 1;
+  
+  // continue displaying until time has been set
+  while(isConnecting())
   {
+    // display connecting bars "--" on n-th display
     selectDisplay(n, CONNECTING, CONNECTING);
-    delay(CONNECTING_DELAY);
-  }
-  // animate left
-  for (int n=4; n>1; n--)
-  {
-    selectDisplay(n, CONNECTING, CONNECTING);
+
+    // count 1, 2, 3, 4, 5, 4, 3, 2
+    // and then repeat
+    if ((right==1) && (n<=5))
+    {
+      n++;
+      if (n==5)
+      {
+        right=0;
+      }
+    }
+    else if ((right==0) && (n>=1))
+    {
+      n--;
+      if (n==1)
+      {
+        right=1;
+        n=1;
+      }
+    }
+
+    // each display is on for 1/10 second
     delay(CONNECTING_DELAY);
   }
 }
