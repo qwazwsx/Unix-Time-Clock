@@ -2,7 +2,7 @@
 #include "display.h"
 
 void setup() {
-  Serial.begin(112500);
+  //Serial.begin(112500);
   
   // set up the display pins
   displaySetup();
