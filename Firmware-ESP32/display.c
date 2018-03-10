@@ -129,7 +129,7 @@ void displayTime(void)
 
 // display a number on the selected display
 // display can be between 1-5
-// numbers can be between 0-9
+// numbers can be between 0-9, and 10 is "--" for connecting
 void selectDisplay(int display, byte number1, byte number2)
 {
   // turn all digits off
@@ -191,7 +191,7 @@ void resetSegments(void)
 }
 
 // display a number on the first 7 segment display
-// number can be between 0-9
+// number can be between 0-9, and 10 is "-x" for connecting
 void setSegment1(int number)
 {
   // set the coorespoding segments
@@ -284,7 +284,7 @@ void setSegment1(int number)
 }
 
 // display a number on the second 7 segment display
-// number can be between 0-9
+// number can be between 0-9, and 10 is "x-" for connecting
 void setSegment2(int number)
 {
   // set the coorespoding segments
