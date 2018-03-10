@@ -23,7 +23,7 @@
 #define SEG_G2  32
 //#define SEG_DP2 34
 
-// digit is active low
+// digit is active high
 // digit | ESP32 pin
 #define DC_1  13
 #define DC_2  16
