@@ -1,6 +1,11 @@
 #include "display.h"
 #include "getTime.h"
 
+// PWM settings for display brightness
+#define PWM_FREQ 5000
+#define PWM_RESOLUTION 8
+#define PWM_BRIGHTNESS 128  // max of 255
+
 // pinouts for common cathode 7 segment LED display:
 
 // segment is active high
@@ -53,12 +58,32 @@ void displaySetup()
   pinMode(SEG_G2, OUTPUT);
   //pinMode(SEG_DP2, OUTPUT);
 
+  // set up PWM on digits
+  ledcAttachPin(DC_1, 1);
+  ledcSetup(1, PWM_FREQ, PWM_RESOLUTION);
+  
+  ledcAttachPin(DC_2, 2);
+  ledcSetup(2, PWM_FREQ, PWM_RESOLUTION);
+  
+  ledcAttachPin(DC_3, 3);
+  ledcSetup(3, PWM_FREQ, PWM_RESOLUTION);
+  
+  ledcAttachPin(DC_4, 4);
+  ledcSetup(4, PWM_FREQ, PWM_RESOLUTION);
+  
+  ledcAttachPin(DC_5, 5);
+  ledcSetup(5, PWM_FREQ, PWM_RESOLUTION);
+  
+  ledcAttachPin(DC_6, 6);
+  ledcSetup(5, PWM_FREQ, PWM_RESOLUTION);
+/*
   pinMode(DC_1, OUTPUT);
   pinMode(DC_2, OUTPUT);
   pinMode(DC_3, OUTPUT);
   pinMode(DC_4, OUTPUT);
   pinMode(DC_5, OUTPUT);
   pinMode(DC_6, OUTPUT);
+  */
 }
 
 // use middle segment as 10th "number" to display
@@ -133,11 +158,18 @@ void displayTime(void)
 void selectDisplay(int display, byte number1, byte number2)
 {
   // turn all digits off
+  ledcWrite(1, 0);
+  ledcWrite(2, 0);
+  ledcWrite(3, 0);
+  ledcWrite(4, 0);
+  ledcWrite(5, 0);
+  /*
   digitalWrite(DC_1, LOW);
   digitalWrite(DC_2, LOW);
   digitalWrite(DC_3, LOW);
   digitalWrite(DC_4, LOW);
   digitalWrite(DC_5, LOW);
+  */
   //digitalWrite(DC_6, LOW);
 
   // set up segments while digits off,
@@ -151,19 +183,24 @@ void selectDisplay(int display, byte number1, byte number2)
   switch(display)
   {
     case 1:
-      digitalWrite(DC_1, HIGH);
+      ledcWrite(1, 50);
+      //digitalWrite(DC_1, HIGH);
       break;
     case 2:
-      digitalWrite(DC_2, HIGH);
+      ledcWrite(2, 100);
+      //digitalWrite(DC_2, HIGH);
       break;
     case 3:
-      digitalWrite(DC_3, HIGH);
+      ledcWrite(3, 150);
+      //digitalWrite(DC_3, HIGH);
       break;
     case 4:
-      digitalWrite(DC_4, HIGH);
+      ledcWrite(4, 200);
+      //digitalWrite(DC_4, HIGH);
       break;
     case 5:
-      digitalWrite(DC_5, HIGH);
+      ledcWrite(5, 250);
+      //digitalWrite(DC_5, HIGH);
       break;
     //default:
       // bad - should't be here
