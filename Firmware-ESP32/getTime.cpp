@@ -61,6 +61,7 @@ int isConnecting(void)
   return displayAnimation;
 }
 
+// settings for time server to get unix time
 const char * ntpServer = "pool.ntp.org";
 const long gmtOffset_sec = 3600;
 const int daylightOffset_sec = 3600;
@@ -70,8 +71,9 @@ void getTimeFromInternet(void) {
   //init and get the time
   configTime(gmtOffset_sec, daylightOffset_sec, ntpServer);
 
+  // ensure time was set correctly
   struct tm timeinfo;
-  if (!getLocalTime( & timeinfo)) {
+  if (!getLocalTime(& timeinfo)) {
     // failed to obtain time
     return;
   }
