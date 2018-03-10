@@ -75,7 +75,7 @@ void getTimeFromInternet(void) {
 
   struct tm timeinfo;
   if (!getLocalTime( & timeinfo)) {
-    //Serial.println("Failed to obtain time");
+    // failed to obtain time
     return;
   }
 }
@@ -103,8 +103,6 @@ void setTime(void)
   // get current time
   int unix_time = time(NULL);
 
-  //Serial.println(unix_time);
-  
   // loop through the time and set each digit:
   
   // get lowest digit

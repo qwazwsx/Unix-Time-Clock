@@ -11,8 +11,6 @@ void IRAM_ATTR onTimer(){
 }
 
 void setup() {
-  //Serial.begin(112500);
-  
   // set up the display pins
   displaySetup();
 
