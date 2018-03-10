@@ -139,8 +139,7 @@ void setTime(void)
   if (display_time.refresh != display_time.dig6)
   {
     // re-sync the time from the internet
-    // TODO: launch on other core so it doesn't hold up setting the time
-    //getTimeFromInternet();
+    // by using queue to send flag to other core
     int currentWiFiStatus = WIFI_REFRESH;
     xQueueSend(WiFiStatus, &currentWiFiStatus, portMAX_DELAY);
 
