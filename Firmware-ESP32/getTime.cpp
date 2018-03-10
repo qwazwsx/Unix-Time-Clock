@@ -55,7 +55,7 @@ void coreTask(void * pvParameters)
 }
 
 // return 1 when connecting to WiFi
-// and want to display startup animation
+// AKA when we want to display startup animation
 int isConnecting(void)
 {
   return displayAnimation;
