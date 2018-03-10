@@ -76,14 +76,6 @@ void displaySetup()
   
   ledcAttachPin(DC_6, 6);
   ledcSetup(5, PWM_FREQ, PWM_RESOLUTION);
-/*
-  pinMode(DC_1, OUTPUT);
-  pinMode(DC_2, OUTPUT);
-  pinMode(DC_3, OUTPUT);
-  pinMode(DC_4, OUTPUT);
-  pinMode(DC_5, OUTPUT);
-  pinMode(DC_6, OUTPUT);
-  */
 }
 
 // use middle segment as 10th "number" to display
@@ -163,14 +155,6 @@ void selectDisplay(int display, byte number1, byte number2)
   ledcWrite(3, 0);
   ledcWrite(4, 0);
   ledcWrite(5, 0);
-  /*
-  digitalWrite(DC_1, LOW);
-  digitalWrite(DC_2, LOW);
-  digitalWrite(DC_3, LOW);
-  digitalWrite(DC_4, LOW);
-  digitalWrite(DC_5, LOW);
-  */
-  //digitalWrite(DC_6, LOW);
 
   // set up segments while digits off,
   // so that the full digit comes up simultanously
@@ -184,23 +168,18 @@ void selectDisplay(int display, byte number1, byte number2)
   {
     case 1:
       ledcWrite(1, 50);
-      //digitalWrite(DC_1, HIGH);
       break;
     case 2:
       ledcWrite(2, 100);
-      //digitalWrite(DC_2, HIGH);
       break;
     case 3:
       ledcWrite(3, 150);
-      //digitalWrite(DC_3, HIGH);
       break;
     case 4:
       ledcWrite(4, 200);
-      //digitalWrite(DC_4, HIGH);
       break;
     case 5:
       ledcWrite(5, 250);
-      //digitalWrite(DC_5, HIGH);
       break;
     //default:
       // bad - should't be here
