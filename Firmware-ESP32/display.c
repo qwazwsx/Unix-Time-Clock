@@ -74,7 +74,7 @@ void displayConnecting(void)
   int right = 1;
   // index of display to light
   int n = 1;
-  
+
   // continue displaying until time has been set
   while(isConnecting())
   {

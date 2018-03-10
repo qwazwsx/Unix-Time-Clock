@@ -41,7 +41,7 @@ void coreTask(void * pvParameters)
   {
     // continue recieving the queue data
     xQueueReceive(WiFiStatus, &currentWiFiStatus, portMAX_DELAY);
-    
+
     // when asked to refresh,
     if (currentWiFiStatus == WIFI_REFRESH)
     {
@@ -92,7 +92,7 @@ struct Time_Digits {
    byte dig9;
    byte dig10;
    byte refresh;
-}; 
+};
 
 struct Time_Digits display_time;
 
@@ -103,7 +103,7 @@ void setTime(void)
   int unix_time = time(NULL);
 
   // loop through the time and set each digit:
-  
+
   // get lowest digit
   display_time.dig10 = unix_time % 10;
   // shift over
@@ -181,4 +181,3 @@ byte getDigit(int digit)
       break;
   }
 }
-
