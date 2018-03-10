@@ -37,6 +37,14 @@
 #define DC_5  2
 #define DC_6  15
 
+// PWM channels cooresponding to digits
+#define D_PWM_1  1
+#define D_PWM_2  2
+#define D_PWM_3  3
+#define D_PWM_4  4
+#define D_PWM_5  5
+#define D_PWM_6  6
+
 // set display pins to outputs
 void displaySetup()
 {
@@ -59,23 +67,23 @@ void displaySetup()
   //pinMode(SEG_DP2, OUTPUT);
 
   // set up PWM on digits
-  ledcAttachPin(DC_1, 1);
-  ledcSetup(1, PWM_FREQ, PWM_RESOLUTION);
-  
-  ledcAttachPin(DC_2, 2);
-  ledcSetup(2, PWM_FREQ, PWM_RESOLUTION);
-  
-  ledcAttachPin(DC_3, 3);
-  ledcSetup(3, PWM_FREQ, PWM_RESOLUTION);
-  
-  ledcAttachPin(DC_4, 4);
-  ledcSetup(4, PWM_FREQ, PWM_RESOLUTION);
-  
-  ledcAttachPin(DC_5, 5);
-  ledcSetup(5, PWM_FREQ, PWM_RESOLUTION);
-  
-  ledcAttachPin(DC_6, 6);
-  ledcSetup(5, PWM_FREQ, PWM_RESOLUTION);
+  ledcAttachPin(DC_1, D_PWM_1);
+  ledcSetup(D_PWM_1, PWM_FREQ, PWM_RESOLUTION);
+
+  ledcAttachPin(DC_2, D_PWM_2);
+  ledcSetup(D_PWM_2, PWM_FREQ, PWM_RESOLUTION);
+
+  ledcAttachPin(DC_3, D_PWM_3);
+  ledcSetup(D_PWM_3, PWM_FREQ, PWM_RESOLUTION);
+
+  ledcAttachPin(DC_4, D_PWM_4);
+  ledcSetup(D_PWM_4, PWM_FREQ, PWM_RESOLUTION);
+
+  ledcAttachPin(DC_5, D_PWM_5);
+  ledcSetup(D_PWM_5, PWM_FREQ, PWM_RESOLUTION);
+
+  //ledcAttachPin(DC_6, D_PWM_6);
+  //ledcSetup(D_PWM_6, PWM_FREQ, PWM_RESOLUTION);
 }
 
 // use middle segment as 10th "number" to display
@@ -149,12 +157,13 @@ void displayTime(void)
 // numbers can be between 0-9, and 10 is "--" for connecting
 void selectDisplay(int display, byte number1, byte number2)
 {
-  // turn all digits off
-  ledcWrite(1, 0);
-  ledcWrite(2, 0);
-  ledcWrite(3, 0);
-  ledcWrite(4, 0);
-  ledcWrite(5, 0);
+  // turn all digits off (PWM duty cycle = 0)
+  ledcWrite(D_PWM_1, 0);
+  ledcWrite(D_PWM_2, 0);
+  ledcWrite(D_PWM_3, 0);
+  ledcWrite(D_PWM_4, 0);
+  ledcWrite(D_PWM_5, 0);
+  //ledcWrite(D_PWM_6, 0);
 
   // set up segments while digits off,
   // so that the full digit comes up simultanously
@@ -167,19 +176,19 @@ void selectDisplay(int display, byte number1, byte number2)
   switch(display)
   {
     case 1:
-      ledcWrite(1, 50);
+      ledcWrite(D_PWM_1, 50);
       break;
     case 2:
-      ledcWrite(2, 100);
+      ledcWrite(D_PWM_2, 100);
       break;
     case 3:
-      ledcWrite(3, 150);
+      ledcWrite(D_PWM_3, 150);
       break;
     case 4:
-      ledcWrite(4, 200);
+      ledcWrite(D_PWM_4, 200);
       break;
     case 5:
-      ledcWrite(5, 250);
+      ledcWrite(D_PWM_5, 250);
       break;
     //default:
       // bad - should't be here
