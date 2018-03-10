@@ -2,9 +2,11 @@
 #include "getTime.h"
 
 // PWM settings for display brightness
+// max of 255, but can reduce for a less bright display
+#define PWM_BRIGHTNESS 255
+// shouldn't need to change these:
 #define PWM_FREQ 5000
 #define PWM_RESOLUTION 8
-#define PWM_BRIGHTNESS 128  // max of 255
 
 // pinouts for common cathode 7 segment LED display:
 
@@ -176,19 +178,19 @@ void selectDisplay(int display, byte number1, byte number2)
   switch(display)
   {
     case 1:
-      ledcWrite(D_PWM_1, 50);
+      ledcWrite(D_PWM_1, PWM_BRIGHTNESS);
       break;
     case 2:
-      ledcWrite(D_PWM_2, 100);
+      ledcWrite(D_PWM_2, PWM_BRIGHTNESS);
       break;
     case 3:
-      ledcWrite(D_PWM_3, 150);
+      ledcWrite(D_PWM_3, PWM_BRIGHTNESS);
       break;
     case 4:
-      ledcWrite(D_PWM_4, 200);
+      ledcWrite(D_PWM_4, PWM_BRIGHTNESS);
       break;
     case 5:
-      ledcWrite(D_PWM_5, 250);
+      ledcWrite(D_PWM_5, PWM_BRIGHTNESS);
       break;
     //default:
       // bad - should't be here
