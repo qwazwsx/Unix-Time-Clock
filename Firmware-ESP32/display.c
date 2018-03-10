@@ -35,7 +35,7 @@
 #define DC_3  4
 #define DC_4  0
 #define DC_5  2
-#define DC_6  23
+#define DC_6  15
 
 // set display pins to outputs
 void displaySetup()
