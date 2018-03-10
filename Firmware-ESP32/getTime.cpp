@@ -19,6 +19,14 @@ void coreTask(void * pvParameters)
   // create a queue to send data across cores
   WiFiStatus = xQueueCreate(1, sizeof(int));
 
+  // connect to WiFi
+  WiFi.begin(SSID, PASSWORD);
+
+  // wait until connected
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(250);
+  }
+
   // start out by getting time
   getTimeFromInternet();
 
@@ -62,15 +70,6 @@ const int daylightOffset_sec = 3600;
 
 // get current time from the NTP server
 void getTimeFromInternet(void) {
-  //connect to WiFi
-  //Serial.printf("Connecting to %s ", SSID);
-  WiFi.begin(SSID, PASSWORD);
-  while (WiFi.status() != WL_CONNECTED) {
-    delay(250);
-    //Serial.print(".");
-  }
-  //Serial.println(" CONNECTED");
-
   //init and get the time
   configTime(gmtOffset_sec, daylightOffset_sec, ntpServer);
 
@@ -79,11 +78,6 @@ void getTimeFromInternet(void) {
     //Serial.println("Failed to obtain time");
     return;
   }
-  //Serial.println(unix_time);
-
-  //disconnect WiFi as it's no longer needed
-  WiFi.disconnect(true);
-  WiFi.mode(WIFI_OFF);
 }
 
 // store the individual decimal digits of the unix time
