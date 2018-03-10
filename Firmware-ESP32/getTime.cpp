@@ -7,8 +7,8 @@
 
 // send start and stop signals to WiFi task
 QueueHandle_t WiFiStatus;
-#define WIFI_WAIT 0
-#define WIFI_REFRESH 1
+#define WIFI_WAIT 0     // "stop"
+#define WIFI_REFRESH 1  // "start"
 
 // display startup animation until connected
 int displayAnimation = 1;
