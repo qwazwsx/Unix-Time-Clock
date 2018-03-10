@@ -52,9 +52,6 @@ void coreTask(void * pvParameters)
       currentWiFiStatus = WIFI_WAIT;
     }
   }
-
-  // remove a task from management:
-  //vTaskDelete(NULL);
 }
 
 // return 1 when connecting to WiFi
