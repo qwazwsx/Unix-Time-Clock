@@ -16,11 +16,8 @@ void setup() {
     NULL,       // Task handle
     0);         // Core where the task should run
 
-  // display connecting animation until time is set
+  // display connecting animation until time is set in the background
   displayConnecting();
-
-  // start a 1 second timer to update the display
-  startHardwareTimer();
 }
 
 void loop() {
