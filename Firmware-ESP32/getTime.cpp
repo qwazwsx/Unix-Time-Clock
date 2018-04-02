@@ -90,6 +90,31 @@ void getTimeFromInternet(void) {
   }
 }
 
+// store 1 second timer details
+hw_timer_t * timer = NULL;
+
+// interrupt function that is called once per second
+void IRAM_ATTR onTimer(){
+  // set the variables for the individual digits from the time library
+  setTime();
+}
+
+void startHardwareTimer(void) {
+  // set 80 divider for prescaler to get 1 microsecond ticks
+  timer = timerBegin(0, 80, true);
+
+  // attach onTimer function to our timer.
+  timerAttachInterrupt(timer, &onTimer, true);
+
+  // set alarm to call onTimer function every second
+  // this number of 1 microsecond ticks = 1 second
+  // set alarm to repeat
+  timerAlarmWrite(timer, 1000000, true);
+
+  // start the alarm
+  timerAlarmEnable(timer);
+}
+
 // store the individual decimal digits of the unix time
 struct Time_Digits {
    byte dig1;

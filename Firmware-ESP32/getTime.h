@@ -11,6 +11,7 @@ extern "C" {
 void coreTask(void * pvParameters);
 int isConnecting(void);
 void getTimeFromInternet(void);
+void startHardwareTimer(void) ;
 void setTime(void);
 byte getDigit(int digit);
 
