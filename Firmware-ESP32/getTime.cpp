@@ -22,9 +22,20 @@ void coreTask(void * pvParameters)
   // connect to WiFi
   WiFi.begin(SSID, PASSWORD);
 
+  int numberOfTries = 0;
+
   // wait until connected
   while (WiFi.status() != WL_CONNECTED) {
     delay(250);
+    
+    // how many times we've tried to reconnect
+    numberOfTries++;
+    // after failing for a minute
+    if (numberOfTries > 240)
+    {
+      // reset it
+      ESP.restart();
+    }
   }
 
   // start out by getting time
