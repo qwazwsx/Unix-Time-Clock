@@ -176,7 +176,7 @@ void setTime(void)
     int currentWiFiStatus = WIFI_REFRESH;
     xQueueSend(WiFiStatus, &currentWiFiStatus, portMAX_DELAY);
 
-    // set to current digit catch it next time
+    // set to current digit to catch it next time
     display_time.refresh = display_time.dig6;
   }
 }
