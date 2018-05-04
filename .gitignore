@@ -13,3 +13,8 @@ build
 __pycache__
 *.pyc
 *.egg-info
+
+# arduino/ visual micro in visual studio
+Firmware-ESP32/Release/*
+Firmware-ESP32/__vm/*
+*vcxproj*
