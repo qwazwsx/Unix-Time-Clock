@@ -50,7 +50,7 @@ void coreTask(void * pvParameters)
   // can't return, so keep on loopin'
   while(1)
   {
-    // continue recieving the queue data
+    // continue receiving the queue data
     xQueueReceive(WiFiStatus, &currentWiFiStatus, portMAX_DELAY);
 
     // when asked to refresh,

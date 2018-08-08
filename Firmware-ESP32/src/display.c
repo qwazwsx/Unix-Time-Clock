@@ -193,7 +193,7 @@ void selectDisplay(int display, byte number1, byte number2)
   //ledcWrite(D_PWM_6, 0);
 
   // set up segments while digits off,
-  // so that the full digit comes up simultanously
+  // so that the full digit comes up simultaneously
   // (although who is going to be able to detect a couple clk cycles?)
   resetSegments();
   setSegment1(number1);
@@ -218,7 +218,7 @@ void selectDisplay(int display, byte number1, byte number2)
       ledcWrite(D_PWM_5, PWM_BRIGHTNESS);
       break;
     //default:
-      // bad - should't be here
+      // bad - shouldn't be here
   }
 }
 
