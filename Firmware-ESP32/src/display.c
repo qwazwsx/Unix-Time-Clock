@@ -1,5 +1,6 @@
 #include "display.h"
 #include "getTime.h"
+#include <Time.h>
 
 // PWM settings for display brightness
 // max of 255, but can reduce for a less bright display
