@@ -215,5 +215,10 @@ byte getDigit(int digit)
     case 10:
       return display_time.dig10;
       break;
+    default:
+      // if an out of bounds digit is requested,
+      // display the refresh line as a warning that something is wrong
+      return display_time.refresh;
+      break;
   }
 }
