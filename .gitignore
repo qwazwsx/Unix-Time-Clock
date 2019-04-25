@@ -18,4 +18,4 @@ __pycache__
 Firmware-ESP32/Release/*
 Firmware-ESP32/__vm/*
 *vcxproj*
-.vscode/*
+*.vscode*
