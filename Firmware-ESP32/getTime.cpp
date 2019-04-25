@@ -136,7 +136,7 @@ struct Time_Digits display_time;
 void setTime(void)
 {
   // get current time
-  int unix_time = time(NULL);
+  unsigned int unix_time = time(NULL);
 
   // loop through the time and set each digit:
 
