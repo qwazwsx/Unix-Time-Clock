@@ -157,10 +157,10 @@ void displayConnecting(void)
   }
 
   // start a 1 second timer to update the display in sync with the clock
-  startHardwareTimer();
+  //startHardwareTimer();
 
   // set up the time so it's ready now that the animation is complete
-  setTime();
+  //setTime();
 }
 
 // cycle through and display the time across all digits
