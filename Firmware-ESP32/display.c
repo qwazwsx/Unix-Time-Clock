@@ -164,17 +164,58 @@ void displayConnecting(void)
 }
 
 // cycle through and display the time across all digits
-void displayTime(void)
+void getAndDisplayTime(void)
 {
-  selectDisplay(1, getDigit(1), getDigit(2));
+  // get the current time
+  unsigned int unix_time = getTime();
+
+  // loop through the time and set each digit:
+
+  // get lowest digit
+  byte firstDigit = unix_time % 10;
+  // shift over
+  unix_time = unix_time / 10;
+  // get next lowest digit
+  byte secondDigit = unix_time % 10;
+  // shift over agin for the next round
+  unix_time = unix_time / 10;
+
+  // digits 1 & 2
+  selectDisplay(1, firstDigit, secondDigit);
   delay(DELAYTIME);
-  selectDisplay(2, getDigit(3), getDigit(4));
+
+  // continue looping over the remaining digits:
+
+  // digits 3 & 4
+  firstDigit = unix_time % 10;
+  unix_time = unix_time / 10;
+  secondDigit = unix_time % 10;
+  unix_time = unix_time / 10;
+  selectDisplay(2, firstDigit, secondDigit);
   delay(DELAYTIME);
-  selectDisplay(3, getDigit(5), getDigit(6));
+
+  // digits 5 & 6
+  firstDigit = unix_time % 10;
+  unix_time = unix_time / 10;
+  secondDigit = unix_time % 10;
+  unix_time = unix_time / 10;
+  selectDisplay(3, firstDigit, secondDigit);
   delay(DELAYTIME);
-  selectDisplay(4, getDigit(7), getDigit(8));
+
+  // digits 7 & 8
+  firstDigit = unix_time % 10;
+  unix_time = unix_time / 10;
+  secondDigit = unix_time % 10;
+  unix_time = unix_time / 10;
+  selectDisplay(4, firstDigit, secondDigit);
   delay(DELAYTIME);
-  selectDisplay(5, getDigit(9), getDigit(10));
+
+  // digits 9 & 10
+  firstDigit = unix_time % 10;
+  unix_time = unix_time / 10;
+  secondDigit = unix_time % 10;
+  unix_time = unix_time / 10;
+  selectDisplay(5, firstDigit, secondDigit);
   delay(DELAYTIME);
 }
 

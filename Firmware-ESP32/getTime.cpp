@@ -90,130 +90,39 @@ void getTimeFromInternet(void) {
   }
 }
 
-// store 1 second timer details
-hw_timer_t * timer = NULL;
-
-// interrupt function that is called once per second
+// interrupt function that is called once per hour
 void IRAM_ATTR onTimer(){
-  // set the variables for the individual digits from the time library
-  setTime();
+  // re-sync the time from the internet
+  // by using queue to send flag to other core
+  int currentWiFiStatus = WIFI_REFRESH;
+  xQueueSend(WiFiStatus, &currentWiFiStatus, portMAX_DELAY);
 }
 
+// trigger every hour
 void startHardwareTimer(void) {
+  // store timer details
+  hw_timer_t * timer = NULL;
+
+  // clock is operating at 80MHz
   // set 80 divider for prescaler to get 1 microsecond ticks
+  // 80Mhz/80=1Mhz=1us
   timer = timerBegin(0, 80, true);
 
   // attach onTimer function to our timer.
   timerAttachInterrupt(timer, &onTimer, true);
 
-  // set alarm to call onTimer function every second
+  // set alarm to call onTimer function every hour
   // this number of 1 microsecond ticks = 1 second
+  // x 60 seconds in minute x 60 minutes in hour
   // set alarm to repeat
-  timerAlarmWrite(timer, 1000000, true);
+  timerAlarmWrite(timer, 1000000*60*60, true);
 
   // start the alarm
   timerAlarmEnable(timer);
 }
 
-// store the individual decimal digits of the unix time
-struct Time_Digits {
-   byte dig1;
-   byte dig2;
-   byte dig3;
-   byte dig4;
-   byte dig5;
-   byte dig6;
-   byte dig7;
-   byte dig8;
-   byte dig9;
-   byte dig10;
-   byte refresh;
-};
-
-struct Time_Digits display_time;
-
-// get current time and store it in individual digits
-void setTime(void)
+// return the current time
+unsigned int getTime(void)
 {
-  // get current time
-  unsigned int unix_time = time(NULL);
-
-  // loop through the time and set each digit:
-
-  // get lowest digit
-  display_time.dig10 = unix_time % 10;
-  // shift over
-  unix_time = unix_time / 10;
-  // get next lowest digit
-  display_time.dig9 = unix_time % 10;
-  // shift over agin for the next round
-  unix_time = unix_time / 10;
-
-  // continue looping over the remaining digits:
-
-  display_time.dig8 = unix_time % 10;
-  unix_time = unix_time / 10;
-  display_time.dig7 = unix_time % 10;
-  unix_time = unix_time / 10;
-  display_time.dig6 = unix_time % 10;
-  unix_time = unix_time / 10;
-  display_time.dig5 = unix_time % 10;
-  unix_time = unix_time / 10;
-  display_time.dig4 = unix_time % 10;
-  unix_time = unix_time / 10;
-  display_time.dig3 = unix_time % 10;
-  unix_time = unix_time / 10;
-  display_time.dig2 = unix_time % 10;
-  unix_time = unix_time / 10;
-  display_time.dig1 = unix_time % 10;
-
-  // every 10,000 seconds (~2.7 hours),
-  // check the time from the internet to re-sync the internal clock
-  if (display_time.refresh != display_time.dig6)
-  {
-    // re-sync the time from the internet
-    // by using queue to send flag to other core
-    int currentWiFiStatus = WIFI_REFRESH;
-    xQueueSend(WiFiStatus, &currentWiFiStatus, portMAX_DELAY);
-
-    // set to current digit to catch it next time
-    display_time.refresh = display_time.dig6;
-  }
-}
-
-// return the individual digits at the index
-byte getDigit(int digit)
-{
-  switch (digit) {
-    case 1:
-      return display_time.dig1;
-      break;
-    case 2:
-      return display_time.dig2;
-      break;
-    case 3:
-      return display_time.dig3;
-      break;
-    case 4:
-      return display_time.dig4;
-      break;
-    case 5:
-      return display_time.dig5;
-      break;
-    case 6:
-      return display_time.dig6;
-      break;
-    case 7:
-      return display_time.dig7;
-      break;
-    case 8:
-      return display_time.dig8;
-      break;
-    case 9:
-      return display_time.dig9;
-      break;
-    case 10:
-      return display_time.dig10;
-      break;
-  }
+  return time(NULL);
 }

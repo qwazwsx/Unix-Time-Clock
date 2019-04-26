@@ -21,8 +21,6 @@ void setup() {
 }
 
 void loop() {
-  // get the time and store it so it can be displayed
-  setTime();
-  // display the digits on the display
-  displayTime();
+  // get the current time and display the digits on the display
+  getAndDisplayTime();
 }
