@@ -134,11 +134,8 @@ void displayConnecting(void)
     delay(CONNECTING_DELAY);
   }
 
-  // start a 1 second timer to update the display in sync with the clock
-  //startHardwareTimer();
-
-  // set up the time so it's ready now that the animation is complete
-  //setTime();
+  // start a 1 hour timer to re-sync the time from the internet
+  startHardwareTimer();
 }
 
 // cycle through and display the time across all digits
