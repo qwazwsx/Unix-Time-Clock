@@ -104,18 +104,18 @@ void startHardwareTimer(void) {
   hw_timer_t * timer = NULL;
 
   // clock is operating at 80MHz
-  // set 80 divider for prescaler to get 1 microsecond ticks
-  // 80Mhz/80=1Mhz=1us
-  timer = timerBegin(0, 80, true);
+  // set divider for prescaler to get 0.1 millisecond ticks
+  // 80Mhz/8000=10khz=0.1ms
+  timer = timerBegin(0, 8000, true);
 
   // attach onTimer function to our timer.
   timerAttachInterrupt(timer, &onTimer, true);
 
   // set alarm to call onTimer function every hour
-  // this number of 1 microsecond ticks = 1 second
+  // this number of 0.1 millisecond ticks = 1 second
   // x 60 seconds in minute x 60 minutes in hour
   // set alarm to repeat
-  timerAlarmWrite(timer, 1000000*60*60, true);
+  timerAlarmWrite(timer, 10000*60*60, true);
 
   // start the alarm
   timerAlarmEnable(timer);
