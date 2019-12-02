@@ -155,42 +155,43 @@ void getAndDisplayTime(void)
   // shift over agin for the next round
   unix_time = unix_time / 10;
 
-  // digits 1 & 2
-  selectDisplay(1, firstDigit, secondDigit);
+  // digits are assigned right to left (LSB first)
+  // digits 2 & 1
+  selectDisplay(5, secondDigit, firstDigit);
   delay(DELAYTIME);
 
   // continue looping over the remaining digits:
 
-  // digits 3 & 4
+  // digits 4 & 3
   firstDigit = unix_time % 10;
   unix_time = unix_time / 10;
   secondDigit = unix_time % 10;
   unix_time = unix_time / 10;
-  selectDisplay(2, firstDigit, secondDigit);
+  selectDisplay(4, secondDigit, firstDigit);
   delay(DELAYTIME);
 
-  // digits 5 & 6
+  // digits 6 & 5
   firstDigit = unix_time % 10;
   unix_time = unix_time / 10;
   secondDigit = unix_time % 10;
   unix_time = unix_time / 10;
-  selectDisplay(3, firstDigit, secondDigit);
+  selectDisplay(3, secondDigit, firstDigit);
   delay(DELAYTIME);
 
-  // digits 7 & 8
+  // digits 8 & 7
   firstDigit = unix_time % 10;
   unix_time = unix_time / 10;
   secondDigit = unix_time % 10;
   unix_time = unix_time / 10;
-  selectDisplay(4, firstDigit, secondDigit);
+  selectDisplay(2, secondDigit, firstDigit);
   delay(DELAYTIME);
 
-  // digits 9 & 10
+  // digits 10 & 9
   firstDigit = unix_time % 10;
   unix_time = unix_time / 10;
   secondDigit = unix_time % 10;
   unix_time = unix_time / 10;
-  selectDisplay(5, firstDigit, secondDigit);
+  selectDisplay(1, secondDigit, firstDigit);
   delay(DELAYTIME);
 }
 
