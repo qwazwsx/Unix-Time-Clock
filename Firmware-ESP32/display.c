@@ -134,6 +134,28 @@ void displayConnecting(void)
     delay(CONNECTING_DELAY);
   }
 
+  // unix time right now
+  int unix_time_now = time(NULL);
+
+  // loop until the time changes
+  // while displaying all bars "----------"
+  while (time(NULL) == unix_time_now)
+  {
+    // display connecting bars "--" on n-th display
+    selectDisplay(n, CONNECTING, CONNECTING);
+
+    // count 1, 2, 3, 4, 5
+    // and then repeat
+    n++;
+    if (n==6)
+    {
+      n=1;
+    }
+
+    // shortest delay
+    delay(DELAYTIME);
+  }
+
   // start a 1 hour timer to re-sync the time from the internet
   startHardwareTimer();
 }
