@@ -164,7 +164,7 @@ void displayConnecting(void)
 void getAndDisplayTime(void)
 {
   // get the current time
-  unsigned int unix_time = getTime();
+  uint64_t unix_time = getTime();
 
   // loop through the time and set each digit:
 

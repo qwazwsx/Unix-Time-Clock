@@ -122,7 +122,7 @@ void startHardwareTimer(void) {
 }
 
 // return the current time
-unsigned int getTime(void)
+uint64_t getTime(void)
 {
   return time(NULL);
 }
