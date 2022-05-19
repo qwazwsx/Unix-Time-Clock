@@ -234,6 +234,10 @@ void selectDisplay(int display, byte number1, byte number2)
   // so that the full digit comes up simultanously
   // (although who is going to be able to detect a couple clk cycles?)
   resetSegments();
+  
+  // sit here and wait a while to ensure that the segment data pins fall to low
+  delay(DELAYTIME);
+  
   setSegment1(number1);
   setSegment2(number2);
 
